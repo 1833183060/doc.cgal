@@ -80,7 +80,7 @@
       var node = document.createElement("LI");
       var spanNode = document.createElement("SPAN");
       var titleNode =document.createTextNode("CGAL Version: ");
-      var textNode = document.createTextNode("x.y");
+      var textNode = document.createTextNode("5.5.2");
       spanNode.setAttribute("class", "version_menu");
       spanNode.appendChild(textNode);
       node.appendChild(titleNode);
