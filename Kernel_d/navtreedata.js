@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - dD Geometry Kernel", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#Kernel_dIntroduction", [
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#Kernel_dIntroduction", [
         [ "Robustness", "index.html#Kernel_dRobustness", null ],
         [ "Genericity", "index.html#Kernel_dGenericity", null ]
       ] ],
@@ -30,16 +30,16 @@ var NAVTREE =
         ] ],
         [ "Constructive Predicates", "index.html#Kernel_dConstructivePredicates", null ]
       ] ],
-      [ "Design and Implementation History", "index.html#Kernel_dDesign", [
+      [ "设计与实现历史", "index.html#Kernel_dDesign", [
         [ "Acknowledgments", "index.html#Kernel_dAcknowledgments", null ]
       ] ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ]
   ] ]
 ];
 

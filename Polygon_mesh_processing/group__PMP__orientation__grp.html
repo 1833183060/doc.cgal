@@ -343,7 +343,7 @@ a property map filled by this function and that will contain for each face the i
 </table>
 </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__PMP__orientation__grp.html#ga21119757bf5835496ae1c9a6d4f5fa0a" title="reverses for each face in face_range the order of the vertices along the face boundary. ">reverse_face_orientations()</a> </dd>
+<dl class="section see"><dt>另见</dt><dd><a class="el" href="group__PMP__orientation__grp.html#ga21119757bf5835496ae1c9a6d4f5fa0a" title="reverses for each face in face_range the order of the vertices along the face boundary. ">reverse_face_orientations()</a> </dd>
 <dd>
 <a class="el" href="group__PMP__repairing__grp.html#ga693b0922fe6c518f36c23f3eec15c15d" title="stitches together border halfedges in a polygon mesh. ">stitch_borders()</a> </dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="Polygon_mesh_processing_2cc_compatible_orientations_8cpp-example.html#a6">Polygon_mesh_processing/cc_compatible_orientations.cpp</a>.</dd>
@@ -438,7 +438,7 @@ For each connected component identified using its id <code>ccid</code>, the outp
 </table>
 </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="group__PMP__orientation__grp.html#gadf6efc8f4475792ccafe36f3e8734302" title="orients the connected components of tm to make it bound a volume. ">CGAL::Polygon_mesh_processing::orient_to_bound_a_volume()</a></code> </dd></dl>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="group__PMP__orientation__grp.html#gadf6efc8f4475792ccafe36f3e8734302" title="orients the connected components of tm to make it bound a volume. ">CGAL::Polygon_mesh_processing::orient_to_bound_a_volume()</a></code> </dd></dl>
 
 </div>
 </div>
@@ -490,7 +490,7 @@ template&lt;class PointRange , class PolygonRange &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd><code>false</code> if some points were duplicated, thus producing a self-intersecting surface mesh. </dd>
 <dd>
 <code>true</code> otherwise.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="group__PMP__orientation__grp.html#gad380465ee62d858d27fab4cfda6c1764" title="tries to consistently orient a soup of polygons in 3D space. ">orient_polygon_soup()</a></code> </dd>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="group__PMP__orientation__grp.html#gad380465ee62d858d27fab4cfda6c1764" title="tries to consistently orient a soup of polygons in 3D space. ">orient_polygon_soup()</a></code> </dd>
 <dd>
 <code><a class="el" href="group__PMP__repairing__grp.html#ga25901cbedcc6123d7760ac5b9dc8d14e" title="duplicates all the non-manifold vertices of the input mesh. ">duplicate_non_manifold_vertices()</a></code> </dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="Polygon_mesh_processing_2orientation_pipeline_example_8cpp-example.html#a5">Polygon_mesh_processing/orientation_pipeline_example.cpp</a>.</dd>
@@ -579,7 +579,7 @@ an instance of a geometric traits class </li>
 </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>This function is only doing an orientation test for one connected component of <code>tm</code>. For performance reasons, it is left to the user to call the function <code><a class="el" href="group__PMP__orientation__grp.html#ga2fab7b3c952c86de66de2fef9fe83d74" title="indicates if tm bounds a volume. ">does_bound_a_volume()</a></code> on a triangulated version of <code>tm</code> to ensure the result returned is relevant. For advanced usages, the function <code><a class="el" href="group__PMP__orientation__grp.html#gab43990ca5541b788c6db2ba509a73ee3" title="assigns to each face of tm an id corresponding to the volume connected component it contributes to...">volume_connected_components()</a></code> should be used instead.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="group__PMP__orientation__grp.html#ga21119757bf5835496ae1c9a6d4f5fa0a" title="reverses for each face in face_range the order of the vertices along the face boundary. ">CGAL::Polygon_mesh_processing::reverse_face_orientations()</a></code> </dd></dl>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="group__PMP__orientation__grp.html#ga21119757bf5835496ae1c9a6d4f5fa0a" title="reverses for each face in face_range the order of the vertices along the face boundary. ">CGAL::Polygon_mesh_processing::reverse_face_orientations()</a></code> </dd></dl>
 
 </div>
 </div>
@@ -854,7 +854,7 @@ a visitor used to be notified of the presence of non-manifold simplices and of t
 <dl class="section return"><dt>Returns</dt><dd><code>true</code> if the orientation operation succeded. </dd>
 <dd>
 <code>false</code> if some points were duplicated, thus producing a self-intersecting polyhedron.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="group__PMP__orientation__grp.html#ga2f504990a24f599c20cd57161f9755f0" title="orients each triangle of a triangle soup using the orientation of its closest non degenerate triangle...">orient_triangle_soup_with_reference_triangle_mesh()</a></code> </dd></dl>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="group__PMP__orientation__grp.html#ga2f504990a24f599c20cd57161f9755f0" title="orients each triangle of a triangle soup using the orientation of its closest non degenerate triangle...">orient_triangle_soup_with_reference_triangle_mesh()</a></code> </dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="Polygon_mesh_processing_2orient_polygon_soup_example_8cpp-example.html#a4">Polygon_mesh_processing/orient_polygon_soup_example.cpp</a>, and <a class="el" href="Polygon_mesh_processing_2repair_polygon_soup_example_8cpp-example.html#a3">Polygon_mesh_processing/repair_polygon_soup_example.cpp</a>.</dd>
 </dl>
 </div>
@@ -964,7 +964,7 @@ a property map associating to each face of <code>tm</code> a unique index betwee
 </table>
 </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="group__PMP__orientation__grp.html#ga2fab7b3c952c86de66de2fef9fe83d74" title="indicates if tm bounds a volume. ">CGAL::Polygon_mesh_processing::does_bound_a_volume()</a></code> </dd></dl>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="group__PMP__orientation__grp.html#ga2fab7b3c952c86de66de2fef9fe83d74" title="indicates if tm bounds a volume. ">CGAL::Polygon_mesh_processing::does_bound_a_volume()</a></code> </dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="Polygon_mesh_processing_2orient_polygon_soup_example_8cpp-example.html#a7">Polygon_mesh_processing/orient_polygon_soup_example.cpp</a>.</dd>
 </dl>
 </div>
@@ -1087,7 +1087,7 @@ a property map associating points to the elements of the point set <code>points<
 </dd>
 </dl>
 <dl class="section attention"><dt>Attention</dt><dd>The types of points in <code>PointRange</code>, <code>geom_traits</code>, and <code>vertex_point_map</code> must be the same.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="group__PMP__orientation__grp.html#gad380465ee62d858d27fab4cfda6c1764" title="tries to consistently orient a soup of polygons in 3D space. ">orient_polygon_soup()</a></code> </dd></dl>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="group__PMP__orientation__grp.html#gad380465ee62d858d27fab4cfda6c1764" title="tries to consistently orient a soup of polygons in 3D space. ">orient_polygon_soup()</a></code> </dd></dl>
 
 </div>
 </div>
@@ -1249,7 +1249,7 @@ template&lt;typename PolygonMesh &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="group__PMP__orientation__grp.html#gabdb85ef9ccc1a4da632f1a697c6d5163" title="tests whether a closed triangle mesh has a positive orientation. ">is_outward_oriented()</a></code> </dd></dl>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="group__PMP__orientation__grp.html#gabdb85ef9ccc1a4da632f1a697c6d5163" title="tests whether a closed triangle mesh has a positive orientation. ">is_outward_oriented()</a></code> </dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="Polygon_mesh_processing_2cc_compatible_orientations_8cpp-example.html#a7">Polygon_mesh_processing/cc_compatible_orientations.cpp</a>, and <a class="el" href="Polygon_mesh_processing_2orient_polygon_soup_example_8cpp-example.html#a8">Polygon_mesh_processing/orient_polygon_soup_example.cpp</a>.</dd>
 </dl>
 </div>
@@ -1293,7 +1293,7 @@ template&lt;typename PolygonMesh , typename FaceRange &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="group__PMP__orientation__grp.html#gabdb85ef9ccc1a4da632f1a697c6d5163" title="tests whether a closed triangle mesh has a positive orientation. ">is_outward_oriented()</a></code> </dd></dl>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="group__PMP__orientation__grp.html#gabdb85ef9ccc1a4da632f1a697c6d5163" title="tests whether a closed triangle mesh has a positive orientation. ">is_outward_oriented()</a></code> </dd></dl>
 
 </div>
 </div>

@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 3D Convex Hulls", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#Convex_hull_3Introduction", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#Convex_hull_3Introduction", null ],
       [ "Static Convex Hull Construction", "index.html#secconvex_hull_3", [
         [ "Traits Class", "index.html#Convex_hull_3TraitsClass", [
           [ "Example", "index.html#Convex_hull_3Example", null ],
@@ -19,12 +19,12 @@ var NAVTREE =
       ] ],
       [ "Performance", "index.html#Convex_hull_3Performance", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

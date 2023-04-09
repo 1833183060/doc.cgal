@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - Combinatorial Maps", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#Combinatorial_mapIntroduction", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#Combinatorial_mapIntroduction", null ],
       [ "Data Structure Presentation", "index.html#sec_presentation", [
         [ "Combinatorial Map and Darts", "index.html#sseccombimapanddarts", null ],
         [ "Cells as Sets of Darts", "index.html#sseccellsinmap", null ],
@@ -10,7 +10,7 @@ var NAVTREE =
         [ "Combinatorial Map Properties", "index.html#sseccombimapvalidity", null ],
         [ "Comparison with Generalized Maps", "index.html#ssec-comparison-cmaps-with-gmaps", null ]
       ] ],
-      [ "Software Design", "index.html#secsoftwaredesign", [
+      [ "软件设计", "index.html#secsoftwaredesign", [
         [ "Combinatorial Maps", "index.html#sseccombinatorialmap", null ],
         [ "Combinatorial Map Items", "index.html#ssecitem", null ],
         [ "Cell Attributes", "index.html#ssecattributes", null ],
@@ -25,7 +25,7 @@ var NAVTREE =
         [ "Sewing Orbits and Linking Darts", "index.html#sseclinkdarts", null ],
         [ "Removal and Insertion Operations", "index.html#ssecoperations", null ]
       ] ],
-      [ "Examples", "index.html#Combinatorial_mapExamples", [
+      [ "示例", "index.html#Combinatorial_mapExamples", [
         [ "A 3D Combinatorial Map", "index.html#ssecexample3DCM", null ],
         [ "High Level Operations", "index.html#Combinatorial_mapHighLevelOperations", null ],
         [ "A 4D Combinatorial Map", "index.html#Combinatorial_mapA4DGenericMap", null ],
@@ -33,15 +33,15 @@ var NAVTREE =
         [ "Use of Dynamic Onmerge and Onsplit Functors", "index.html#sseccombimapdynamicattibute", null ]
       ] ],
       [ "Mathematical Definitions", "index.html#sec_definition", null ],
-      [ "Design and Implementation History", "index.html#Combinatorial_mapDesign", null ]
+      [ "设计与实现历史", "index.html#Combinatorial_mapDesign", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

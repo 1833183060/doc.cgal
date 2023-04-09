@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 3D Polyhedral Surface", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#sectionPolyIntro", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#sectionPolyIntro", null ],
       [ "Definition", "index.html#PolyhedronDefinition", null ],
       [ "Example Programs", "index.html#PolyhedronExample", [
         [ "First Example Using Defaults", "index.html#PolyhedronFirstExampleUsingDefaults", null ],
@@ -21,14 +21,14 @@ var NAVTREE =
         [ "Example Using the Incremental Builder and Modifier Mechanism", "index.html#PolyhedronExampleUsingtheIncrementalBuilder", null ]
       ] ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - Shape Regularization", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#Shape_Regularization_Intro", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#Shape_Regularization_Intro", null ],
       [ "Segments", "index.html#QP_Regularization_Segments", [
         [ "Delaunay Neighbor Query", "index.html#QP_Regularization_Segments_Delaunay", null ],
         [ "Angle Regularization", "index.html#QP_Regularization_Segments_Angles", null ],
@@ -30,12 +30,12 @@ var NAVTREE =
       [ "History", "index.html#Shape_Regularization_History", null ],
       [ "Acknowledgments", "index.html#Shape_Regularization_Acknowledgements", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

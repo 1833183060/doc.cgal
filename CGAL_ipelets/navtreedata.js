@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - CGAL Ipelets", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#CGAL_ipeletsIntroduction", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#CGAL_ipeletsIntroduction", null ],
       [ "CGAL Ipelets", "index.html#seccgal_ipelets", null ],
       [ "Example", "index.html#CGAL_ipeletsExample", null ],
       [ "Installation of the Demo Ipelets", "index.html#CGAL_ipeletsInstallation", null ],
@@ -28,12 +28,12 @@ var NAVTREE =
         [ "Skeleton and Offset", "index.html#skeleton_ipelet", null ],
         [ "Triangulations", "index.html#triangulation_ipelet", null ]
       ] ],
-      [ "Design and Implementation History", "index.html#CGAL_ipeletsDesign", null ]
+      [ "设计与实现历史", "index.html#CGAL_ipeletsDesign", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考手册", "modules.html", "modules" ],
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

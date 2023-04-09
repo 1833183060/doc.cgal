@@ -1,7 +1,7 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - CGAL and Boost Property Maps", "index.html", [
-    [ "User Manual", "index.html", [
+    [ "用户手册", "index.html", [
       [ "A Short Introduction to the Boost Property Maps Library", "index.html#Property_mapA", null ],
       [ "CGAL and Boost Property Maps", "index.html#Property_mapCGAL", [
         [ "Example with Identity_property_map", "index.html#Property_mapExamplewithIdentity", null ],
@@ -10,10 +10,10 @@ var NAVTREE =
       ] ],
       [ "Writing Custom Property Maps", "index.html#Property_mapCustom", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Is Model Relationships", "models.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

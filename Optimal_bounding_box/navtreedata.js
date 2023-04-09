@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - Optimal Bounding Box", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#OBBIntro", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#OBBIntro", null ],
       [ "Oriented Bounding Box", "index.html#OBBOrientedBoundingBox", [
         [ "Missing the Optimality", "index.html#OBBOptimality", null ],
         [ "Convex Hull Computation as Preprocessing", "index.html#OBBConvexHull", null ]
@@ -15,20 +15,20 @@ var NAVTREE =
         [ "Cost and Gain of Convex Hull Computations", "index.html#OBBConvexHullComplexity", null ],
         [ "Performance of the Oriented Bounding Box Algorithm", "index.html#OBBOrientedBoundingBoxComplexity", null ]
       ] ],
-      [ "Examples", "index.html#OBBexamples", [
+      [ "示例", "index.html#OBBexamples", [
         [ "Basic Example", "index.html#OBBBasicExample", null ],
         [ "Using Named Parameters", "index.html#OBBExampleNP", null ],
         [ "Rotated AABB Tree", "index.html#OBBRotatedTree", null ]
       ] ],
       [ "Implementation History", "index.html#OBBHistory", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

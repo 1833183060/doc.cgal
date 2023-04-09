@@ -1,21 +1,21 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - Handles and Circulators", "index.html", [
-    [ "User Manual", "index.html", [
+    [ "用户手册", "index.html", [
       [ "Handles", "index.html#CirculatorHandles", null ],
       [ "Ranges", "index.html#CirculatorRanges", null ],
       [ "Circulators", "index.html#circulatorsCirculators", [
-        [ "Introduction", "index.html#sectionIntroduction", null ],
+        [ "简介", "index.html#sectionIntroduction", null ],
         [ "Adaptors Between Iterators and Circulators", "index.html#sectionCirculatorAdaptor", null ],
         [ "Functions on Circulators", "index.html#sectionCirculatorFunctions", null ]
       ] ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

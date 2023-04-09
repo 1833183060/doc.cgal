@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - Geometric Object Generators", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#GeneratorIntroduction", [
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#GeneratorIntroduction", [
         [ "Random Perturbations", "index.html#GeneratorRandomPerturbations", null ],
         [ "Adding Degeneracies", "index.html#GeneratorAddingDegeneracies", null ],
         [ "Support Functions and Classes for Generators", "index.html#GeneratorSupportFunctionsandClassesforGenerators", null ]
@@ -16,15 +16,15 @@ var NAVTREE =
         [ "From a Range of Integers", "index.html#GeneratorFromRangeInt", null ],
         [ "From an Array of Strings", "index.html#GeneratorFromArrayStr", null ]
       ] ],
-      [ "Design and Implementation History", "index.html#GeneratorDesign", null ]
+      [ "设计与实现历史", "index.html#GeneratorDesign", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - Optimal Transportation Curve Reconstruction", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#Optimal_transportation_reconstruction_2Introduction", [
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#Optimal_transportation_reconstruction_2Introduction", [
         [ "Simplest Examples", "index.html#Optimal_transportation_reconstruction_2Simplest_example", null ],
         [ "Output Examples", "index.html#Optimal_transportation_reconstruction_2Output_example", null ],
         [ "Example with Mass Attributes", "index.html#Optimal_transportation_reconstruction_2Mass_example", null ]
@@ -26,14 +26,14 @@ var NAVTREE =
         [ "Wasserstein Distance", "index.html#Optimal_transportation_reconstruction_2Wasserstein", null ],
         [ "Reconstruction", "index.html#Optimal_transportation_reconstruction_2Reconstruction", null ]
       ] ],
-      [ "Design and Implementation History", "index.html#Optimal_transportation_reconstruction_2History", null ]
+      [ "设计与实现历史", "index.html#Optimal_transportation_reconstruction_2History", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

@@ -1,22 +1,22 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 3D Envelopes", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#Envelope_3Introduction", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#Envelope_3Introduction", null ],
       [ "The Envelope-Traits Concept", "index.html#Envelope_3The", null ],
-      [ "Examples", "index.html#Envelope_3Examples", [
+      [ "示例", "index.html#Envelope_3Examples", [
         [ "Example for Envelope of Triangles", "index.html#Envelope_3ExampleforEnvelopeofTriangles", null ],
         [ "Example for Envelope of Spheres", "index.html#Envelope_3ExampleforEnvelopeofSpheres", null ],
         [ "Example for Envelope of Planes", "index.html#Envelope_3ExampleforEnvelopeofPlanes", null ]
       ] ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

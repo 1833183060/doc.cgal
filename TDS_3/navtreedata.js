@@ -1,26 +1,26 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 3D Triangulation Data Structure", "index.html", [
-    [ "User Manual", "index.html", [
+    [ "用户手册", "index.html", [
       [ "Representation", "index.html#TDS3secintro", null ],
-      [ "Software Design", "index.html#TDS3secdesign", [
+      [ "软件设计", "index.html#TDS3secdesign", [
         [ "Flexibility of the Design", "index.html#TDS_3FlexibilityoftheDesign", null ],
         [ "Cyclic Dependency", "index.html#tds3cyclic", null ],
         [ "Parallel Operations", "index.html#tds3parallel", null ]
       ] ],
-      [ "Examples", "index.html#TDS3secexamples", [
+      [ "示例", "index.html#TDS3secexamples", [
         [ "Incremental Construction", "index.html#TDS_3IncrementalConstruction", null ],
         [ "Cross-Linking Between a 2D and a 3D Data Structures", "index.html#TDS_3CrossLinkingBetweena2Danda3DDataStructures", null ]
       ] ],
-      [ "Design and Implementation History", "index.html#TDS_3Design", null ]
+      [ "设计与实现历史", "index.html#TDS_3Design", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

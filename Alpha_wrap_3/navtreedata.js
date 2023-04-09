@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 3D Alpha Wrapping", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#aw3_introduction", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#aw3_introduction", null ],
       [ "Approach", "index.html#aw3_definition", [
         [ "Algorithm", "index.html#aw3_algorithm", null ],
         [ "Guarantees", "index.html#aw3_guarantees", null ]
@@ -14,11 +14,11 @@ var NAVTREE =
         [ "A Note on \"Two-Sided\" Wraps", "index.html#aw3_two_side", null ]
       ] ],
       [ "Performance", "index.html#aw3_performance", null ],
-      [ "Examples", "index.html#aw3_examples", null ]
+      [ "示例", "index.html#aw3_examples", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考手册", "modules.html", "modules" ],
+    [ "参考文献", "citelist.html", null ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

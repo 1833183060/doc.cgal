@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - Surface Mesh Topology", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#SMTopology", [
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#SMTopology", [
         [ "Shortest Non-Contractible Curve", "index.html#SMTopology_shortest", null ],
         [ "Homotopy Test", "index.html#SMTopology_homotopy", null ],
         [ "Simplicity Test", "index.html#SMTopology_simplicity", null ]
@@ -19,7 +19,7 @@ var NAVTREE =
         [ "Testing Homotopy", "index.html#SMTopology_Queries", null ],
         [ "Testing Simplicity", "index.html#SMTopology_Query_Simplicity", null ]
       ] ],
-      [ "Examples", "index.html#SMTopology_Examples", [
+      [ "示例", "index.html#SMTopology_Examples", [
         [ "Compute Shortest Non-contractible Cycle", "index.html#SMTopology_Example_I_II_III", null ],
         [ "Compute Face Width", "index.html#SMTopology_Example_IV", null ],
         [ "Basic Homotopy Test", "index.html#SMTopology_Example_V", null ],
@@ -46,13 +46,13 @@ var NAVTREE =
       ] ],
       [ "History", "index.html#Implementation", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

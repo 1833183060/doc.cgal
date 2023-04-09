@@ -1,9 +1,9 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - The Heat Method", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#sec_HM_introduction", null ],
-      [ "Examples", "index.html#sec_HM_examples", [
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#sec_HM_introduction", null ],
+      [ "示例", "index.html#sec_HM_examples", [
         [ "Using a Free Function", "index.html#HM_example_Free_function", null ],
         [ "Using the Heat Method Class", "index.html#HM_example_Class", null ],
         [ "Switching off the Intrinsic Delaunay Triangulation", "index.html#HM_example_Intrinsic", null ]
@@ -15,11 +15,11 @@ var NAVTREE =
       [ "Performance", "index.html#sec_HM_Performance", null ],
       [ "Implementation History", "index.html#sec_HM_history", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

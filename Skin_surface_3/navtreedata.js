@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 3D Skin Surface Meshing", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#sectionSkinSurfaceIntro", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#sectionSkinSurfaceIntro", null ],
       [ "Definition of a Skin Surface", "index.html#secskindefinition", null ],
       [ "The Interface", "index.html#Skin_surface_3The", null ],
       [ "Timings", "index.html#Skin_surface_3Timings", null ],
@@ -11,13 +11,13 @@ var NAVTREE =
         [ "Meshing and Subdividing a Skin Surface", "index.html#Skin_surface_3MeshingandSubdividingaSkin", null ]
       ] ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

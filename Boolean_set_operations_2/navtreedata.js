@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 2D Regularized Boolean Set-Operations", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#bso_secintro", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#bso_secintro", null ],
       [ "Terms and Definitions", "index.html#bso_secbso_def", [
         [ "Conditions for Valid Polygons", "index.html#bso_ssecpolygon_validation", null ],
         [ "Conditions for Valid Polygons with Holes", "index.html#bso_ssecpolygon_with_holes_validation", null ]
@@ -25,14 +25,14 @@ var NAVTREE =
         [ "Aggregated Operations", "index.html#bso_ssecaggregated_gen_ops", null ]
       ] ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
     [ "Generalization Relationships", "generalizes.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 2D and 3D Linear Geometry Kernel", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#kernel_intro", [
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#kernel_intro", [
         [ "Robustness", "index.html#Kernel_23Robustness", null ]
       ] ],
       [ "Kernel Representations", "index.html#kernel_rep", [
@@ -27,23 +27,23 @@ var NAVTREE =
         [ "Constructive Predicates", "index.html#Kernel_23ConstructivePredicates", null ]
       ] ],
       [ "Extensible Kernel", "index.html#sectionextensiblekernel", [
-        [ "Introduction", "index.html#Kernel_23Introduction", null ],
+        [ "简介", "index.html#Kernel_23Introduction", null ],
         [ "An Extensive Example", "index.html#Kernel_23AnExtensiveExample", null ],
         [ "Limitations", "index.html#Kernel_23Limitations", null ]
       ] ],
       [ "Projection Traits Classes", "index.html#sectionprojectiontraits", null ],
-      [ "Design and Implementation History", "index.html#Kernel_23Design", [
+      [ "设计与实现历史", "index.html#Kernel_23Design", [
         [ "Acknowledgment", "index.html#Kernel_23Acknowledgment", null ]
       ] ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

@@ -1,6 +1,6 @@
 var dev_manual =
 [
-    [ "Introduction", "devman_intro.html", [
+    [ "简介", "devman_intro.html", [
       [ "Primary design goals", "devman_intro.html#secdesign_goals", [
         [ "Correctness", "devman_intro.html#Developer_manualCorrectness", null ],
         [ "Robustness", "devman_intro.html#Developer_manualRobustness", null ],

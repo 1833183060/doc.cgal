@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 3D Boolean Operations on Nef Polyhedra", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#Nef_3Introduction", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#Nef_3Introduction", null ],
       [ "Definition", "index.html#Nef_3Definition", null ],
       [ "Infimaximal Box", "index.html#sectionNef_3InfiBox", null ],
       [ "Regularized Set Operations", "index.html#sectoinRegularized", null ],
@@ -22,10 +22,10 @@ var NAVTREE =
         [ "Point Location", "index.html#Nef_3PointLocation", null ]
       ] ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考手册", "modules.html", "modules" ],
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

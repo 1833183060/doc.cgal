@@ -1,27 +1,27 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 3D Surface Mesh Generation", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#SurfaceMesher_section_intro", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#SurfaceMesher_section_intro", null ],
       [ "The Surface Mesh Generator Interface for Smooth Surfaces", "index.html#SurfaceMesher_section_interface", null ],
       [ "Input/Output", "index.html#Surface_mesherIO", null ],
-      [ "Examples", "index.html#Surface_mesherExamples", [
+      [ "示例", "index.html#Surface_mesherExamples", [
         [ "Meshing Isosurfaces Defined by Implicit Functions", "index.html#Surface_mesherMeshingIsosurfacesDefinedby", null ],
         [ "Meshing Isosurfaces Defined as Gray Levels in 3D Images", "index.html#Surface_mesherMeshingIsosurfacesDefinedas", null ]
       ] ],
       [ "Meshing Criteria, Guarantees and Variations", "index.html#SurfaceMesher_section_criteria", null ],
       [ "Output", "index.html#Surface_mesherOutput", null ],
       [ "Undocumented Features Available in Demos", "index.html#Surface_mesherUndocumented", null ],
-      [ "Design and Implementation History", "index.html#Surface_mesherDesign", null ]
+      [ "设计与实现历史", "index.html#Surface_mesherDesign", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

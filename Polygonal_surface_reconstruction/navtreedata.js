@@ -1,13 +1,13 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - Polygonal Surface Reconstruction", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#secIntro", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#secIntro", null ],
       [ "Algorithm", "index.html#secAlgo", [
         [ "Energy Terms", "index.html#subsecAlgoEnergyTerms", null ],
         [ "Face Selection", "index.html#subsecAlgoFaceSelection", null ]
       ] ],
-      [ "Examples", "index.html#secPSRexamples", [
+      [ "示例", "index.html#secPSRexamples", [
         [ "Reconstruction from Point Clouds", "index.html#subsecExampleNoInputPlane", null ],
         [ "Reconstruction with User-Provided Planes", "index.html#subsecExampleUserProvidedPlanes", null ],
         [ "Model Complexity Control", "index.html#subsecExampleDetailControl", null ]
@@ -17,10 +17,10 @@ var NAVTREE =
         [ "The Numerical Solver", "index.html#subsecSolver", null ]
       ] ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考手册", "modules.html", "modules" ],
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

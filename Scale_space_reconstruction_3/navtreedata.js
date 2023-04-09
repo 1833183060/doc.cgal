@@ -1,12 +1,12 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - Scale-Space Surface Reconstruction", "index.html", [
-    [ "User Manual", "index.html", [
+    [ "用户手册", "index.html", [
       [ "Scale-Space", "index.html#ScaleSpaceReconstruction3secMethod", [
         [ "Parameter Settings", "index.html#ScaleSpaceReconstruction3secParam", null ],
         [ "Output Surface", "index.html#ScaleSpaceReconstruction3secOutput", null ]
       ] ],
-      [ "Software Design", "index.html#ScaleSpaceReconstruction3secDesign", null ],
+      [ "软件设计", "index.html#ScaleSpaceReconstruction3secDesign", null ],
       [ "Case Sets and Performance", "index.html#Triangulation3secComplexity", [
         [ "Ideal Conditions", "index.html#Triangulation3ssecIdeal", null ],
         [ "Boundaries", "index.html#Triangulation3ssecBound", null ],
@@ -16,15 +16,15 @@ var NAVTREE =
         [ "Point Attributes", "index.html#Triangulation3ssecAttrib", null ],
         [ "Performance", "index.html#Triangulation3ssecPerform", null ]
       ] ],
-      [ "Examples", "index.html#ScaleSpaceReconstruction3secExamples", null ],
-      [ "Design and Implementation History", "index.html#ScaleSpaceReconstruction3secDesImpl", null ]
+      [ "示例", "index.html#ScaleSpaceReconstruction3secExamples", null ],
+      [ "设计与实现历史", "index.html#ScaleSpaceReconstruction3secDesImpl", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

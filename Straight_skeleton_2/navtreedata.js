@@ -1,7 +1,7 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 2D Straight Skeleton and Polygon Offsetting", "index.html", [
-    [ "User Manual", "index.html", [
+    [ "用户手册", "index.html", [
       [ "Definitions", "index.html#Straight_skeleton_2Definitions", [
         [ "2D Contour", "index.html#Straight_skeleton_22DContour", null ],
         [ "2D Polygon with Holes", "index.html#Straight_skeleton_22DPolygonwithHoles", null ],
@@ -23,13 +23,13 @@ var NAVTREE =
       [ "Usages of the Straight Skeletons", "index.html#Straight_skeleton_2Usages", null ],
       [ "Straight Skeleton of a General Figure in the Plane", "index.html#Straight_skeleton_2Straight_1", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

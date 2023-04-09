@@ -1,10 +1,10 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 3D Fast Intersection and Distance Computation (AABB Tree)", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#aabb_tree_introduction", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#aabb_tree_introduction", null ],
       [ "Interface", "index.html#aabb_tree_interface", null ],
-      [ "Examples", "index.html#aabb_tree_examples", [
+      [ "示例", "index.html#aabb_tree_examples", [
         [ "Tree of Triangles, for Intersection and Distance Queries", "index.html#aabb_tree_examples_1", null ],
         [ "Tree of Polyhedron Triangle Facets for Intersection Queries", "index.html#aabb_tree_examples_2", null ],
         [ "Ray Shooting", "index.html#aabb_ray_shooting", null ],
@@ -22,16 +22,16 @@ var NAVTREE =
         [ "Summary", "index.html#aabb_tree_perf_summary", null ]
       ] ],
       [ "Implementation Details", "index.html#aabb_tree_impl", null ],
-      [ "Design and Implementation History", "index.html#aabb_tree_history", null ]
+      [ "设计与实现历史", "index.html#aabb_tree_history", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

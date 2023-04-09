@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL  - Generalized Maps", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#Generalized_mapIntroduction", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#Generalized_mapIntroduction", null ],
       [ "Data Structure Presentation", "index.html#sec_presentation_gmap", [
         [ "Generalized Map and Darts", "index.html#ssecgenmapanddarts", null ],
         [ "Cells as Sets of Darts", "index.html#sseccellsingmap", null ],
@@ -10,7 +10,7 @@ var NAVTREE =
         [ "Generalized Map Properties", "index.html#ssecgenmapvalidity", null ],
         [ "Comparison with Combinatorial Maps", "index.html#ssec-comparison-gmaps-with-cmaps", null ]
       ] ],
-      [ "Software Design", "index.html#secsoftwaredesign_gmap", [
+      [ "软件设计", "index.html#secsoftwaredesign_gmap", [
         [ "Generalized Maps", "index.html#ssecgeneralizedmap", null ],
         [ "Generalized Map Items", "index.html#ssecitemgmap", null ],
         [ "Cell Attributes", "index.html#ssecattributesgmap", null ],
@@ -25,7 +25,7 @@ var NAVTREE =
         [ "Sewing Orbits and Linking Darts", "index.html#sseclinkdarts_gmap", null ],
         [ "Removal and Insertion Operations", "index.html#ssecoperationsgmap", null ]
       ] ],
-      [ "Examples", "index.html#Generalized_mapExamples", [
+      [ "示例", "index.html#Generalized_mapExamples", [
         [ "A 3D Generalized Map", "index.html#ssecexample3DGM", null ],
         [ "A non orientable 2D Generalized Map", "index.html#ssecexample2DGMNO", null ],
         [ "High Level Operations", "index.html#Generalized_mapHighLevelOperations", null ],
@@ -34,15 +34,15 @@ var NAVTREE =
         [ "Use of Dynamic Onmerge and Onsplit Functors", "index.html#ssecgenmapdynamicattibute", null ]
       ] ],
       [ "Mathematical Definitions", "index.html#sec_definition_gmap", null ],
-      [ "Design and Implementation History", "index.html#Generalized_mapDesign", null ]
+      [ "设计与实现历史", "index.html#Generalized_mapDesign", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

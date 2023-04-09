@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 2D Minkowski Sums", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#mink_secintro", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#mink_secintro", null ],
       [ "Computing the Minkowski Sum of Two Polygons", "index.html#mink_secsum_poly", [
         [ "Filtering Out Holes", "index.html#mink_ssec_hole_filter", null ],
         [ "Computing Minkowski Sum using Convolutions", "index.html#mink_ssec_conv", null ],
@@ -14,15 +14,15 @@ var NAVTREE =
         [ "Computing the Exact Offset", "index.html#mink_ssec_exact_offset", null ],
         [ "Computing Inner Offsets", "index.html#mink_ssec_inner_offset", null ]
       ] ],
-      [ "Design and Implementation History", "index.html#Minkoski_sum_2Design", null ]
+      [ "设计与实现历史", "index.html#Minkoski_sum_2Design", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 2D Boolean Operations on Nef Polygons Embedded on the Sphere", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#Nef_S2Introduction", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#Nef_S2Introduction", null ],
       [ "Restricted Spherical Geometry", "index.html#Nef_S2Restricted", null ],
       [ "Example Programs", "index.html#sectionNef_S2Examples", [
         [ "First Example", "index.html#Nef_S2FirstExample", null ],
@@ -11,9 +11,9 @@ var NAVTREE =
         [ "Point Location", "index.html#Nef_S2PointLocation", null ]
       ] ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考手册", "modules.html", "modules" ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

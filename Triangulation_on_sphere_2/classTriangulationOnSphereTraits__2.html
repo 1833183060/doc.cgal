@@ -164,7 +164,7 @@ $(document).ready(function(){initNavTree('classTriangulationOnSphereTraits__2.ht
 <dl class="hasModels"><dt><b><a class="el" href="hasModels.html#_hasModels000003">Has Models:</a></b></dt><dd><p class="startdd"><code><a class="el" href="classCGAL_1_1Delaunay__triangulation__on__sphere__traits__2.html" title="The class Delaunay_triangulation_on_sphere_traits_2 is a model of the concept DelaunayTriangulationOn...">CGAL::Delaunay_triangulation_on_sphere_traits_2</a></code> </p>
 <p class="enddd"><code><a class="el" href="classCGAL_1_1Projection__on__sphere__traits__3.html" title="The class Projection_on_sphere_traits_3 is a model of the concept DelaunayTriangulationOnSphereTraits...">CGAL::Projection_on_sphere_traits_3</a></code></p>
 </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="classDelaunayTriangulationOnSphereTraits__2.html">DelaunayTriangulationOnSphereTraits_2</a></code> </dd></dl>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="classDelaunayTriangulationOnSphereTraits__2.html">DelaunayTriangulationOnSphereTraits_2</a></code> </dd></dl>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group" id="member-group"></a>
 Types</h2></td></tr>
@@ -230,7 +230,7 @@ Constructions</h2></td></tr>
 <tr class="separator:ab72e578444dcbdb784495ea2bfefbf16"><td class="memSeparator" colspan="2"> </td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group" id="member-group"></a>
-Operations</h2></td></tr>
+操作</h2></td></tr>
 <tr><td class="ititle" colspan="2"><p><a class="anchor" id="amgrp456d0deba6a86c9585590550c797502d"></a>The following functions provide access to the predicate and constructor objects. </p>
 </td></tr>
 <tr class="memitem:ac6636154ff686544a80457830accfb78"><td class="memItemLeft" align="right" valign="top"><a id="ac6636154ff686544a80457830accfb78"></a>
@@ -286,7 +286,7 @@ Precision predicates</h2></td></tr>
 <tr><td class="ititle" colspan="2"><p><a class="anchor" id="amgrpbc40b59d2ea2be0fc60516e5f7bb0f92"></a>When a kernel does not offer arbitrary precision - or at least an exact representation of algebraic coordinates, which is usually the case for the sake of computational speed, then most points that are theoretically on the sphere are not in practice exactly on the sphere.</p>
 <p>When this is the case, it cannot be guaranteed that all points are in a convex position, which can then result in points being hidden upon insertion, see <a class="el" href="citelist.html#CITEREF_cgal:ccplr-redtp-10">[1]</a>. To ensure that no point is hidden, a trick is to enforce a gap between points (<a class="el" href="citelist.html#CITEREF_cgal:ccplr-redtp-10">[1]</a>, Lemma 4.1). This gap is based on a fixed maximal allowed distance \( \delta \) between a point and the theoretical sphere. The gap must then be at least \( 2 \sqrt{R\delta} \), where \( R \) is the radius of the sphere.</p>
 <p>The following two predicates serve to check if the point is on the sphere, that is if for a model-defined \( \delta \) the distance to the sphere is smaller than \( \delta \) and if the distance between two points is greater than \( 2 \sqrt{R\delta} \). It is also of course possible to construct traits classes with arbitrary precision or with a representation that ensures that points are exactly on the sphere and in this case, \( \delta = 0 \) can be chosen and the predicates below are trivial.</p>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="classCGAL_1_1Delaunay__triangulation__on__sphere__traits__2.html" title="The class Delaunay_triangulation_on_sphere_traits_2 is a model of the concept DelaunayTriangulationOn...">CGAL::Delaunay_triangulation_on_sphere_traits_2</a></code> </dd></dl>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="classCGAL_1_1Delaunay__triangulation__on__sphere__traits__2.html" title="The class Delaunay_triangulation_on_sphere_traits_2 is a model of the concept DelaunayTriangulationOn...">CGAL::Delaunay_triangulation_on_sphere_traits_2</a></code> </dd></dl>
 </td></tr>
 <tr class="memitem:a37cc151d3bf935923db004e62528fdbf"><td class="memItemLeft" align="right" valign="top">bool </td><td class="memItemRight" valign="bottom"><a class="el" href="classTriangulationOnSphereTraits__2.html#a37cc151d3bf935923db004e62528fdbf">is_on_sphere</a> (<a class="el" href="classTriangulationOnSphereTraits__2.html#a40a502e3a9bc2191293f585823d99aad">Point_on_sphere_2</a> p)</td></tr>
 <tr class="memdesc:a37cc151d3bf935923db004e62528fdbf"><td class="mdescLeft"> </td><td class="mdescRight">returns whether the point <code>p</code> is on the sphere or not.  <a href="#a37cc151d3bf935923db004e62528fdbf">More...</a><br /></td></tr>

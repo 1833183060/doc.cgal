@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 3D Mesh Generation", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#Mesh_3_section_intro", [
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#Mesh_3_section_intro", [
         [ "Input Domain", "index.html#Mesh_3InputDomain", null ],
         [ "Output Mesh", "index.html#Mesh_3OutputMesh", null ],
         [ "Delaunay Refinement", "index.html#Mesh_3DelaunayRefinement", null ],
@@ -19,7 +19,7 @@ var NAVTREE =
         [ "Parallel Algorithms", "index.html#Mesh_3ParallelAlgorithms", null ]
       ] ],
       [ "Input/Output", "index.html#Mesh_3_section_io", null ],
-      [ "Examples", "index.html#Mesh_3_section_examples", [
+      [ "示例", "index.html#Mesh_3_section_examples", [
         [ "3D Domains Bounded by Isosurfaces", "index.html#Mesh_33DDomainsBoundedbyIsosurfaces", [
           [ "3D Domains Bounded by Implicit Isosurfaces", "index.html#Mesh_33DDomainsImplicitIsosurfaces", null ]
         ] ],
@@ -63,19 +63,19 @@ var NAVTREE =
         ] ],
         [ "Parallel Performance", "index.html#Mesh_3Parallel_performance_1", null ]
       ] ],
-      [ "Design and Implementation History", "index.html#Mesh_3DesignAndImpl", [
+      [ "设计与实现历史", "index.html#Mesh_3DesignAndImpl", [
         [ "Theoretical Foundations", "index.html#Mesh_3TheoreticalFoundations", null ],
         [ "Implementation History", "index.html#Mesh_3ImplementationHistory", null ]
       ] ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

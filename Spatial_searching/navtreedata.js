@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - dD Spatial Searching", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#Spatial_searchingIntroduction", [
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#Spatial_searchingIntroduction", [
         [ "Neighbor Searching", "index.html#Spatial_searchingNeighborSearching", null ],
         [ "Range Searching", "index.html#Spatial_searchingRangeSearching", null ]
       ] ],
@@ -26,18 +26,18 @@ var NAVTREE =
       [ "Performance", "index.html#Performance", [
         [ "Performance of the Orthogonal Search", "index.html#OrthogonalPerfomance", null ]
       ] ],
-      [ "Software Design", "index.html#Spatial_searchingSoftware", [
+      [ "软件设计", "index.html#Spatial_searchingSoftware", [
         [ "The kd Tree", "index.html#Kd_tree_subsection", null ]
       ] ],
       [ "Implementation History", "index.html#Spatial_searchingImplementationHistory", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

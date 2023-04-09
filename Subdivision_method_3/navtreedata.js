@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 3D Surface Subdivision Methods", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#sectionSubIntro", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#sectionSubIntro", null ],
       [ "Subdivision Method", "index.html#secSubAlgo", null ],
       [ "A Quick Example: Catmull-Clark Subdivision", "index.html#secFirstSub", null ],
       [ "Catmull-Clark Subdivision", "index.html#secCC", null ],
@@ -12,13 +12,13 @@ var NAVTREE =
       [ "Example: Customizing a Subdivision Method", "index.html#Subdivision_method_3Other", null ],
       [ "Implementation History", "index.html#Subdivision_method_3History", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

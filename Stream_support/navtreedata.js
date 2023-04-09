@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - IO Streams", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#IOstreamIntro", [
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#IOstreamIntro", [
         [ "Outline", "index.html#StreamSupportOutline", null ]
       ] ],
       [ "Stream Precision", "index.html#IOstreamPrecision", null ],
@@ -25,7 +25,7 @@ var NAVTREE =
         [ "Reading Unsupported Formats", "index.html#IOstreamOther", null ]
       ] ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Supported File Formats", "IOStreamSupportedFileFormats.html", [
       [ "Object File Format (OFF)", "IOStreamSupportedFileFormats.html#IOStreamOFF", null ],
       [ "Wavefront Advanced Visualizer Object Format (OBJ)", "IOStreamSupportedFileFormats.html#IOStreamOBJ", null ],
@@ -43,8 +43,8 @@ var NAVTREE =
       [ "Well-Known Text (WKT) File Format", "IOStreamSupportedFileFormats.html#IOStreamWKT", null ]
     ] ],
     [ "Is Model Relationships", "models.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

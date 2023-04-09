@@ -1,23 +1,23 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 2D Voronoi Diagram Adaptor", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#secvda2intro", null ],
-      [ "Software Design", "index.html#secvda2design", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#secvda2intro", null ],
+      [ "软件设计", "index.html#secvda2design", null ],
       [ "The Adaptation Traits", "index.html#secvda2traits", null ],
       [ "The Adaptation Policy", "index.html#secvda2ap", [
         [ "Efficiency Considerations", "index.html#subsecvda2efficiency", null ]
       ] ],
-      [ "Examples", "index.html#secvda2examples", null ],
+      [ "示例", "index.html#secvda2examples", null ],
       [ "Draw a Voronoi Diagram", "index.html#secvda2drawvoronoi", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

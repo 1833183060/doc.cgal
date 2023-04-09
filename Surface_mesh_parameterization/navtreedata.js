@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - Planar Parameterization of Triangulated Surface Meshes", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#Surface_mesh_parameterizationIntroduction", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#Surface_mesh_parameterizationIntroduction", null ],
       [ "Basics", "index.html#Surface_mesh_parameterizationBasics", [
         [ "Default Surface Parameterization", "index.html#Surface_mesh_parameterizationDefaultSurface", null ],
         [ "Default Parameterization Example", "index.html#Surface_mesh_parameterizationDefaultExample", null ],
@@ -32,12 +32,12 @@ var NAVTREE =
       ] ],
       [ "Implementation History", "index.html#Surface_mesh_parameterizationExtendingthe", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

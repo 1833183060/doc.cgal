@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - Poisson Surface Reconstruction", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#Poisson_surface_reconstruction_3Introduction", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#Poisson_surface_reconstruction_3Introduction", null ],
       [ "Common Reconstruction Pipeline", "index.html#Poisson_surface_reconstruction_3Common", null ],
       [ "Poisson", "index.html#Poisson_surface_reconstruction_3Poisson", null ],
       [ "Reconstruction Function", "index.html#Poisson_surface_reconstruction_3Function", [
@@ -30,13 +30,13 @@ var NAVTREE =
         [ "Memory", "index.html#SurfReconstPerfMem", null ],
         [ "Point Set Simplification", "index.html#SurfReconstPerfPSS", null ]
       ] ],
-      [ "Design and Implementation History", "index.html#SurfReconstDesignHistory", null ]
+      [ "设计与实现历史", "index.html#SurfReconstDesignHistory", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Is Model Relationships", "models.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

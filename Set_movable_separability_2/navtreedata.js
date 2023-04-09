@@ -1,16 +1,16 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 2D Movable Separability of Sets", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#sms_2_sec_intro", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#sms_2_sec_intro", null ],
       [ "Casting", "index.html#sms_2_sec_casting", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

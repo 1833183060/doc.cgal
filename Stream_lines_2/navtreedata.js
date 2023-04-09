@@ -1,7 +1,7 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 2D Placement of Streamlines", "index.html", [
-    [ "User Manual", "index.html", [
+    [ "用户手册", "index.html", [
       [ "Definitions", "index.html#Section_2D_Streamlines_Definitions", null ],
       [ "Fundamental Notions", "index.html#Section_2D_Streamlines_Fundamental_notions", [
         [ "Euler Integrator", "index.html#Stream_lines_2EulerIntegrator", null ],
@@ -9,14 +9,14 @@ var NAVTREE =
       ] ],
       [ "Farthest Point Seeding Strategy", "index.html#Section_2D_Streamlines_Strategy", null ],
       [ "Implementation", "index.html#Section_2D_Streamlines_Implementation", null ],
-      [ "Examples", "index.html#Section_2D_Streamlines_Example", null ]
+      [ "示例", "index.html#Section_2D_Streamlines_Example", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

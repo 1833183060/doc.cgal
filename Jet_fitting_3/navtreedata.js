@@ -1,14 +1,14 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - Estimation of Local Differential Properties of Point-Sampled Surfaces", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#secintro", [
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#secintro", [
         [ "Overview", "index.html#Jet_fitting_3Overview", null ],
         [ "Smooth Surfaces, d-Jets and the Monge Form", "index.html#Jet_fitting_3SmoothSurfacesdJetsandtheMonge", null ],
         [ "Algorithm", "index.html#Jet_fitting_3Algorithm", null ],
         [ "Degenerate Cases", "index.html#secdegcases", null ]
       ] ],
-      [ "Software Design", "index.html#Jet_fitting_3Software", [
+      [ "软件设计", "index.html#Jet_fitting_3Software", [
         [ "Options and Interface Specifications", "index.html#Jet_fitting_3OptionsandInterfaceSpecifications", null ],
         [ "Output", "index.html#Jet_fitting_3Output", null ],
         [ "Template Parameters", "index.html#Jet_fitting_3TemplateParameters", [
@@ -18,7 +18,7 @@ var NAVTREE =
           [ "Compatibility Requirements", "index.html#Jet_fitting_3CompatibilityRequirements", null ]
         ] ]
       ] ],
-      [ "Examples", "index.html#Jet_fitting_3Examples", [
+      [ "示例", "index.html#Jet_fitting_3Examples", [
         [ "Single Estimation about a Point of a Point Cloud", "index.html#Jet_fitting_3SingleEstimationaboutaPoint", null ],
         [ "On a Mesh", "index.html#Jet_fitting_3OnaMesh", null ]
       ] ],
@@ -29,11 +29,11 @@ var NAVTREE =
         [ "Computing Higher Order Monge Coefficients", "index.html#Jet_fitting_3ComputingHigherOrderMongeCoefficients", null ]
       ] ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

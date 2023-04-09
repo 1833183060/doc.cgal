@@ -1,7 +1,7 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 3D Alpha Shapes", "index.html", [
-    [ "User Manual", "index.html", [
+    [ "用户手册", "index.html", [
       [ "Definitions", "index.html#Alpha_shapes_3Definitions", null ],
       [ "Functionality", "index.html#Alpha_Shape_3Functionality", [
         [ "Family of Alpha Shapes", "index.html#AlphaShape_3DFamilyOfAlphaShapes", null ],
@@ -15,7 +15,7 @@ var NAVTREE =
         [ "Triangulation data structure", "index.html#AlphaShape3D_ConceptAndModelsTDS", null ]
       ] ],
       [ "Alpha_shape_3 vs. Fixed_alpha_shape_3", "index.html#Alpha_shapes_3AlphaShape3OrFixedAlphaShape3", null ],
-      [ "Examples", "index.html#Alpha_shapes_3Examples", [
+      [ "示例", "index.html#Alpha_shapes_3Examples", [
         [ "Example for Basic Alpha-Shapes", "index.html#AlphaShape_3DExampleForBasicAlphaShapes", null ],
         [ "Building Basic Alpha Shapes for Many Points", "index.html#AlphaShape_3DBuildingBasicAlphaShapesForManyPoints", null ],
         [ "Example for Weighted Alpha-Shapes", "index.html#AlphaShape_3DExampleforWeightedAlphaShapes", null ],
@@ -24,13 +24,13 @@ var NAVTREE =
         [ "Example for Periodic Alpha Shapes", "index.html#AlphaShape_3DExampleForPeriodicAlphaShapes", null ]
       ] ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

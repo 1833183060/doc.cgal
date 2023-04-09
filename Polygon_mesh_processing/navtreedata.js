@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - Polygon Mesh Processing", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#PMPIntroduction", [
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#PMPIntroduction", [
         [ "Polygon Mesh", "index.html#PMPDef", null ],
         [ "API", "index.html#PMPAPI", null ],
         [ "Outline", "index.html#PMPOutline", null ],
@@ -28,7 +28,7 @@ var NAVTREE =
         [ "Boolean Operations", "index.html#coref_bolop_subsec", null ],
         [ "Kernel and Validity of the Output", "index.html#coref_valid_subsec", null ],
         [ "Clipping", "index.html#coref_clip", null ],
-        [ "Examples", "index.html#coref_ex_subsec", [
+        [ "示例", "index.html#coref_ex_subsec", [
           [ "Computing the Union of Two Volumes", "index.html#coref_ex_union_subsec", null ],
           [ "Boolean Operation and Local Remeshing", "index.html#coref_ex_refine_subsec", null ],
           [ "Robustness of Consecutive Operations", "index.html#coref_ex_consq_subsec", null ]
@@ -36,7 +36,7 @@ var NAVTREE =
       ] ],
       [ "Hole Filling", "index.html#PMPHoleFilling", [
         [ "API", "index.html#HoleFillingAPI", null ],
-        [ "Examples", "index.html#HFExamples", [
+        [ "示例", "index.html#HFExamples", [
           [ "Triangulate a Polyline", "index.html#HFExample_1", null ],
           [ "Hole Filling From the Border of the Hole", "index.html#HFExample_2", null ]
         ] ],
@@ -97,13 +97,13 @@ var NAVTREE =
       ] ],
       [ "Implementation History", "index.html#PMPHistory", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

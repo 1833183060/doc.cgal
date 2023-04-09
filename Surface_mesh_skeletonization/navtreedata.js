@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - Triangulated Surface Mesh Skeletonization", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#MCFSkelSecMot", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#MCFSkelSecMot", null ],
       [ "User Interface Description", "index.html#MCFSkelSecAPI", [
         [ "Input and Output", "index.html#MCFSkelSecAPI-IO", null ],
         [ "Free Function", "index.html#MCFSkelSecAPI-FF", null ],
@@ -10,13 +10,13 @@ var NAVTREE =
         [ "Segmentation through Skeletonization", "index.html#Mesh", null ]
       ] ],
       [ "Performance", "index.html#MCFSkelSecEvaluation", null ],
-      [ "Design and Implementation History", "index.html#MCFSkelSecDesign", null ]
+      [ "设计与实现历史", "index.html#MCFSkelSecDesign", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

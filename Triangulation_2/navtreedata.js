@@ -1,13 +1,13 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 2D Triangulations", "index.html", [
-    [ "User Manual", "index.html", [
+    [ "用户手册", "index.html", [
       [ "Definitions", "index.html#Section_2D_Triangulations_Definitions", null ],
       [ "Representation", "index.html#Section_2D_Triangulations_Representation", [
         [ "The Set of Faces", "index.html#Triangulation_2TheSetofFaces", null ],
         [ "A Representation Based on Faces and Vertices", "index.html#Triangulation_2ARepresentationBasedonFaces", null ]
       ] ],
-      [ "Software Design", "index.html#Section_2D_Triangulations_Software_Design", null ],
+      [ "软件设计", "index.html#Section_2D_Triangulations_Software_Design", null ],
       [ "Basic Triangulations", "index.html#Section_2D_Triangulations_Basic", [
         [ "Description", "index.html#Subsection_2D_Triangulations_Basic_Description", null ],
         [ "Implementation", "index.html#Triangulation_2Implementation", null ],
@@ -57,16 +57,16 @@ var NAVTREE =
         [ "Using the Boost Zip Iterator", "index.html#Triangulation_2UsingtheBoostZipIterator", null ],
         [ "Using the Boost Transform Iterator", "index.html#Triangulation_2UsingtheBoostTransformIterator", null ]
       ] ],
-      [ "Design and Implementation History", "index.html#Triangulation_2Design", null ]
+      [ "设计与实现历史", "index.html#Triangulation_2Design", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

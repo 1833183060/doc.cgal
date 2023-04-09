@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - Point Set Processing", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#Point_set_processing_3Introduction", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#Point_set_processing_3Introduction", null ],
       [ "API", "index.html#Point_set_processing_3API", [
         [ "Named Parameters", "index.html#Point_set_processing_3NamedParameters", null ],
         [ "Property Maps", "index.html#Point_set_processing_3PropertyMaps", null ],
@@ -95,11 +95,11 @@ var NAVTREE =
       ] ],
       [ "Implementation History", "index.html#Point_set_processing_3ImplementationHistory", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Deprecated List", "deprecated.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

@@ -175,7 +175,7 @@ $(document).ready(function(){initNavTree('classCGAL_1_1Quadratic__program__solut
 <p>If the objective function value becomes arbitrarily small over the <em>feasible region</em> (the set of feasible solutions), the program is called <em>unbounded</em>, and <em>bounded</em> otherwise.</p>
 <p>Any program that is both feasible and bounded has at least one feasible solution \( \qpx^*\) whose objective function value is not larger than that of any other feasible solution. This is called an <em>optimal solution</em>.</p>
 <p>Every convex quadratic program (even if it is infeasible or unbounded) has a 'solution' in form of an object of the class <code><a class="el" href="classCGAL_1_1Quadratic__program__solution.html" title="An object of class Quadratic_program_solution represents the solution of a linear or convex quadratic...">Quadratic_program_solution</a></code>.</p>
-<p>The program concepts </p><dl class="section see"><dt>See also</dt><dd><code><a class="el" href="classQuadraticProgram.html" title="A model of QuadraticProgram describes a convex quadratic program of the form. ">QuadraticProgram</a></code> </dd>
+<p>The program concepts </p><dl class="section see"><dt>另见</dt><dd><code><a class="el" href="classQuadraticProgram.html" title="A model of QuadraticProgram describes a convex quadratic program of the form. ">QuadraticProgram</a></code> </dd>
 <dd>
 <code><a class="el" href="classLinearProgram.html" title="A model of LinearProgram describes a linear program of the form. ">LinearProgram</a></code> </dd>
 <dd>
@@ -183,7 +183,7 @@ $(document).ready(function(){initNavTree('classCGAL_1_1Quadratic__program__solut
 <dd>
 <code><a class="el" href="classNonnegativeLinearProgram.html" title="A model of NonnegativeLinearProgram describes a linear program of the form. ">NonnegativeLinearProgram</a></code></dd></dl>
 <p>and the functions that compute objects of class <code><a class="el" href="classCGAL_1_1Quadratic__program__solution.html" title="An object of class Quadratic_program_solution represents the solution of a linear or convex quadratic...">Quadratic_program_solution</a></code> from models of these concepts:</p>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="group__PkgQPSolverFunctions.html#gac769fb5f56983e35bec295b26501df7f" title="This function solves a quadratic program, using some exact Integral Domain ET for its computations...">solve_quadratic_program</a></code> </dd>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="group__PkgQPSolverFunctions.html#gac769fb5f56983e35bec295b26501df7f" title="This function solves a quadratic program, using some exact Integral Domain ET for its computations...">solve_quadratic_program</a></code> </dd>
 <dd>
 <code><a class="el" href="group__PkgQPSolverFunctions.html#ga1fefbd0436aca0e281f88e8e6cd8eb74" title="This function solves a linear program, using some exact Integral Domain ET for its computations...">solve_linear_program</a></code> </dd>
 <dd>
@@ -238,7 +238,7 @@ Creation</h2></td></tr>
 <tr class="separator:a49488f93f767d506f98975b85ace7b75"><td class="memSeparator" colspan="2"> </td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group" id="member-group"></a>
-Operations</h2></td></tr>
+操作</h2></td></tr>
 <tr class="memitem:adc7dd0ec763d1231621d69863fd2cacd"><td class="memItemLeft" align="right" valign="top">bool </td><td class="memItemRight" valign="bottom"><a class="el" href="classCGAL_1_1Quadratic__program__solution.html#adc7dd0ec763d1231621d69863fd2cacd">is_void</a> () const</td></tr>
 <tr class="memdesc:adc7dd0ec763d1231621d69863fd2cacd"><td class="mdescLeft"> </td><td class="mdescRight">returns <code>true</code> iff <code>sol</code> is not associated to a program.  <a href="#adc7dd0ec763d1231621d69863fd2cacd">More...</a><br /></td></tr>
 <tr class="separator:adc7dd0ec763d1231621d69863fd2cacd"><td class="memSeparator" colspan="2"> </td></tr>
@@ -478,7 +478,7 @@ if the \(i\)-th constraint is of type \(\leq\) ( \(\geq\), respectively), then \
 \[ \begin{array}{lcll} 0 &amp;\geq&amp; \qplambda^T(A\qpx -\qpb) &amp; \mbox{(by $A\qpx\qprel \qpb$ and 1.)} \\ &amp;=&amp; \ccSum{j: \qplambda^TA_j &lt;0}{}{ \qplambda^TA_j x_j } \quad+\quad \ccSum{j: \qplambda^TA_j &gt;0}{}{ \qplambda^TA_j x_j} - \qplambda^T \qpb \\ &amp;\geq&amp; \ccSum{j: \qplambda^TA_j &lt;0}{}{ \qplambda^TA_j u_j } \quad+\quad \ccSum{j: \qplambda^TA_j &gt;0}{}{ \qplambda^TA_j l_j} - \qplambda^T \qpb &amp; \mbox{(by $\qpl\leq \qpx \leq \qpu$ and 2.)} \\ &amp;&gt;&amp; 0 &amp; \mbox{(by 3.)}, \end{array} \]
 </p>
 <p> and this is the desired contradiction \(0&gt;0\).</p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="QP_solver_2infeasibility_certificate_8cpp-example.html">QP_solver/infeasibility_certificate.cpp</a> </dd></dl>
+<dl class="section see"><dt>另见</dt><dd><a class="el" href="QP_solver_2infeasibility_certificate_8cpp-example.html">QP_solver/infeasibility_certificate.cpp</a> </dd></dl>
 
 </div>
 </div>
@@ -500,7 +500,7 @@ template&lt;typename ET&gt; </div>
 </div><div class="memdoc">
 
 <p>returns the corresponding past-the-end iterator. </p>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="classCGAL_1_1Quadratic__program__solution.html#ac8d0a811a809ce9f9ebae4931bc2de92" title="returns a random access iterator over the infeasibility certificate  as given in Lemma 2...">infeasibility_certificate_begin()</a></code> </dd></dl>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="classCGAL_1_1Quadratic__program__solution.html#ac8d0a811a809ce9f9ebae4931bc2de92" title="returns a random access iterator over the infeasibility certificate  as given in Lemma 2...">infeasibility_certificate_begin()</a></code> </dd></dl>
 
 </div>
 </div>
@@ -566,7 +566,7 @@ if the \( i\)-th constraint is of type \( \leq\) ( \( \geq\), respectively), the
 \[ \qpc^T\qpx + \qpx^TD\qpx - (\qpx-\qpx^*)^TD(\qpx-\qpx^*) \geq \qpc^T\qpx^* + {\qpx^*}^TD\qpx^*, \]
 </p>
 <p> and since \(D\) is positive semidefinite, we have \((\qpx-\qpx^*)^TD(\qpx-\qpx^*)\geq 0\) and the lemma follows.</p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="QP_solver_2optimality_certificate_8cpp-example.html">QP_solver/optimality_certificate.cpp</a> </dd></dl>
+<dl class="section see"><dt>另见</dt><dd><a class="el" href="QP_solver_2optimality_certificate_8cpp-example.html">QP_solver/optimality_certificate.cpp</a> </dd></dl>
 
 </div>
 </div>
@@ -589,7 +589,7 @@ template&lt;typename ET&gt; </div>
 
 <p>returns a random access iterator over the numerator values of the optimality certificate \( \qplambda\), with respect to the common denominator returned by <code>sol</code>. </p>
 <p><code><a class="el" href="classCGAL_1_1Quadratic__program__solution.html#a4a2a74d91a373adc21b99c77abb7743f" title="returns the common denominator of the variable values as referred to by the previous two methods...">variables_common_denominator()</a></code>. The value type is <code>ET</code>, and the valid iterator range has length \( m\).</p>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="classCGAL_1_1Quadratic__program__solution.html#ad31c503dd7001857de9b1ec1ecd6403d" title="returns a random access iterator over the optimality certificate  as given in Lemma 1...">optimality_certifcate_begin()</a></code> </dd></dl>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="classCGAL_1_1Quadratic__program__solution.html#ad31c503dd7001857de9b1ec1ecd6403d" title="returns a random access iterator over the optimality certificate  as given in Lemma 1...">optimality_certifcate_begin()</a></code> </dd></dl>
 
 </div>
 </div>
@@ -611,7 +611,7 @@ template&lt;typename ET&gt; </div>
 </div><div class="memdoc">
 
 <p>returns the corresponding past-the-end iterator. </p>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="classCGAL_1_1Quadratic__program__solution.html#ad31c503dd7001857de9b1ec1ecd6403d" title="returns a random access iterator over the optimality certificate  as given in Lemma 1...">optimality_certifcate_begin()</a></code> </dd></dl>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="classCGAL_1_1Quadratic__program__solution.html#ad31c503dd7001857de9b1ec1ecd6403d" title="returns a random access iterator over the optimality certificate  as given in Lemma 1...">optimality_certifcate_begin()</a></code> </dd></dl>
 
 </div>
 </div>
@@ -633,7 +633,7 @@ template&lt;typename ET&gt; </div>
 </div><div class="memdoc">
 
 <p>returns the corresponding past-the-end iterator. </p>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="classCGAL_1_1Quadratic__program__solution.html#ad31c503dd7001857de9b1ec1ecd6403d" title="returns a random access iterator over the optimality certificate  as given in Lemma 1...">optimality_certifcate_begin()</a></code> </dd></dl>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="classCGAL_1_1Quadratic__program__solution.html#ad31c503dd7001857de9b1ec1ecd6403d" title="returns a random access iterator over the optimality certificate  as given in Lemma 1...">optimality_certifcate_begin()</a></code> </dd></dl>
 
 </div>
 </div>
@@ -793,7 +793,7 @@ template&lt;typename ET&gt; </div>
 </div><div class="memdoc">
 
 <p>returns the corresponding past-the-end iterator. </p>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="classCGAL_1_1Quadratic__program__solution.html#aa1e81c88d8023a974b5a1d17a8749a2f" title="returns a random acess iterator over the unbounded direction  as given in Lemma 3,with respect to the solution  obtained from sol.variable_values_begin(). ">unboundedness_certificate_begin()</a></code> </dd></dl>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="classCGAL_1_1Quadratic__program__solution.html#aa1e81c88d8023a974b5a1d17a8749a2f" title="returns a random acess iterator over the unbounded direction  as given in Lemma 3,with respect to the solution  obtained from sol.variable_values_begin(). ">unboundedness_certificate_begin()</a></code> </dd></dl>
 
 </div>
 </div>

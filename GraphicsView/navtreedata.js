@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - CGAL and the Qt Graphics View Framework", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#GraphicsViewIntroduction", [
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#GraphicsViewIntroduction", [
         [ "Naming Conventions", "index.html#GraphicsViewNamingConventions", null ]
       ] ],
       [ "Overall Design", "index.html#GraphicsViewOverall", [
@@ -11,8 +11,8 @@ var NAVTREE =
         [ "Generation of Input", "index.html#GraphicsViewGenerationofInput", null ]
       ] ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
-    [ "Class and Concept List", "annotated.html", "annotated" ]
+    [ "参考手册", "modules.html", "modules" ],
+    [ "类和Concept列表", "annotated.html", "annotated" ]
   ] ]
 ];
 

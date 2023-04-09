@@ -370,7 +370,7 @@ template&lt;class ForwardIterator , class Creator &gt; </div>
 <li><code>P</code> is equal to the <code>value_type</code> of the <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/classForwardIterator.html">ForwardIterator</a></code> when using the default initializer.</li>
 <li>The expressions <code>to_double((*first).x())</code> and <code>to_double((*first).y())</code> must result in the respective coordinate values.</li>
 </ul>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="group__PkgGeneratorsRef.html#ga58b8faf4c090fc9b367f51d9004cde4c" title="generates a set of points equally spaced on a segment given the endpoints of the segment. ">CGAL::points_on_segment_2()</a></code> </dd>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="group__PkgGeneratorsRef.html#ga58b8faf4c090fc9b367f51d9004cde4c" title="generates a set of points equally spaced on a segment given the endpoints of the segment. ">CGAL::points_on_segment_2()</a></code> </dd>
 <dd>
 <code><a class="el" href="group__PkgGeneratorsRef.html#gad5aec033ff62776826bd5b01be41b792" title="generates a given number of points on a square grid whose size is determined by the number of points ...">CGAL::points_on_square_grid_2()</a></code> </dd>
 <dd>
@@ -431,7 +431,7 @@ template&lt;class OutputIterator , class Creator &gt; </div>
 <li><code>Creator</code> must be a function object accepting three <code>double</code> values \( x\), \( y\), and \( z\) and returning an initialized point <code>(x,y,z)</code> of type <code>P</code>. Predefined implementations for these creators like the default can be found in Section <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/STL_Extension.tag:../STL_Extension/" href="../STL_Extension/group__STLCreators.html">Creator Function Objects</a>.</li>
 <li>The <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/classOutputIterator.html">OutputIterator</a></code> must accept values of type <code>P</code>. If the <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/classOutputIterator.html">OutputIterator</a></code> has a <code>value_type</code> the default initializer of the <code>creator</code> can be used. <code>P</code> is set to the <code>value_type</code> in this case.</li>
 </ul>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="group__PkgGeneratorsRef.html#gad5aec033ff62776826bd5b01be41b792" title="generates a given number of points on a square grid whose size is determined by the number of points ...">CGAL::points_on_square_grid_2()</a></code></dd>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="group__PkgGeneratorsRef.html#gad5aec033ff62776826bd5b01be41b792" title="generates a given number of points on a square grid whose size is determined by the number of points ...">CGAL::points_on_square_grid_2()</a></code></dd>
 <dd>
 <code><a class="el" href="group__PkgGeneratorsRef.html#ga5931f8c3d40445dd776437d07a5058a1" title="chooses n items at random from a random access iterator range which is useful to produce degenerate i...">CGAL::random_selection()</a></code> </dd></dl>
 
@@ -496,7 +496,7 @@ template&lt;class OutputIterator , class Creator &gt; </div>
 <li>
 The <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/classOutputIterator.html">OutputIterator</a></code> must accept values of type <code>P</code>. </li>
 </ul>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="group__PkgGeneratorsRef.html#gad5aec033ff62776826bd5b01be41b792" title="generates a given number of points on a square grid whose size is determined by the number of points ...">CGAL::points_on_square_grid_2()</a></code> </dd>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="group__PkgGeneratorsRef.html#gad5aec033ff62776826bd5b01be41b792" title="generates a given number of points on a square grid whose size is determined by the number of points ...">CGAL::points_on_square_grid_2()</a></code> </dd>
 <dd>
 <code><a class="el" href="group__PkgGeneratorsRef.html#ga03437b3f68ee130c2438a0ab29511695" title="generates a given number of points on a cubic grid whose size is determined by the number of points t...">CGAL::points_on_cube_grid_3()</a></code> </dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="Generator_2grid_d_8cpp-example.html#a1">Generator/grid_d.cpp</a>.</dd>
@@ -547,7 +547,7 @@ template&lt;class P , class OutputIterator &gt; </div>
 
 <p>generates a set of points equally spaced on a segment given the endpoints of the segment. </p>
 <p>The function creates \( n\) points equally spaced on the segment from \( p\) to \( q\), i.e. \( \forall i: 0 \le i &lt; n: o[i] := \frac{n-i-1}{n-1}\, p + \frac{i}{n-1}\, q\). Returns the value of \( o\) after inserting the \( n\) points.</p>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="group__PkgGeneratorsRef.html#ga58b8faf4c090fc9b367f51d9004cde4c" title="generates a set of points equally spaced on a segment given the endpoints of the segment. ">CGAL::points_on_segment_2()</a></code> </dd>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="group__PkgGeneratorsRef.html#ga58b8faf4c090fc9b367f51d9004cde4c" title="generates a set of points equally spaced on a segment given the endpoints of the segment. ">CGAL::points_on_segment_2()</a></code> </dd>
 <dd>
 <code><a class="el" href="group__PkgGeneratorsRef.html#gad5aec033ff62776826bd5b01be41b792" title="generates a given number of points on a square grid whose size is determined by the number of points ...">CGAL::points_on_square_grid_2()</a></code> </dd>
 <dd>
@@ -605,7 +605,7 @@ template&lt;class OutputIterator , class Creator &gt; </div>
 <li><code>Creator</code> must be a function object accepting two <code>double</code> values \( x\) and \( y\) and returning an initialized point <code>(x,y)</code> of type <code>P</code>. Predefined implementations for these creators like the default can be found in Section <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/STL_Extension.tag:../STL_Extension/" href="../STL_Extension/group__STLCreators.html">Creator Function Objects</a>.</li>
 <li>The <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/classOutputIterator.html">OutputIterator</a></code> must accept values of type <code>P</code>. If the <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/classOutputIterator.html">OutputIterator</a></code> has a <code>value_type</code> the default initializer of the <code>creator</code> can be used. <code>P</code> is set to the <code>value_type</code> in this case.</li>
 </ul>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="group__PkgGeneratorsRef.html#gafacf70e214daa1206eb1e20b35bb8b64" title="perturbs each point in a given range of points by a random amount. ">CGAL::perturb_points_2()</a></code> </dd>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="group__PkgGeneratorsRef.html#gafacf70e214daa1206eb1e20b35bb8b64" title="perturbs each point in a given range of points by a random amount. ">CGAL::perturb_points_2()</a></code> </dd>
 <dd>
 <code><a class="el" href="group__PkgGeneratorsRef.html#ga58b8faf4c090fc9b367f51d9004cde4c" title="generates a set of points equally spaced on a segment given the endpoints of the segment. ">CGAL::points_on_segment_2()</a></code> </dd>
 <dd>
@@ -683,7 +683,7 @@ template&lt;class RandomAccessIterator , class OutputIterator , class Creator &g
 <li>The <code>value_type</code> of the <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/classRandomAccessIterator.html">RandomAccessIterator</a></code> must be assignable to <code>P</code>. <code>P</code> is equal to the <code>value_type</code> of the <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/classRandomAccessIterator.html">RandomAccessIterator</a></code> when using the default initializer.</li>
 <li>The expressions <code>to_double((*first).x())</code> and <code>to_double((*first).y())</code> must result in the respective coordinate values.</li>
 </ul>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="group__PkgGeneratorsRef.html#gafacf70e214daa1206eb1e20b35bb8b64" title="perturbs each point in a given range of points by a random amount. ">CGAL::perturb_points_2()</a></code> </dd>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="group__PkgGeneratorsRef.html#gafacf70e214daa1206eb1e20b35bb8b64" title="perturbs each point in a given range of points by a random amount. ">CGAL::perturb_points_2()</a></code> </dd>
 <dd>
 <code><a class="el" href="group__PkgGeneratorsRef.html#ga58b8faf4c090fc9b367f51d9004cde4c" title="generates a set of points equally spaced on a segment given the endpoints of the segment. ">CGAL::points_on_segment_2()</a></code> </dd>
 <dd>
@@ -761,7 +761,7 @@ template&lt;class OutputIterator , class Traits , class Generator &gt; </div>
 <li><code>Traits</code> is a model of the concept <code><a class="el" href="classRandomConvexHullTraits__2.html" title="The concept RandomConvexHullTraits_2 describes the requirements for the traits class used by the func...">RandomConvexHullTraits_2</a></code>.</li>
 <li>The <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/classOutputIterator.html">OutputIterator</a></code> must accept values of type <code>Traits::Point_2</code>.</li>
 </ul>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="group__PkgGeneratorsRef.html#gaa8cb58e4cc9ab9e225808799b1a61174" title="computes a random simple polygon by writing its vertices (oriented counterclockwise) to result...">CGAL::random_polygon_2()</a></code> </dd>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="group__PkgGeneratorsRef.html#gaa8cb58e4cc9ab9e225808799b1a61174" title="computes a random simple polygon by writing its vertices (oriented counterclockwise) to result...">CGAL::random_polygon_2()</a></code> </dd>
 <dd>
 <code><a class="el" href="group__PkgGeneratorsRef.html#ga48fe050c898078e688376009dc60b232" title="computes a random convex planar point set of given size where the points are drawn from a specific do...">CGAL::random_convex_set_2()</a></code></dd></dl>
 <p><b>Implementation</b><br />
@@ -827,7 +827,7 @@ template&lt;class OutputIterator , class PointGenerator , class Traits &gt; </di
 <li><code>Point_generator::value_type</code> is equivalent to <code>Traits::Point_2</code> and <code>OutputIterator::value_type</code>.</li>
 <li>if <code>Traits</code> is not specified, <code>Point_generator::value_type</code> must be <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Kernel_23.tag:../Kernel_23/" href="../Kernel_23/classCGAL_1_1Point__2.html">Point_2</a>&lt; R &gt;</code> for some representation class <code>R</code>,</li>
 </ul>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="classCGAL_1_1Random__points__in__square__2.html" title="The class Random_points_in_square_2 is an input iterator creating points uniformly distributed in a h...">CGAL::Random_points_in_square_2</a>&lt;<a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Kernel_23.tag:../Kernel_23/" href="../Kernel_23/classCGAL_1_1Point__2.html">Point_2</a>, Creator&gt;</code> </dd>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="classCGAL_1_1Random__points__in__square__2.html" title="The class Random_points_in_square_2 is an input iterator creating points uniformly distributed in a h...">CGAL::Random_points_in_square_2</a>&lt;<a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Kernel_23.tag:../Kernel_23/" href="../Kernel_23/classCGAL_1_1Point__2.html">Point_2</a>, Creator&gt;</code> </dd>
 <dd>
 <code><a class="el" href="classCGAL_1_1Random__points__in__disc__2.html" title="The class Random_points_in_disc_2 is an input iterator creating points uniformly distributed in an op...">CGAL::Random_points_in_disc_2</a>&lt;<a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Kernel_23.tag:../Kernel_23/" href="../Kernel_23/classCGAL_1_1Point__2.html">Point_2</a>, Creator&gt;</code></dd></dl>
 <p><b>Implementation</b><br />
@@ -893,7 +893,7 @@ template&lt;class OutputIterator , class PointGenerator , class Traits &gt; </di
 <li><code><a class="el" href="classPointGenerator.html#a011169ebc00b5ac07cfb81158f88b469" title="the type of point being generated. ">PointGenerator::value_type</a></code> is equivalent to <code>Traits::Point_2</code> and <code>OutputIterator::value_type</code>.</li>
 </ul>
 <p>The default traits class <code>Default_traits</code> is the kernel in which <code>Traits::Point_2</code> is defined.</p>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="classCGAL_1_1Random__points__in__disc__2.html" title="The class Random_points_in_disc_2 is an input iterator creating points uniformly distributed in an op...">CGAL::Random_points_in_disc_2</a>&lt;<a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Kernel_23.tag:../Kernel_23/" href="../Kernel_23/classCGAL_1_1Point__2.html">Point_2</a>, Creator&gt;</code> </dd>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="classCGAL_1_1Random__points__in__disc__2.html" title="The class Random_points_in_disc_2 is an input iterator creating points uniformly distributed in an op...">CGAL::Random_points_in_disc_2</a>&lt;<a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Kernel_23.tag:../Kernel_23/" href="../Kernel_23/classCGAL_1_1Point__2.html">Point_2</a>, Creator&gt;</code> </dd>
 <dd>
 <code><a class="el" href="classCGAL_1_1Random__points__in__square__2.html" title="The class Random_points_in_square_2 is an input iterator creating points uniformly distributed in a h...">CGAL::Random_points_in_square_2</a>&lt;<a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Kernel_23.tag:../Kernel_23/" href="../Kernel_23/classCGAL_1_1Point__2.html">Point_2</a>, Creator&gt;</code></dd></dl>
 <p><b>Preconditions</b><br />
@@ -964,7 +964,7 @@ template&lt;class RandomAccessIterator , class Size , class OutputIterator , cla
 
 <p>chooses <code>n</code> items at random from a random access iterator range which is useful to produce degenerate input data sets with multiple entries of identical items. </p>
 <p>The function chooses a random item from the range <code>[first,last)</code> and writes it to <code>result</code>, each item from the range with equal probability, and repeats this \( n\) times, thus writing <code>n</code> items to <code>result</code>. A single random number is needed from <code>rnd</code> for each item. Returns the value of <code>result</code> after inserting the <code>n</code> items. </p><dl class="section pre"><dt>Precondition</dt><dd><code><a class="el" href="classCGAL_1_1Random.html" title="The class Random is a random numbers generator. ">Random</a></code> is a random number generator type as provided by the STL or by <code><a class="el" href="classCGAL_1_1Random.html" title="The class Random is a random numbers generator. ">Random</a></code>.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="group__PkgGeneratorsRef.html#gafacf70e214daa1206eb1e20b35bb8b64" title="perturbs each point in a given range of points by a random amount. ">CGAL::perturb_points_2()</a></code> </dd></dl>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="group__PkgGeneratorsRef.html#gafacf70e214daa1206eb1e20b35bb8b64" title="perturbs each point in a given range of points by a random amount. ">CGAL::perturb_points_2()</a></code> </dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="Generator_2random_degenerate_point_set_8cpp-example.html#a5">Generator/random_degenerate_point_set.cpp</a>.</dd>
 </dl>
 </div>

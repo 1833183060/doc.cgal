@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - Algebraic Kernel", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#Algebraic_kernel_dIntroduction", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#Algebraic_kernel_dIntroduction", null ],
       [ "Algebraic Kernel Concepts", "index.html#Algebraic_kernel_dAlgebraic", [
         [ "Univariate Algebraic Kernel", "index.html#Algebraic_kernel_dUnivariateAlgebraicKernel", null ],
         [ "Major Types", "index.html#Algebraic_kernel_dMajorTypes", null ],
@@ -17,22 +17,22 @@ var NAVTREE =
         [ "Generic Algebraic Kernels", "index.html#Algebraic_kernel_dGenericAlgebraicKernels", null ],
         [ "Algebraic Kernels Based on RS", "index.html#Algebraic_kernel_dAlgebraicKernelsBasedon", null ]
       ] ],
-      [ "Examples", "index.html#Algebraic_kernel_dExamples", [
+      [ "示例", "index.html#Algebraic_kernel_dExamples", [
         [ "Construction of Algebraic Real Numbers", "index.html#CGALAK1ConstructionExamples", null ],
         [ "Solving Univariate Polynomials", "index.html#CGALAK1Solving", null ],
         [ "Comparison and Approximation of Algebraic Real Numbers", "index.html#CGALAK1EGCompare_1", null ],
         [ "Isolation of Algebraic Real Numbers with respect to roots of other polynomials", "index.html#CGALAK1EGIsolate_1", null ],
         [ "Interplay with Polynomials", "index.html#CGALAK1EGSign_at_1", null ]
       ] ],
-      [ "Design and Implementation History", "index.html#Algebraic_kernel_dDesign", null ]
+      [ "设计与实现历史", "index.html#Algebraic_kernel_dDesign", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

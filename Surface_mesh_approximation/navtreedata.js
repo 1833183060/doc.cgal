@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - Triangulated Surface Mesh Approximation", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#sma_introduction", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#sma_introduction", null ],
       [ "Overview", "index.html#sma_overview", [
         [ "Approximation", "index.html#sma_approximation", [
           [ "Clustering Iteration", "index.html#sma_clustering", null ],
@@ -18,7 +18,7 @@ var NAVTREE =
         ] ],
         [ "API", "index.html#sma_api", null ]
       ] ],
-      [ "Examples", "index.html#sma_examples", [
+      [ "示例", "index.html#sma_examples", [
         [ "Free Function Approximation", "index.html#sma_example1", null ],
         [ "Free Function Segmentation", "index.html#sma_example2", null ],
         [ "Class Interface", "index.html#sma_example3", null ],
@@ -26,14 +26,14 @@ var NAVTREE =
       ] ],
       [ "Performances", "index.html#sma_perf", null ],
       [ "Background", "index.html#sma_background", null ],
-      [ "Design and Implementation History", "index.html#sma_history", null ]
+      [ "设计与实现历史", "index.html#sma_history", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

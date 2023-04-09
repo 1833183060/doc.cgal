@@ -1,10 +1,10 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - dD Range and Segment Trees", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#SearchStructuresIntroduction", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#SearchStructuresIntroduction", null ],
       [ "Definitions", "index.html#SearchStructuresDefinitions", null ],
-      [ "Software Design", "index.html#SearchStructuresSoftware", null ],
+      [ "软件设计", "index.html#SearchStructuresSoftware", null ],
       [ "Creating an Arbitrary Multilayer Tree", "index.html#general", null ],
       [ "Range Trees", "index.html#secrange_trees", [
         [ "Example for Range Tree on Map-like Data", "index.html#secrange_tree_ex", null ],
@@ -15,11 +15,11 @@ var NAVTREE =
         [ "Example for Segment Tree on Set-like Data", "index.html#SearchStructuresExampleforSegmentTreeonSetlike", null ]
       ] ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ]
   ] ]
 ];
 

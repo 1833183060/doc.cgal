@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - Triangulated Surface Mesh Segmentation", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#Surface_mesh_segmentationIntroduction", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#Surface_mesh_segmentationIntroduction", null ],
       [ "Overview of the Segmentation Process", "index.html#Surface_mesh_segmentationOverviewoftheSegmentation", [
         [ "Shape Diameter Function", "index.html#Surface_mesh_segmentationShapeDiameterFunction", [
           [ "Computing Raw SDF Values", "index.html#Surface_mesh_segmentationRawSDF", null ],
@@ -12,7 +12,7 @@ var NAVTREE =
         [ "Hard clustering", "index.html#Surface_mesh_segmentationGraphCut", null ],
         [ "Summary", "index.html#Surface_mesh_segmentationAPI", null ]
       ] ],
-      [ "Examples", "index.html#SDFExamples", [
+      [ "示例", "index.html#SDFExamples", [
         [ "Example: Computation of SDF Values", "index.html#Example_1", null ],
         [ "Example: Segmentation from SDF Values", "index.html#Example_2", [
           [ "Computation of SDF Values and Segmentation", "index.html#Example_3", null ]
@@ -22,14 +22,14 @@ var NAVTREE =
         [ "Independent TriangleMesh per Segment", "index.html#Surface_mesh_segmentationIndependentmeshpersegment", null ]
       ] ],
       [ "Performances", "index.html#Performances", null ],
-      [ "Design and Implementation History", "index.html#Surface_mesh_segmentationImplementationhistory", null ]
+      [ "设计与实现历史", "index.html#Surface_mesh_segmentationImplementationhistory", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

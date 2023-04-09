@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 3D Periodic Mesh Generation", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#Periodic_3_mesh_3_section_intro", [
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#Periodic_3_mesh_3_section_intro", [
         [ "Relation to the 3D Mesh Generation and 3D Periodic Triangulations Packages", "index.html#Periodic_3_mesh_3Mesh_3", null ],
         [ "Input Domain", "index.html#Periodic_3_mesh_3InputDomain", [
           [ "Implicit Domains", "index.html#Periodic_3_mesh_3ImplicitInputDomain", null ],
@@ -20,7 +20,7 @@ var NAVTREE =
         [ "The Domain Oracle and the Features Parameter", "index.html#Periodic_3_mesh_3TheDomainOracleandtheFeaturesParameter", null ],
         [ "The Meshing Criteria", "index.html#Periodic_3_mesh_3TheMeshingCriteria", null ]
       ] ],
-      [ "Examples", "index.html#Periodic_3_mesh_3_section_examples", [
+      [ "示例", "index.html#Periodic_3_mesh_3_section_examples", [
         [ "Visualizing Multiple Copies of a Periodic Mesh", "index.html#Periodic_3_mesh_3SubMultipleCopies", null ],
         [ "3D Periodic Domains Bounded by Implicit Isosurfaces", "index.html#Periodic_3_mesh_33DDomainsImplicitIsosurfaces", [
           [ "Meshing the Interior and the Exterior of a Domain Bounded by an Isosurface", "index.html#Periodic_3_mesh_33DDomainsImplicitIsosurfacesBothSides", null ]
@@ -33,17 +33,17 @@ var NAVTREE =
         ] ],
         [ "Further Examples", "index.html#Periodic_3_mesh_3ComplexExamples", null ]
       ] ],
-      [ "Design and Implementation History", "index.html#Periodic_3_mesh_3DesignAndImpl", [
+      [ "设计与实现历史", "index.html#Periodic_3_mesh_3DesignAndImpl", [
         [ "Theoretical Foundations", "index.html#Periodic_3_mesh_3TheoreticalFoundations", null ],
         [ "Implementation History", "index.html#Periodic_3_mesh_3ImplementationHistory", null ]
       ] ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

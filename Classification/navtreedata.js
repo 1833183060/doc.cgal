@@ -1,7 +1,7 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - Classification", "index.html", [
-    [ "User Manual", "index.html", [
+    [ "用户手册", "index.html", [
       [ "Package Organization", "index.html#Classification_Organization", null ],
       [ "Common Data Structures", "index.html#Classification_structures", [
         [ "Label Set", "index.html#Classification_labels", null ],
@@ -40,12 +40,12 @@ var NAVTREE =
       ] ],
       [ "History", "index.html#Classification_history", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

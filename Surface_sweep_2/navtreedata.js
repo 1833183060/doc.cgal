@@ -1,14 +1,14 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 2D Intersection of Curves", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#Surface_sweep_2Introduction", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#Surface_sweep_2Introduction", null ],
       [ "Example", "index.html#Surface_sweep_2Example", null ],
-      [ "Design and Implementation History", "index.html#Surface_sweep_2Design", null ]
+      [ "设计与实现历史", "index.html#Surface_sweep_2Design", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考手册", "modules.html", "modules" ],
+    [ "参考文献", "citelist.html", null ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

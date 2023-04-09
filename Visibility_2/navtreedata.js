@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 2D Visibility", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#visibility_2_introduction", [
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#visibility_2_introduction", [
         [ "Degeneracies and Regularization", "index.html#visibility_2_degeneracies", null ]
       ] ],
       [ "Classes and Algorithms", "index.html#visibility_2_classes", null ],
@@ -11,12 +11,12 @@ var NAVTREE =
       [ "Example of Visibility in a Polygon with Holes", "index.html#general_polygon_example", null ],
       [ "Implementation History", "index.html#implementation_history", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

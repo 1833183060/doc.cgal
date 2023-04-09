@@ -1,13 +1,13 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 3D Periodic Triangulations", "index.html", [
-    [ "User Manual", "index.html", [
+    [ "用户手册", "index.html", [
       [ "The Flat Torus", "index.html#P3Triangulation3secspace", null ],
       [ "Representation", "index.html#P3Triangulation3secintro", null ],
       [ "Delaunay Triangulation", "index.html#Periodic_3_triangulation_3Delaunay", null ],
       [ "Regular Triangulation", "index.html#Periodic_3_triangulation_3regular", null ],
       [ "Triangulation Hierarchy", "index.html#Periodic_3_triangulation_3Triangulation", null ],
-      [ "Software Design", "index.html#P3Triangulation3secdesign", [
+      [ "软件设计", "index.html#P3Triangulation3secdesign", [
         [ "The Geometric Traits Parameter", "index.html#P3Triangulation3secTraits", [
           [ "Traits for Periodic Triangulations", "index.html#P3Triangulation3secTraitsP3T3", null ],
           [ "Traits for Periodic Delaunay Triangulations", "index.html#P3Triangulation3secTraitsP3DT3", null ],
@@ -17,7 +17,7 @@ var NAVTREE =
         [ "The Triangulation Data Structure Parameter", "index.html#P3Triangulation3sectds", null ],
         [ "Flexibility of the Design", "index.html#Periodic_3_triangulation_3Flexibilityofthe", null ]
       ] ],
-      [ "Examples", "index.html#P3Triangulation3secexamples", [
+      [ "示例", "index.html#P3Triangulation3secexamples", [
         [ "Basic Example", "index.html#Periodic_3_triangulation_3BasicExample", null ],
         [ "Changing the Vertex Base", "index.html#Periodic_3_triangulation_3ChangingtheVertex", [
           [ "Adding a Color", "index.html#P3Triangulation3secexamplescolor", null ],
@@ -35,15 +35,15 @@ var NAVTREE =
         ] ],
         [ "Periodic Alpha Shapes", "index.html#Periodic_3_triangulation_3PeriodicAlphaShapes", null ]
       ] ],
-      [ "Design and Implementation History", "index.html#Periodic_3_triangulation_3Design", null ]
+      [ "设计与实现历史", "index.html#Periodic_3_triangulation_3Design", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

@@ -1,9 +1,9 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - Halfedge Data Structures", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#HalfedgeDSIntroduction", null ],
-      [ "Software Design", "index.html#HalfedgeDSSoftware", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#HalfedgeDSIntroduction", null ],
+      [ "软件设计", "index.html#HalfedgeDSSoftware", null ],
       [ "Example Programs", "index.html#HalfedgeDSExample", [
         [ "The Default Halfedge Data Structure", "index.html#HalfedgeDSTheDefaultHalfedgeDataStructure", null ],
         [ "A Minimal Halfedge Data Structure", "index.html#HalfedgeDSAMinimalHalfedgeDataStructure", null ],
@@ -14,13 +14,13 @@ var NAVTREE =
         [ "Example for an Adapter to Build an Edge Iterator", "index.html#HalfedgeDSExampleforanAdaptertoBuildanEdge", null ]
       ] ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

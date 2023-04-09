@@ -1,9 +1,9 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 2D Polygons", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#secPolygonIntroduction", null ],
-      [ "Examples", "index.html#secPolygonExamples", [
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#secPolygonIntroduction", null ],
+      [ "示例", "index.html#secPolygonExamples", [
         [ "The Polygon Class", "index.html#subsecPolygon", null ],
         [ "Algorithms Operating on Sequences of Points", "index.html#subsecPolygonAlgorithms", null ],
         [ "Polygons in 3D Space", "index.html#subsecPolygon3D", null ],
@@ -11,12 +11,12 @@ var NAVTREE =
         [ "Draw a Polygon", "index.html#subsecPolygonDraw", null ]
       ] ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

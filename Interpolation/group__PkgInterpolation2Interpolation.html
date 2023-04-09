@@ -263,7 +263,7 @@ template&lt;class CoordinateInputIterator , class ValueFunctor , class GradFunct
 </p>
 <p>Same requirements as the function <code><a class="el" href="group__PkgInterpolation2Interpolation.html#ga2f6df3dd458c7638a526a41f1bee55b3" title="The function sibson_c1_interpolation() generates the interpolated function value at the point p...">sibson_c1_interpolation()</a></code>, but the input iterator must provide random access (be a model of <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/classRandomAccessIterator.html">RandomAccessIterator</a></code>) and <code>Traits::FT</code> does not need to provide the square root operation.</p>
 <dl class="section pre"><dt>Precondition</dt><dd>The range <code>[first, beyond)</code> contains either one or more than three elements. The function <code><a class="el" href="group__PkgInterpolation2Interpolation.html#ga40856de51734ae1b1882cb46e8195c93" title="Generates the interpolated function value computed by Farin's interpolant. ">farin_c1_interpolation()</a></code> interpolates the function values and the gradients that are provided by functors using the method described in <a class="el" href="citelist.html#CITEREF_f-sodt-90">[4]</a>.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="group__PkgInterpolation2Interpolation.html#ga2f6df3dd458c7638a526a41f1bee55b3" title="The function sibson_c1_interpolation() generates the interpolated function value at the point p...">CGAL::sibson_c1_interpolation()</a></code> </dd></dl>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="group__PkgInterpolation2Interpolation.html#ga2f6df3dd458c7638a526a41f1bee55b3" title="The function sibson_c1_interpolation() generates the interpolated function value at the point p...">CGAL::sibson_c1_interpolation()</a></code> </dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="Interpolation_2interpolation_2_8cpp-example.html#a8">Interpolation/interpolation_2.cpp</a>.</dd>
 </dl>
 </div>
@@ -340,7 +340,7 @@ template&lt;class CoordinateInputIterator , class ValueFunctor &gt; </div>
 <code>first != beyond</code>. </dd>
 <dd>
 <code>value_function(p.first).second == true</code> for all pairs <code>p</code> in the range <code>[first, beyond)</code>.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="group__PkgInterpolation2Interpolation.html#ga50aa68e988b099a99533f26872c639f5" title="The function quadratic_interpolation() generates the interpolated function value as the weighted sum ...">CGAL::quadratic_interpolation()</a></code> </dd>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="group__PkgInterpolation2Interpolation.html#ga50aa68e988b099a99533f26872c639f5" title="The function quadratic_interpolation() generates the interpolated function value as the weighted sum ...">CGAL::quadratic_interpolation()</a></code> </dd>
 <dd>
 <code><a class="el" href="group__PkgInterpolationNaturalNeighborCoordinates2.html" title="The functions natural_neighbor_coordinates_2() compute natural neighbor coordinates, also called Sibson's coordinates, for 2D points provided a two-dimensional triangulation and a query point in the convex hull of the vertices of the triangulation. ">CGAL::natural_neighbor_coordinates_2()</a></code> </dd>
 <dd>
@@ -446,7 +446,7 @@ and <code>std::iterator_traits&lt;CoordinateInputIterator&gt;::value_type::secon
 <code>first != beyond</code>. </dd>
 <dd>
 <code>value_function(p.first).second == true</code> for pairs <code>p</code> in the range <code>[first, beyond)</code></dd></dl>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="group__PkgInterpolation2Interpolation.html#ga2f8a2f88b5b91b9f3db2d5e40bfa1df7" title="The function linear_interpolation() computes the weighted sum of the function values which must be pr...">CGAL::linear_interpolation()</a></code> </dd>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="group__PkgInterpolation2Interpolation.html#ga2f8a2f88b5b91b9f3db2d5e40bfa1df7" title="The function linear_interpolation() computes the weighted sum of the function values which must be pr...">CGAL::linear_interpolation()</a></code> </dd>
 <dd>
 <code><a class="el" href="classCGAL_1_1Interpolation__traits__2.html" title="Interpolation_traits_2 is a model for the concept InterpolationTraits and can be used to instantiate ...">CGAL::Interpolation_traits_2</a>&lt;K&gt;</code> </dd>
 <dd>
@@ -554,7 +554,7 @@ and <code>std::iterator_traits&lt;CoordinateInputIterator&gt;::value_type::secon
 <code>first != beyond</code>. </dd>
 <dd>
 <code>value_function(q).second == true</code> for all points <code>q</code> of the point/coordinate pairs in the range <code>[first, beyond)</code></dd></dl>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="classCGAL_1_1Interpolation__traits__2.html" title="Interpolation_traits_2 is a model for the concept InterpolationTraits and can be used to instantiate ...">CGAL::Interpolation_traits_2</a>&lt;K&gt;</code> </dd>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="classCGAL_1_1Interpolation__traits__2.html" title="Interpolation_traits_2 is a model for the concept InterpolationTraits and can be used to instantiate ...">CGAL::Interpolation_traits_2</a>&lt;K&gt;</code> </dd>
 <dd>
 <code><a class="el" href="group__PkgInterpolation2Interpolation.html#ga1f84e03a02a6602d45c26f600a6d225b" title="Same as sibson_c1_interpolation(), except that no square root operation is required for the number ty...">CGAL::sibson_c1_interpolation_square()</a></code> </dd>
 <dd>
@@ -628,7 +628,7 @@ template&lt;class CoordinateInputIterator , class ValueFunctor , class GradFunct
 <p><code>#include &lt;CGAL/interpolation_functions.h&gt;</code></p>
 
 <p>Same as <code><a class="el" href="group__PkgInterpolation2Interpolation.html#ga2f6df3dd458c7638a526a41f1bee55b3" title="The function sibson_c1_interpolation() generates the interpolated function value at the point p...">sibson_c1_interpolation()</a></code>, except that no square root operation is required for the number type <code>Traits::FT</code>. </p>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="group__PkgInterpolation2Interpolation.html#ga2f6df3dd458c7638a526a41f1bee55b3" title="The function sibson_c1_interpolation() generates the interpolated function value at the point p...">CGAL::sibson_c1_interpolation()</a></code> </dd></dl>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="group__PkgInterpolation2Interpolation.html#ga2f6df3dd458c7638a526a41f1bee55b3" title="The function sibson_c1_interpolation() generates the interpolated function value at the point p...">CGAL::sibson_c1_interpolation()</a></code> </dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="Interpolation_2interpolation_2_8cpp-example.html#a10">Interpolation/interpolation_2.cpp</a>, <a class="el" href="Interpolation_2sibson_interpolation_2_8cpp-example.html#a6">Interpolation/sibson_interpolation_2.cpp</a>, and <a class="el" href="Interpolation_2sibson_interpolation_vertex_with_info_2_8cpp-example.html#a9">Interpolation/sibson_interpolation_vertex_with_info_2.cpp</a>.</dd>
 </dl>
 </div>

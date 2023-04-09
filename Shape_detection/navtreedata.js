@@ -1,11 +1,11 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - Shape Detection", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#Shape_detection_Introduction", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#Shape_detection_Introduction", null ],
       [ "Efficient RANSAC", "index.html#Shape_detection_RANSAC", [
         [ "Parameters", "index.html#Shape_detection_RANSACParameters", null ],
-        [ "Examples", "index.html#Shape_detection_RANSACExamples", [
+        [ "示例", "index.html#Shape_detection_RANSACExamples", [
           [ "Basic Plane Detection", "index.html#Shape_detection_RANSACExample_basic", null ],
           [ "Plane Detection With Callback", "index.html#Shape_detection_RANSACExample_with_callback", null ],
           [ "Setting Parameters And Using Different Shape Types", "index.html#Shape_detection_RANSACExample_with_parameters", null ],
@@ -19,11 +19,11 @@ var NAVTREE =
           [ "Neighborhood", "index.html#Shape_detection_RegionGrowingFramework_connectivity", null ],
           [ "Regions", "index.html#Shape_detection_RegionGrowingFramework_conditions", null ],
           [ "Seeding", "index.html#Shape_detection_RegionGrowingFramework_seeding", null ],
-          [ "Examples", "index.html#Shape_detection_RegionGrowingFramework_examples", null ]
+          [ "示例", "index.html#Shape_detection_RegionGrowingFramework_examples", null ]
         ] ],
         [ "Point Set", "index.html#Shape_detection_RegionGrowingPoints", [
           [ "Parameters", "index.html#Shape_detection_RegionGrowingPoints_parameters", null ],
-          [ "Examples", "index.html#Shape_detection_RegionGrowingPoints_examples", [
+          [ "示例", "index.html#Shape_detection_RegionGrowingPoints_examples", [
             [ "Detecting 2D Lines", "index.html#Shape_detection_RegionGrowingPoints_example_2D_lines", null ],
             [ "Detecting 2D Circles", "index.html#Shape_detection_RegionGrowingPoints_example_2D_circles", null ],
             [ "Detecting 3D Planes", "index.html#Shape_detection_RegionGrowingPoints_example_3D_planes", null ],
@@ -34,7 +34,7 @@ var NAVTREE =
         ] ],
         [ "Polygon Mesh", "index.html#Shape_detection_RegionGrowingMesh", [
           [ "Parameters", "index.html#Shape_detection_RegionGrowingMesh_parameters", null ],
-          [ "Examples", "index.html#Shape_detection_RegionGrowingMesh_examples", null ],
+          [ "示例", "index.html#Shape_detection_RegionGrowingMesh_examples", null ],
           [ "Performance", "index.html#Shape_detection_RegionGrowingMesh_performance", null ]
         ] ]
       ] ],
@@ -43,12 +43,12 @@ var NAVTREE =
       [ "History", "index.html#Shape_detection_History", null ],
       [ "Acknowledgments", "index.html#Shape_detection_Acknowledgments", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

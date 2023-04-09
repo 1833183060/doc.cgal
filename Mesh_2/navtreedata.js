@@ -1,7 +1,7 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 2D Conforming Triangulations and Meshes", "index.html", [
-    [ "User Manual", "index.html", [
+    [ "用户手册", "index.html", [
       [ "Conforming Triangulations", "index.html#secMesh_2_conforming_triangulation", [
         [ "Definitions", "index.html#secMesh_2_conforming_definitions", null ],
         [ "Building Conforming Triangulations", "index.html#secMesh_2_building_conforming", null ],
@@ -13,7 +13,7 @@ var NAVTREE =
         [ "The Meshing Algorithm", "index.html#Mesh_2TheMeshingAlgorithm", null ],
         [ "Building Meshes", "index.html#secMesh_2_building_meshes", null ],
         [ "Optimization of Meshes with Lloyd", "index.html#secMesh_2_optimization", null ],
-        [ "Examples", "index.html#Mesh_2Examples", [
+        [ "示例", "index.html#Mesh_2Examples", [
           [ "Example Using the Global Function", "index.html#Mesh_2ExampleUsingtheGlobalFunction", null ],
           [ "Example Using the Class Delaunay_mesher_2<CDT>", "index.html#Mesh_2ExampleUsingtheClass", null ],
           [ "Example Using Seeds", "index.html#Mesh_2ExampleUsingSeeds", null ],
@@ -22,13 +22,13 @@ var NAVTREE =
       ] ],
       [ "Input/Output", "index.html#secMesh_2_IO", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

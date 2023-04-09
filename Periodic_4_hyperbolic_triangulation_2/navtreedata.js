@@ -1,27 +1,27 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 2D Periodic Hyperbolic Triangulations", "index.html", [
-    [ "User Manual", "index.html", [
+    [ "用户手册", "index.html", [
       [ "The Bolza Surface", "index.html#P4HT2_thespace", null ],
       [ "Representation", "index.html#P4HT2_representation", [
         [ "Data Structure", "index.html#P4HT2_Data_structure", null ],
         [ "Simplicial Embedding Condition", "index.html#P4HT2_Embedding_condition", null ]
       ] ],
-      [ "Software Design", "index.html#P4HT2_design", [
+      [ "软件设计", "index.html#P4HT2_design", [
         [ "The Geometric Traits Parameter", "index.html#P4HT2_traits", null ],
         [ "The Triangulation Data Structure Parameter", "index.html#P4HT2_datastructure", null ]
       ] ],
       [ "Example", "index.html#P4HT2_examples", null ],
       [ "Performance", "index.html#P4HT2_Performance", null ],
-      [ "Design and Implementation History", "index.html#P4HT2_Design", null ]
+      [ "设计与实现历史", "index.html#P4HT2_Design", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

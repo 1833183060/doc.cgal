@@ -1,9 +1,9 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - Linear Cell Complex", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#Linear_cell_complexIntroduction", null ],
-      [ "Software Design", "index.html#Linear_cell_complexSoftware", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#Linear_cell_complexIntroduction", null ],
+      [ "软件设计", "index.html#Linear_cell_complexSoftware", null ],
       [ "Linear Cell Complex", "index.html#sseclinearcellcomplex", [
         [ "Cell Attributes", "index.html#Linear_cell_complexCellAttributes", null ],
         [ "Linear Cell Complex Traits", "index.html#Linear_cell_complexLinearCellComplexTraits", null ],
@@ -14,21 +14,21 @@ var NAVTREE =
         [ "Construction Operations", "index.html#Linear_cell_complexConstructionOperations", null ],
         [ "Modification Operations", "index.html#Linear_cell_complexModificationOperations", null ]
       ] ],
-      [ "Examples", "index.html#Linear_cell_complexExamples", [
+      [ "示例", "index.html#Linear_cell_complexExamples", [
         [ "A 3D Linear Cell Complex", "index.html#Linear_cell_complexA3DLinearCellComplex", null ],
         [ "A 4D Linear Cell Complex", "index.html#Linear_cell_complexA4DLinearCellComplex", null ],
         [ "A 3D Linear Cell Complex with Colored Vertices", "index.html#Linear_cell_complexA3DLinearCellComplexwith", null ],
         [ "Automatic Attribute Management", "index.html#Linear_cell_complexAutomaticAttributesManagement", null ],
         [ "Draw a Linear Cell Complex", "index.html#Linear_cell_complexDraw", null ]
       ] ],
-      [ "Design and Implementation History", "index.html#Linear_cell_complexDesign", null ]
+      [ "设计与实现历史", "index.html#Linear_cell_complexDesign", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

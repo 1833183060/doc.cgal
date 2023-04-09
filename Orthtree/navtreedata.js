@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - Quadtrees, Octrees, and Orthtrees", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#Section_Orthtree_Introduction", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#Section_Orthtree_Introduction", null ],
       [ "Building", "index.html#Section_Orthtree_Building", [
         [ "Building a Quadtree", "index.html#Section_Orthtree_Quadtree", null ],
         [ "Building an Octree", "index.html#Section_Orthtree_Point_Vector", null ],
@@ -26,11 +26,11 @@ var NAVTREE =
       ] ],
       [ "History", "index.html#Section_Orthtree_History", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

@@ -1,7 +1,7 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - Linear and Quadratic Programming Solver", "index.html", [
-    [ "User Manual", "index.html", [
+    [ "用户手册", "index.html", [
       [ "Which Programs can be Solved?", "index.html#secQPdef", null ],
       [ "Design, Efficiency, and Robustness", "index.html#QP_solverDesign", [
         [ "Efficiency", "index.html#QP_solverEfficiency", null ],
@@ -32,12 +32,12 @@ var NAVTREE =
         [ "d=500, n=1,000", "index.html#QP_solverBenchd500", null ]
       ] ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

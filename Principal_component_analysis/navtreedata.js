@@ -1,9 +1,9 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - Principal Component Analysis", "index.html", [
-    [ "User Manual", "index.html", [
+    [ "用户手册", "index.html", [
       [ "Definitions", "index.html#Principal_component_analysisDefinitions", null ],
-      [ "Examples", "index.html#subsecpca_examples", [
+      [ "示例", "index.html#subsecpca_examples", [
         [ "Bounding Box of 2D and 3D Point Sets", "index.html#Principal_component_analysisBoundingBoxof", null ],
         [ "Centroid of 2D and 3D Objects", "index.html#Principal_component_analysisCentroidof2D", null ],
         [ "Barycenter of a Set of Weighted Points", "index.html#Principal_component_analysisBarycenterof", null ],
@@ -11,8 +11,8 @@ var NAVTREE =
         [ "Least Squares Fitting of a Line and a Plane to a 3D Triangle Set", "index.html#Principal_component_analysisLeastSquares_1", null ]
       ] ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考手册", "modules.html", "modules" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

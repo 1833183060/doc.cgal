@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - Number Types", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#Number_typesIntroduction", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#Number_typesIntroduction", null ],
       [ "Built-in Number Types", "index.html#Number_typesBuilt", null ],
       [ "Number Types Provided by CGAL", "index.html#Number_typesCGAL", null ],
       [ "Number Types Provided by GMP", "index.html#Number_typesGMP", null ],
@@ -10,14 +10,14 @@ var NAVTREE =
       [ "Number Types Provided by CORE", "index.html#Number_typesCORE", null ],
       [ "Interval Arithmetic", "index.html#Number_typesInterval", null ],
       [ "User-supplied Number Types", "index.html#Number_typesUser", null ],
-      [ "Design and Implementation History", "index.html#Number_typesDesign", null ]
+      [ "设计与实现历史", "index.html#Number_typesDesign", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
     [ "File List", "files.html", "files" ]
   ] ]
 ];

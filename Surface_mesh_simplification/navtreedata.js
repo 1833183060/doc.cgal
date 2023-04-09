@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - Triangulated Surface Mesh Simplification", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#Surface_mesh_simplificationIntroduction", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#Surface_mesh_simplificationIntroduction", null ],
       [ "Overview of the Simplification Process", "index.html#Surface_mesh_simplificationOverview", null ],
       [ "Cost Strategy", "index.html#Surface_mesh_simplificationCost", [
         [ "Lindstrom-Turk Cost and Placement Strategy", "index.html#SurfaceMeshSimplificationLindstromTurkStrategy", null ],
@@ -15,7 +15,7 @@ var NAVTREE =
         [ "Optional Named Parameters", "index.html#Surface_mesh_simplificationOptionalNamed", null ],
         [ "Sample Call", "index.html#Surface_mesh_simplificationSampleCall", null ]
       ] ],
-      [ "Examples", "index.html#Surface_mesh_simplificationExamples", [
+      [ "示例", "index.html#Surface_mesh_simplificationExamples", [
         [ "Example Using a Surface_mesh", "index.html#Surface_mesh_simplificationExampleUsingSurfaceMesh", null ],
         [ "Example Using a Default Polyhedron", "index.html#Surface_mesh_simplificationExampleUsinga", null ],
         [ "Example Using an Enriched Polyhedron", "index.html#Surface_mesh_simplificationExampleUsingan", null ],
@@ -26,16 +26,16 @@ var NAVTREE =
         [ "Example with Visitor", "index.html#Surface_mesh_simplificationExamplewithVisitor", null ],
         [ "Example Using Garland-Heckbert Policies", "index.html#Surface_mesh_simplificationExampleWithGarlandHeckbertUsingAPolyhedron", null ]
       ] ],
-      [ "Design and Implementation History", "index.html#SimplificationDesign", null ]
+      [ "设计与实现历史", "index.html#SimplificationDesign", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

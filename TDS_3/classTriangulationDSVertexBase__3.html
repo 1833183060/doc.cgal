@@ -164,7 +164,7 @@ $(document).ready(function(){initNavTree('classTriangulationDSVertexBase__3.html
 <p>At the bottom level of 3D-triangulations (see Sections <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Triangulation_3.tag:../Triangulation_3/" href="../Triangulation_3/index.html#Triangulation3secdesign">Software Design</a> and <a class="el" href="index.html#TDS3secdesign">Software Design</a>), a vertex provides access to one of its incident cells through a handle.</p>
 <p>Since the Triangulation data structure is the class which defines the handle types, the vertex base class has to be somehow parameterized by the Triangulation data structure. But since it is itself parameterized by the cell and vertex base classes, there is a cycle in the definition of these classes. In order to break the cycle, the base classes for vertex and cell which are given as arguments for the Triangulation data structure use <code>void</code> as Triangulation data structure parameter, and the Triangulation data structure then uses a <em>rebind</em>-like mechanism (similar to the one specified in <code>std::allocator</code>) in order to put itself as parameter to the vertex and cell classes. The <em>rebound</em> base classes so obtained are the classes which are used as base classes for the final vertex and cell classes. More information can be found in Section <a class="el" href="index.html#TDS3secdesign">Software Design</a>.</p>
 <dl class="hasModels"><dt><b><a class="el" href="hasModels.html#_hasModels000003">Has Models:</a></b></dt><dd><code><a class="el" href="classCGAL_1_1Triangulation__ds__vertex__base__3.html" title="The class Triangulation_ds_vertex_base_3 can be used as the base vertex for a 3D-triangulation data s...">CGAL::Triangulation_ds_vertex_base_3</a>&lt;TDS&gt;</code></dd></dl>
-<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="classTriangulationDSCellBase__3.html">TriangulationDSCellBase_3</a></code> </dd>
+<dl class="section see"><dt>另见</dt><dd><code><a class="el" href="classTriangulationDSCellBase__3.html">TriangulationDSCellBase_3</a></code> </dd>
 <dd>
 <code><a class="el" href="classCGAL_1_1Triangulation__data__structure__3.html" title="The class Triangulation_data_structure_3 stores a 3D-triangulation data structure and provides the op...">CGAL::Triangulation_data_structure_3</a>&lt;Vb,Cb&gt;</code> </dd></dl>
 </div><table class="memberdecls">
@@ -239,7 +239,7 @@ template&lt;typename TDS3 &gt; </div>
 
 <p>This template class has to define a type <code>Rebind_TDS&lt;TDS3&gt;::Other</code> which is the <em>rebound</em> vertex, that is, the one whose <code>Triangulation_data_structure</code> will be the actually used one. </p>
 <p><code>Rebind_TDS&lt;TDS3&gt;::Other</code> will be the real base class of <code>Triangulation_data_structure_3::Vertex</code>. </p><dl class="section note"><dt>Note</dt><dd>It can be implemented using a nested template class. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>Section <a class="el" href="index.html#tds3cyclic">Cyclic Dependency</a> </dd></dl>
+<dl class="section see"><dt>另见</dt><dd>Section <a class="el" href="index.html#tds3cyclic">Cyclic Dependency</a> </dd></dl>
 
 </div>
 </div>

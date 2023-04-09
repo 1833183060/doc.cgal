@@ -1,7 +1,7 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - Profiling tools, Hash Map, Union-find, Modifiers", "index.html", [
-    [ "User Manual", "index.html", [
+    [ "用户手册", "index.html", [
       [ "Timers", "index.html#MiscellanyTimers", null ],
       [ "Memory Size", "index.html#MiscellanyMemory", null ],
       [ "Profiling", "index.html#MiscellanyProfiling", null ],
@@ -9,12 +9,12 @@ var NAVTREE =
       [ "Union-find", "index.html#MiscellanyUnion", null ],
       [ "Protected Access to Internal Representations", "index.html#MiscellanyProtected", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

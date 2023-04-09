@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 2D Arrangements", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#aos_sec-intro", [
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#aos_sec-intro", [
         [ "Separation of Topology and Geometry", "index.html#aos_ssec-intro-sep", null ],
         [ "Well-Behaved Curves", "index.html#aos_ssec-intro-well_behaved", null ],
         [ "Outline", "index.html#aos_ssec-intro-outline", null ]
@@ -105,16 +105,16 @@ var NAVTREE =
         [ "The Dual Arrangement Representation", "index.html#arr_ssecbgl_dual", null ]
       ] ],
       [ "How To Speed Up Your Computation", "index.html#aos_sec-tips", null ],
-      [ "Design and Implementation History", "index.html#aos_sec-design", null ]
+      [ "设计与实现历史", "index.html#aos_sec-design", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

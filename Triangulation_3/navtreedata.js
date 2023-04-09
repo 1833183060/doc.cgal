@@ -1,18 +1,18 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 3D Triangulations", "index.html", [
-    [ "User Manual", "index.html", [
+    [ "用户手册", "index.html", [
       [ "Representation", "index.html#Triangulation3secintro", null ],
       [ "Delaunay Triangulation", "index.html#Triangulation_3Delaunay", null ],
       [ "Regular Triangulation", "index.html#Triangulation3secclassRegulartriangulation", null ],
-      [ "Software Design", "index.html#Triangulation3secdesign", [
+      [ "软件设计", "index.html#Triangulation3secdesign", [
         [ "The Geometric Traits Parameter", "index.html#Triangulation3secTraits", null ],
         [ "The Triangulation Data Structure Parameter", "index.html#Triangulation3sectds", null ],
         [ "The Location Policy Parameter", "index.html#Triangulation3seclocpol", null ],
         [ "Flexibility of the Design", "index.html#Triangulation_3FlexibilityoftheDesign", null ],
         [ "Parallel Algorithms", "index.html#Triangulation_3ParallelAlgorithms", null ]
       ] ],
-      [ "Examples", "index.html#Triangulation3secexamples", [
+      [ "示例", "index.html#Triangulation3secexamples", [
         [ "Basic Example", "index.html#Triangulation_3BasicExample", null ],
         [ "Changing the Vertex Base", "index.html#Triangulation_3ChangingtheVertexBase", [
           [ "Adding a Color", "index.html#Triangulation3secexamplescolor", null ],
@@ -42,16 +42,16 @@ var NAVTREE =
         [ "Memory Usage", "index.html#Triangulation_3MemoryUsage", null ],
         [ "Variability Depending on the Data Sets and the Kernel", "index.html#Triangulation_3VariabilityDependingonthe", null ]
       ] ],
-      [ "Design and Implementation History", "index.html#Triangulation_3Design", null ]
+      [ "设计与实现历史", "index.html#Triangulation_3Design", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考文献", "citelist.html", null ],
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

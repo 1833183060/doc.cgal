@@ -1,13 +1,13 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - Convex Decomposition of Polyhedra", "index.html", [
-    [ "User Manual", "index.html", [
-      [ "Introduction", "index.html#Convex_decomposition_3Introduction", null ],
+    [ "用户手册", "index.html", [
+      [ "简介", "index.html#Convex_decomposition_3Introduction", null ],
       [ "Interface and Usage", "index.html#Convex_decomposition_3InterfaceandUsage", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
-    [ "Bibliography", "citelist.html", null ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "参考手册", "modules.html", "modules" ],
+    [ "参考文献", "citelist.html", null ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

@@ -1,7 +1,7 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 3D Point Set", "index.html", [
-    [ "User Manual", "index.html", [
+    [ "用户手册", "index.html", [
       [ "General Principle", "index.html#Point_set_3_Principle", null ],
       [ "Simple Usage", "index.html#Point_set_3_Usage", null ],
       [ "Using Additional Properties", "index.html#Point_set_3_Properties", null ],
@@ -13,11 +13,11 @@ var NAVTREE =
       ] ],
       [ "History", "index.html#Point_set_3_History", null ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Is Model Relationships", "models.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "类和Concept列表", "annotated.html", "annotated" ],
+    [ "示例", "examples.html", "examples" ]
   ] ]
 ];
 

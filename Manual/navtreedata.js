@@ -162,7 +162,7 @@ var NAVTREE =
     ] ],
     [ "Acknowledging CGAL", "how_to_cite_cgal.html", null ],
     [ "Refinement Relationships", "refines.html", null ],
-    [ "Bibliography", "citelist.html", null ]
+    [ "参考文献", "citelist.html", null ]
   ] ]
 ];
 

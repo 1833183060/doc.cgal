@@ -1,7 +1,7 @@
 var NAVTREE =
 [
   [ "CGAL 5.5.2 - 2D Triangulation Data Structure", "index.html", [
-    [ "User Manual", "index.html", [
+    [ "用户手册", "index.html", [
       [ "Definition", "index.html#TDS_2D_Definition", [
         [ "A Data Structure Based on Faces and Vertices", "index.html#TDS_2ADataStructureBasedonFacesandVertices", null ],
         [ "The Set of Faces and Vertices", "index.html#TDS_2TheSetofFacesandVertices", null ]
@@ -14,11 +14,11 @@ var NAVTREE =
         [ "Making Use of the Flexibility", "index.html#TDS_2MakingUseoftheFlexibility", null ]
       ] ]
     ] ],
-    [ "Reference Manual", "modules.html", "modules" ],
+    [ "参考手册", "modules.html", "modules" ],
     [ "Refinement Relationships", "refines.html", null ],
     [ "Is Model Relationships", "models.html", null ],
     [ "Has Model Relationships", "hasModels.html", null ],
-    [ "Class and Concept List", "annotated.html", "annotated" ]
+    [ "类和Concept列表", "annotated.html", "annotated" ]
   ] ]
 ];
 
