@@ -157,12 +157,12 @@ $(document).ready(function(){initNavTree('classCGAL_1_1AABB__polyhedron__triangl
 <div class="contents">
 
 <p><code>#include &lt;CGAL/AABB_polyhedron_triangle_primitive.h&gt;</code></p>
-<a name="details" id="details"></a><h2 class="groupheader">Definition</h2>
+<a name="details" id="details"></a><h2 class="groupheader">定义</h2>
 <div class="textblock"> 
 
 <dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000003">Deprecated:</a></b></dt><dd>This class is deprecated since CGAL 4.3, the class <code><a class="el" href="classCGAL_1_1AABB__face__graph__triangle__primitive.html" title="Primitive type for a facet of a polyhedral surface. ">AABB_face_graph_triangle_primitive</a></code> should be used instead.</dd></dl>
 <p>Primitive type that wraps a facet handle of a polyhedron, which is used as id, and allows the construction of the datum on the fly. Since only the facet handle is stored in this primitive, the polyhedron from which the AABB tree is built should not be deleted while the AABB tree is in use.</p>
-<dl class="models"><dt><b><a class="el" href="models.html#_models000004">Is Model Of:</a></b></dt><dd><code><a class="el" href="classAABBPrimitive.html" title="The concept AABBPrimitive describes the requirements for the primitives stored in the AABB tree data ...">AABBPrimitive</a></code> </dd></dl>
+<dl class="models"><dt><b><a class="el" href="models.html#_models000004">是下面的Concept的模型:</a></b></dt><dd><code><a class="el" href="classAABBPrimitive.html" title="The concept AABBPrimitive describes the requirements for the primitives stored in the AABB tree data ...">AABBPrimitive</a></code> </dd></dl>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">GeomTraits</td><td>must provides a <code>Point_3</code> type, used as <code>Point</code>, and a <code>Triangle_3</code> type, used as <code>Datum</code> and constructible from three arguments of type <code>Point</code>. </td></tr>

@@ -157,7 +157,7 @@ $(document).ready(function(){initNavTree('classSurjectiveLockDataStructure.html'
 <div class="contents">
 
 <p></p>
-<a name="details" id="details"></a><h2 class="groupheader">Definition</h2>
+<a name="details" id="details"></a><h2 class="groupheader">定义</h2>
 <div class="textblock"><p>The concept <code><a class="el" href="classSurjectiveLockDataStructure.html" title="The concept SurjectiveLockDataStructure describes functionalities of a data structure whose goal is t...">SurjectiveLockDataStructure</a></code> describes functionalities of a data structure whose goal is to lock objects in a multi-threaded environment. Such data structures are intended to be used by concurrent algorithms. </p>
 <p> Note that it is allowed to "lock too much". E.g., the data structure might be a voxel grid and locking a point might be locking the voxel containing this point. Thus, a point may also be locked because another point in the same voxel has been locked. The only requirement is that when a thread owns the lock of an object, no other thread can lock the same object.</p>
 <p>We call <code>S</code> the surjective function such that <code>S(object)</code> is the "thing" that is locked when one tries to lock <code>object</code>. In the previous example, <code>S(point)</code> is the voxel containing <code>point</code>.</p>

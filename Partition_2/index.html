@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta name="generator" content="Doxygen 1.8.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CGAL 5.5.2 - 2D Polygon Partitioning: User Manual</title>
+<title>CGAL 5.5.2 - 2D Polygon Partitioning: 用户指南</title>
 <!-- <link href="../Manual/tabs.css" rel="stylesheet" type="text/css"/> -->
 <script type="text/javascript" src="../Manual/jquery.js"></script>
 <script type="text/javascript" src="../Manual/dynsections.js"></script>
@@ -150,12 +150,12 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">User Manual </div>  </div>
+<div class="title">用户指南 </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="Chapter_2D_Polygon_Partitioning"></a><a class="anchor" id="chappolygonpartition"></a> </p><div id="autotoc" class="toc"></div>  <dl class="section author"><dt>Author</dt><dd>Susan Hert</dd></dl>
 <h1><a class="anchor" id="secpartition_2_intro"></a>
-Introduction</h1>
+简介</h1>
 <p>A <em>partition</em> of a polygon \( P\) is a set of polygons such that the interiors of the polygons do not intersect and the union of the polygons is equal to the interior of the original polygon \( P\). This chapter describes functions for partitioning planar polygons into two types of subpolygons - \( y\)-monotone polygons and convex polygons. The partitions are produced without introducing new (Steiner) vertices.</p>
 <p>All the partitioning functions present the same interface to the user. That is, the user provides a pair of input iterators, <code>first</code> and <code>beyond</code>, an output iterator <code>result</code>, and a traits class <code>traits</code>. The points in the range [<code>first</code>, <code>beyond</code>) are assumed to define a simple polygon whose vertices are in counterclockwise order. The computed partition polygons, whose vertices are also oriented counterclockwise, are written to the sequence starting at position <code>result</code> and the past-the-end iterator for the resulting sequence of polygons is returned. The traits classes for the functions specify the types of the input points and output polygons as well as a few other types and function objects that are required by the various algorithms.</p>
 <h1><a class="anchor" id="secpartition_2_monotone"></a>

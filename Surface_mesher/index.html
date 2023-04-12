@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta name="generator" content="Doxygen 1.8.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CGAL 5.5.2 - 3D Surface Mesh Generation: User Manual</title>
+<title>CGAL 5.5.2 - 3D Surface Mesh Generation: 用户指南</title>
 <!-- <link href="../Manual/tabs.css" rel="stylesheet" type="text/css"/> -->
 <script type="text/javascript" src="../Manual/jquery.js"></script>
 <script type="text/javascript" src="../Manual/dynsections.js"></script>
@@ -150,16 +150,16 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">User Manual </div>  </div>
+<div class="title">用户指南 </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="Chapter_3D_Surface_Mesh_Generation"></a> </p><dl class="section author"><dt>Authors</dt><dd>Laurent Rineau and Mariette Yvinec</dd></dl>
+<div class="textblock"><p><a class="anchor" id="Chapter_3D_Surface_Mesh_Generation"></a> </p><dl class="section author"><dt>作者</dt><dd>Laurent Rineau and Mariette Yvinec</dd></dl>
 <p> </p><div id="autotoc" class="toc"></div> 
 <div class="image">
 <img src="segmented_head.png" alt="segmented_head.png" />
 </div>
  <h1><a class="anchor" id="SurfaceMesher_section_intro"></a>
-Introduction</h1>
+简介</h1>
 <p>This package provides a function template to compute a triangular mesh approximating a surface.</p>
 <p>The meshing algorithm requires to know the surface to be meshed only through an oracle able to tell whether a given segment, line or ray intersects the surface or not and to compute an intersection point if any. This feature makes the package generic enough to be applied in a wide variety of situations. For instance, it can be used to mesh implicit surfaces described as the zero level set of some function. It may also be used in the field of medical imaging to mesh surfaces described as a gray level set in a three dimensional image.</p>
 <p>The meshing algorithm is based on the notion of the restricted Delaunay triangulation. Basically the algorithm computes a set of sample points on the surface, and extract an interpolating surface mesh from the three dimensional triangulation of these sample points. Points are iteratively added to the sample, as in a Delaunay refinement process, until some size and shape criteria on the elements of the surface mesh are satisfied.</p>

@@ -157,7 +157,7 @@ $(document).ready(function(){initNavTree('classCGAL_1_1Real__timer.html','');});
 <div class="contents">
 
 <p><code>#include &lt;CGAL/Real_timer.h&gt;</code></p>
-<a name="details" id="details"></a><h2 class="groupheader">Definition</h2>
+<a name="details" id="details"></a><h2 class="groupheader">定义</h2>
 <div class="textblock"><p>The class <code><a class="el" href="classCGAL_1_1Real__timer.html" title="The class Real_timer is a timer class for measuring real time. ">Real_timer</a></code> is a timer class for measuring real time. </p>
 <p>A timer <code>t</code> of type <code><a class="el" href="classCGAL_1_1Real__timer.html" title="The class Real_timer is a timer class for measuring real time. ">Real_timer</a></code> is an object with a state. It is either <em>running</em> or it is <em>stopped</em>. The state is controlled with <code><a class="el" href="classCGAL_1_1Real__timer.html#af2f3e310ac187085e0ac4e0bdd721009">Real_timer::start()</a></code> and <code><a class="el" href="classCGAL_1_1Real__timer.html#a9fd026c7233b11edc0efa47cd255d061">Real_timer::stop()</a></code>. The timer counts the time elapsed since its creation or last reset. It counts only the time where it is in the running state. The time information is given in seconds. The timer counts also the number of intervals it was running, i.e. it counts the number of calls of the <code><a class="el" href="classCGAL_1_1Real__timer.html#af2f3e310ac187085e0ac4e0bdd721009">Real_timer::start()</a></code> member function since the last reset. If the reset occures while the timer is running it counts as the first interval.</p>
 <p><b>Implementation</b><br />

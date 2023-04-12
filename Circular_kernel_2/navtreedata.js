@@ -1,6 +1,6 @@
 var NAVTREE =
 [
-  [ "CGAL 5.5.2 - 2D Circular Geometry Kernel", "index.html", [
+  [ "CGAL 5.5.2 - 2D圆形几何内核", "index.html", [
     [ "用户手册", "index.html", [
       [ "简介", "index.html#Circular_kernel_2Introduction", null ],
       [ "软件设计", "index.html#Circular_kernel_2Software", null ],

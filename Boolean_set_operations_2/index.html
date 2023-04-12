@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta name="generator" content="Doxygen 1.8.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CGAL 5.5.2 - 2D Regularized Boolean Set-Operations: User Manual</title>
+<title>CGAL 5.5.2 - 2D Regularized Boolean Set-Operations: 用户指南</title>
 <!-- <link href="../Manual/tabs.css" rel="stylesheet" type="text/css"/> -->
 <script type="text/javascript" src="../Manual/jquery.js"></script>
 <script type="text/javascript" src="../Manual/dynsections.js"></script>
@@ -111,7 +111,7 @@ MathJax.Hub.Config(
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">CGAL 5.5.2 - 2D Regularized Boolean Set-Operations
+   <div id="projectname">CGAL 5.5.2 - 2D正则化布尔集合运算
    </div>
   </td>
  </tr>
@@ -150,16 +150,16 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">User Manual </div>  </div>
+<div class="title">用户指南 </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="Chapter_2D_Regularized_Boolean_Set-Operations"></a> <a class="anchor" id="chapter_Boolean_set_operations_2"></a>  </p><div id="autotoc" class="toc"></div>  <dl class="section author"><dt>Authors</dt><dd>Efi Fogel, Ophir Setter, Ron Wein, Guy Zucker, Baruch Zukerman, and Dan Halperin</dd></dl>
+<div class="textblock"><p><a class="anchor" id="Chapter_2D_Regularized_Boolean_Set-Operations"></a> <a class="anchor" id="chapter_Boolean_set_operations_2"></a>  </p><div id="autotoc" class="toc"></div>  <dl class="section author"><dt>作者</dt><dd>Efi Fogel, Ophir Setter, Ron Wein, Guy Zucker, Baruch Zukerman, and Dan Halperin</dd></dl>
 <h1><a class="anchor" id="bso_secintro"></a>
-Introduction</h1>
+简介</h1>
 <p><a class="anchor" id="fig__figteaser"></a></p><div class="image">
 <img src="teaser.png" alt="teaser.png" />
 </div>
-   <div class="cgal_figure_caption">  <a class="el" href="index.html#fig__figteaser">Figure 16.1</a> Examples of Boolean set-operations on general polygons.  </div> <br /> 
+   <div class="cgal_figure_caption">  <a class="el" href="index.html#fig__figteaser">Figure 16.1</a> 一般多边形上的布尔集合运算的例子。  </div> <br /> 
 <p>This package consists of the implementation of Boolean set-operations on point sets bounded by weakly \( x\)-monotone curves<span class="footnote">A continuous planar curve \( C\) is <em>weakly \( x\)-monotone</em> if every vertical line intersects it at most once, or if it is vertical. Hereafter we refer to weakly \( x\)-monotone curves as \( x\)-monotone curves.</span> in 2-dimensional Euclidean space. In particular, it contains the implementation of <em>regularized</em> Boolean set-operations, intersection predicates, and point containment predicates. <a class="el" href="index.html#fig__figteaser">Figure 16.1</a> shows simple examples of such operations.</p>
 <p>Ordinary Boolean set-operations, which distinguish between the interior and the boundary of a polygon, are not implemented within this package. The Chapter <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/packages.html#PkgNef2">2D Boolean Operations on Nef Polygons</a> supports these operations for (linear) polygons.</p>
 <p>In the rest of this chapter we use, unless otherwise stated, the traditional notation to denote regularized operations; e.g., \( P \cap Q\) means the <em>regularized</em> intersection of \( P\) and \( Q\).</p>

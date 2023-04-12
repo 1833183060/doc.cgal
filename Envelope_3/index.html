@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta name="generator" content="Doxygen 1.8.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CGAL 5.5.2 - 3D Envelopes: User Manual</title>
+<title>CGAL 5.5.2 - 3D Envelopes: 用户指南</title>
 <!-- <link href="../Manual/tabs.css" rel="stylesheet" type="text/css"/> -->
 <script type="text/javascript" src="../Manual/jquery.js"></script>
 <script type="text/javascript" src="../Manual/dynsections.js"></script>
@@ -150,12 +150,12 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">User Manual </div>  </div>
+<div class="title">用户指南 </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="Chapter_Envelopes_of_Surfaces_in_3D"></a> <a class="anchor" id="chapterEnvelope3"></a>  </p><div id="autotoc" class="toc"></div>  <dl class="section author"><dt>Authors</dt><dd>Dan Halperin, Michal Meyerovitch, Ron Wein, and Baruch Zukerman</dd></dl>
+<div class="textblock"><p><a class="anchor" id="Chapter_Envelopes_of_Surfaces_in_3D"></a> <a class="anchor" id="chapterEnvelope3"></a>  </p><div id="autotoc" class="toc"></div>  <dl class="section author"><dt>作者</dt><dd>Dan Halperin, Michal Meyerovitch, Ron Wein, and Baruch Zukerman</dd></dl>
 <h1><a class="anchor" id="Envelope_3Introduction"></a>
-Introduction</h1>
+简介</h1>
 <p>A continuous surface \( S\) in \( {\mathbb R}^3\) is called <em> \( xy\)-monotone</em>, if every line parallel to the \( z\)-axis intersects it at a single point at most. For example, the sphere \( x^2 + y^2 + z^2 = 1\) is <em>not</em> \( xy\)-monotone as the \( z\)-axis intersects it at \( (0, 0, -1)\) and at \( (0, 0, 1)\); however, if we use the \( xy\)-plane to split it to an upper hemisphere and a lower hemisphere, these two hemispheres are \( xy\)-monotone.</p>
 <p>An \( xy\)-monotone surface can therefore be represented as a bivariate function \( z = S(x,y)\), defined over some continuous range \( R_S \subseteq {\mathbb R}^2\). Given a set \( {\cal S} = \{ S_1, S_2, \ldots, S_n \}\) of \( xy\)-monotone surfaces, their <em>lower envelope</em> is defined as the point-wise minimum of all surfaces. Namely, the lower envelope of the set \( {\cal S}\) can be defined as the following function: </p><p class="formulaDsp">
 \begin{eqnarray*} {\cal L}_{{\cal S}} (x,y) = \min_{1 \leq k \leq n}{\overline{S}_k (x,y)} \ , \end{eqnarray*}

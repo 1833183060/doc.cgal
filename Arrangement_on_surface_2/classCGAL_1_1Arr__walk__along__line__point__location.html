@@ -155,12 +155,12 @@ $(document).ready(function(){initNavTree('classCGAL_1_1Arr__walk__along__line__p
 <div class="contents">
 
 <p><code>#include &lt;CGAL/Arr_walk_along_line_point_location.h&gt;</code></p>
-<a name="details" id="details"></a><h2 class="groupheader">Definition</h2>
+<a name="details" id="details"></a><h2 class="groupheader">定义</h2>
 <div class="textblock"> 
 
 <p><a class="anchor" id="arr_refwalk_pl"></a> The <code><a class="el" href="classCGAL_1_1Arr__walk__along__line__point__location.html">Arr_walk_along_line_point_location</a></code> class implements a very simple point-location (and vertical ray-shooting) strategy that improves the naive one. The algorithm considers an imaginary vertical ray emanating from the query point, and simulates a walk along the zone of this ray, starting from the unbounded face until reaching the query point. In dense arrangements this walk can considerably reduce the number of traversed arrangement edges, with respect to the naïve algorithm.</p>
 <p>The walk-along-a-line point-location object (just like the naïve one) does not use any auxiliary data structures. Thus, attaching it to an existing arrangement takes constant time, and any ongoing updates to this arrangement do not affect the point-location object. It is therefore recommended to use the "walk" point-location strategy for arrangements that are constantly changing, especially if the number of issued queries is not large.</p>
-<dl class="models"><dt><b><a class="el" href="models.html#_models000049">Is Model Of:</a></b></dt><dd><p class="startdd"><code><a class="el" href="classArrangementPointLocation__2.html" title="A model of the ArrangementPointLocation_2 concept can answer point-location queries on an arrangement...">ArrangementPointLocation_2</a></code> </p>
+<dl class="models"><dt><b><a class="el" href="models.html#_models000049">是下面的Concept的模型:</a></b></dt><dd><p class="startdd"><code><a class="el" href="classArrangementPointLocation__2.html" title="A model of the ArrangementPointLocation_2 concept can answer point-location queries on an arrangement...">ArrangementPointLocation_2</a></code> </p>
 <p class="enddd"><code><a class="el" href="classArrangementVerticalRayShoot__2.html" title="A model of the ArrangementVerticalRayShoot_2 concept can answer vertical ray-shooting queries on an a...">ArrangementVerticalRayShoot_2</a></code></p>
 </dd></dl>
 <dl class="section see"><dt>另见</dt><dd><code><a class="el" href="classArrangementPointLocation__2.html" title="A model of the ArrangementPointLocation_2 concept can answer point-location queries on an arrangement...">ArrangementPointLocation_2</a></code> </dd>

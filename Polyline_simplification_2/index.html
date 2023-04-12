@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta name="generator" content="Doxygen 1.8.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CGAL 5.5.2 - 2D Polyline Simplification: User Manual</title>
+<title>CGAL 5.5.2 - 2D Polyline Simplification: 用户指南</title>
 <!-- <link href="../Manual/tabs.css" rel="stylesheet" type="text/css"/> -->
 <script type="text/javascript" src="../Manual/jquery.js"></script>
 <script type="text/javascript" src="../Manual/dynsections.js"></script>
@@ -150,7 +150,7 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">User Manual </div>  </div>
+<div class="title">用户指南 </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="Chapter_2D_Polyline_simplification"></a>  </p><div id="autotoc" class="toc"></div>  <dl class="section author"><dt>Author</dt><dd>Andreas Fabri</dd></dl>
@@ -159,7 +159,7 @@ $(document).ready(function(){initNavTree('index.html','');});
 </div>
 <p>This package allows to simplify polylines with the guarantee that the topology of the polylines does not change. This can be done for a single polyline as well as for a set of polyline constraints in a constrained triangulation. The simplification can be controlled with cost and stop functions.</p>
 <h1><a class="anchor" id="Section_PolylineSimplification_Introduction"></a>
-Introduction</h1>
+简介</h1>
 <p><em>Polyline simplification</em> is the process of reducing the number of vertices used in a set of polylines while keeping the overall shape as much as possible.</p>
 <p><em>Topology preserving polyline simplification</em> means that neither intersections are introduced, nor the nesting level of a polygon changes: islands do not intersect a simplified coastline, and islands stay in the water.</p>
 <p>The method implemented in this package is based on <a class="el" href="citelist.html#CITEREF_cgal:dds-scs-09">[1]</a>. It can simplify any set of polylines, open or closed, and possibly intersecting themselves or each other. The method consists of iteratively replacing edges <code>(p,q)</code> and <code>(q,r)</code> with edge <code>(p,r)</code> by removing the vertex <code>q</code> from one polyline. The topology of the polyline set is preserved during the simplification as the algorithm guarantees that no new intersections occur as a result of removing a vertex.</p>

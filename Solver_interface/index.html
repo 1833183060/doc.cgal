@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta name="generator" content="Doxygen 1.8.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CGAL 5.5.2 - CGAL and Solvers: User Manual</title>
+<title>CGAL 5.5.2 - CGAL and Solvers: 用户指南</title>
 <!-- <link href="../Manual/tabs.css" rel="stylesheet" type="text/css"/> -->
 <script type="text/javascript" src="../Manual/jquery.js"></script>
 <script type="text/javascript" src="../Manual/dynsections.js"></script>
@@ -150,10 +150,10 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">User Manual </div>  </div>
+<div class="title">用户指南 </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="Chapter_CGAL_and_Solvers"></a><a class="anchor" id="chapterSolvers"></a> </p><div id="autotoc" class="toc"></div>  <dl class="section author"><dt>Authors</dt><dd>Simon Giraudot, Pierre Alliez, Frédéric Cazals, Gaël Guennebaud, Bruno Lévy, Marc Pouget, Laurent Saboret, and Liangliang Nan</dd></dl>
+<div class="textblock"><p><a class="anchor" id="Chapter_CGAL_and_Solvers"></a><a class="anchor" id="chapterSolvers"></a> </p><div id="autotoc" class="toc"></div>  <dl class="section author"><dt>作者</dt><dd>Simon Giraudot, Pierre Alliez, Frédéric Cazals, Gaël Guennebaud, Bruno Lévy, Marc Pouget, Laurent Saboret, and Liangliang Nan</dd></dl>
 <p>Several CGAL packages have to solve linear systems with dense or sparse matrices, linear integer programs, and quadratic programs. This package provides concepts and models for that purpose.</p>
 <p>For linear systems, we generally provide models using the <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/thirdparty.html#thirdpartyEigen">Eigen</a> library. Wrappers for the Eigen classes <code><a class="el" href="structCGAL_1_1Eigen__matrix.html" title="The class Eigen_matrix is a wrapper around Eigen matrix type Eigen::Matrix. ">Eigen_matrix</a></code> and <code><a class="el" href="classCGAL_1_1Eigen__vector.html" title="The class Eigen_vector is a wrapper around Eigen vector type, which is a simple array of numbers...">Eigen_vector</a></code> are also provided when needed. It is straightforward to develop equivalent models for other solvers, for example those found in the <a href="https://software.intel.com/en-us/mkl">Intel Math Kernel Library (MKL)</a>.</p>
 <p>For mixed integer programs (either constrained or unconstrained), we provide models using the <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/thirdparty.html#thirdpartySCIP">SCIP</a> and <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/thirdparty.html#thirdpartyGLPK">GLPK</a> libraries.</p>

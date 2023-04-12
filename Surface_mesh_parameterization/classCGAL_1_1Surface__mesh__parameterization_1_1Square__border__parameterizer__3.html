@@ -161,7 +161,7 @@ $(document).ready(function(){initNavTree('classCGAL_1_1Surface__mesh__parameteri
 <p><code>#include &lt;CGAL/Surface_mesh_parameterization/Square_border_parameterizer_3.h&gt;</code></p>
 
 <p>Inherited by <a class="el" href="classCGAL_1_1Surface__mesh__parameterization_1_1Square__border__arc__length__parameterizer__3.html">CGAL::Surface_mesh_parameterization::Square_border_arc_length_parameterizer_3&lt; TriangleMesh_ &gt;</a>, and <a class="el" href="classCGAL_1_1Surface__mesh__parameterization_1_1Square__border__uniform__parameterizer__3.html">CGAL::Surface_mesh_parameterization::Square_border_uniform_parameterizer_3&lt; TriangleMesh_ &gt;</a>.</p>
-<a name="details" id="details"></a><h2 class="groupheader">Definition</h2>
+<a name="details" id="details"></a><h2 class="groupheader">定义</h2>
 <div class="textblock"> 
 
 <p>This is the base class of strategies that parameterize the border of a 3D surface onto a square. </p>
@@ -169,7 +169,7 @@ $(document).ready(function(){initNavTree('classCGAL_1_1Surface__mesh__parameteri
 <p>The user can provide four vertices on the border of the mesh, which will be mapped to the four corners of the square.</p>
 <dl class="section attention"><dt>Attention</dt><dd>The square border parameterizer may create degenerate faces in the parameterization: if an input border vertex has valence <code>1</code> and if it is mapped to the same edge of the square as its two adjacent (border) vertices, for example.</dd></dl>
 <p>Implementation note: To simplify the implementation, the border parameterizer knows only the <code>TriangleMesh</code> class and does not know the parameterization algorithm requirements or the kind of sparse linear system used.</p>
-<dl class="models"><dt><b><a class="el" href="models.html#_models000012">Is Model Of:</a></b></dt><dd><code><a class="el" href="classParameterizer__3.html" title="Parameterizer_3 is a concept of parameterization object for a given type of mesh, TriangleMesh...">Parameterizer_3</a></code></dd></dl>
+<dl class="models"><dt><b><a class="el" href="models.html#_models000012">是下面的Concept的模型:</a></b></dt><dd><code><a class="el" href="classParameterizer__3.html" title="Parameterizer_3 is a concept of parameterization object for a given type of mesh, TriangleMesh...">Parameterizer_3</a></code></dd></dl>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">TriangleMesh_</td><td>must be a model of <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/BGL.tag:../BGL/" href="../BGL/classFaceGraph.html">FaceGraph</a></code>.</td></tr>

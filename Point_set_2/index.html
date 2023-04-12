@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta name="generator" content="Doxygen 1.8.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CGAL 5.5.2 - 2D Range and Neighbor Search: User Manual</title>
+<title>CGAL 5.5.2 - 2D Range and Neighbor Search: 用户指南</title>
 <!-- <link href="../Manual/tabs.css" rel="stylesheet" type="text/css"/> -->
 <script type="text/javascript" src="../Manual/jquery.js"></script>
 <script type="text/javascript" src="../Manual/dynsections.js"></script>
@@ -150,12 +150,12 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">User Manual </div>  </div>
+<div class="title">用户指南 </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="Chapter_2D_Range_and_Neighbor_Search"></a><a class="anchor" id="chapterPointset2"></a> </p><div id="autotoc" class="toc"></div>  <dl class="section author"><dt>Authors</dt><dd>Matthias Bäsken</dd></dl>
+<div class="textblock"><p><a class="anchor" id="Chapter_2D_Range_and_Neighbor_Search"></a><a class="anchor" id="chapterPointset2"></a> </p><div id="autotoc" class="toc"></div>  <dl class="section author"><dt>作者</dt><dd>Matthias Bäsken</dd></dl>
 <h1><a class="anchor" id="Point_set_2Introduction"></a>
-Introduction</h1>
+简介</h1>
 <p>Geometric queries are fundamental to many applications in computational geometry. The task is to maintain a dynamic set of geometric objects in such a way that certain queries can be performed efficiently. Typical examples of queries are: find out whether a given object is contained in the set, find all objects of the set lying in a given area (e.g. rectangle), find the object closest to a given point or find the pair of objects in the set lying closest to each other. Furthermore, the set should be dynamic in the sense that deletions and insertions of objects can be performed efficiently.</p>
 <p>In computational geometry literature one can find many different data structures for maintaining sets of geometric objects. Most of them are data structures that have been developed to support a single very special kind of query operation. Examples are Voronoi diagrams for answering nearest neighbor searches, range trees for orthogonal range queries, partition trees for more general range queries, hierarchical triangulations for point location and segment trees for intersection queries.</p>
 <p>In many applications, different types of queries have to be performed on the same set of objects. A naive approach to this problem would use a collection of the above mentioned data structures to represent the set of objects and delegate every query operation to the corresponding structure. However, this is completely impractical since it uses too much memory and requires the maintenance of all these data structures in the presence of update operations.</p>

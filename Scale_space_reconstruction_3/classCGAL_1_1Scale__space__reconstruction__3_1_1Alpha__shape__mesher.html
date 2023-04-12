@@ -160,7 +160,7 @@ $(document).ready(function(){initNavTree('classCGAL_1_1Scale__space__reconstruct
 <div class="contents">
 
 <p><code>#include &lt;CGAL/Scale_space_reconstruction_3/Alpha_shape_mesher.h&gt;</code></p>
-<a name="details" id="details"></a><h2 class="groupheader">Definition</h2>
+<a name="details" id="details"></a><h2 class="groupheader">定义</h2>
 <div class="textblock"><h3>template&lt;typename Geom_traits, typename FixedSurface = Tag_true&gt;<br />
 class CGAL::Scale_space_reconstruction_3::Alpha_shape_mesher&lt; Geom_traits, FixedSurface &gt;</h3>
 
@@ -168,7 +168,7 @@ class CGAL::Scale_space_reconstruction_3::Alpha_shape_mesher&lt; Geom_traits, Fi
 <p>The surface can be constructed either for a fixed neighborhood radius, or for a dynamic radius. When constructing the surface for exactly one neighborhood radius, it is faster to set <code>FixedSurface</code> to <code>Tag_true</code>. If the correct neighborhood radius should be changed or estimated multiple times, it is faster to set <code>FixedSurface</code> to <code>Tag_false</code>.</p>
 <p>It is undefined whether a surface with fixed radius may have its radius changed, but if so, this will likely require more computation time than changing the radius of a dynamic surface. In either case, it is possible to change the point set while maintaining the same radius.</p>
 <p>The surface can be stored either as an unordered collection of triangles, or as a collection ordered by shells. A shell is a maximally connected component of the surface where connected facets are locally oriented towards the same side of the surface.</p>
-<dl class="models"><dt><b><a class="el" href="models.html#_models000002">Is Model Of:</a></b></dt><dd><a class="el" href="classCGAL_1_1Scale__space__reconstruction__3_1_1Mesher.html" title="Concept describing a meshing algorithm used to produce the output mesh of the scale space reconstruct...">CGAL::Scale_space_reconstruction_3::Mesher</a></dd></dl>
+<dl class="models"><dt><b><a class="el" href="models.html#_models000002">是下面的Concept的模型:</a></b></dt><dd><a class="el" href="classCGAL_1_1Scale__space__reconstruction__3_1_1Mesher.html" title="Concept describing a meshing algorithm used to produce the output mesh of the scale space reconstruct...">CGAL::Scale_space_reconstruction_3::Mesher</a></dd></dl>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Geom_traits</td><td>is the geometric traits class. It must be a model of <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Triangulation_3.tag:../Triangulation_3/" href="../Triangulation_3/classDelaunayTriangulationTraits__3.html">DelaunayTriangulationTraits_3</a></code>. It must have a <code>RealEmbeddable</code> field number type. Generally, <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Kernel_23.tag:../Kernel_23/" href="../Kernel_23/classCGAL_1_1Exact__predicates__inexact__constructions__kernel.html">Exact_predicates_inexact_constructions_kernel</a></code> is preferred. </td></tr>

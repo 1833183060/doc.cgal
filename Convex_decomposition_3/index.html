@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta name="generator" content="Doxygen 1.8.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CGAL 5.5.2 - Convex Decomposition of Polyhedra: User Manual</title>
+<title>CGAL 5.5.2 - Convex Decomposition of Polyhedra: 用户指南</title>
 <!-- <link href="../Manual/tabs.css" rel="stylesheet" type="text/css"/> -->
 <script type="text/javascript" src="../Manual/jquery.js"></script>
 <script type="text/javascript" src="../Manual/dynsections.js"></script>
@@ -150,12 +150,12 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">User Manual </div>  </div>
+<div class="title">用户指南 </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="Chapter_Convex_Decomposition_of_Polyhedra"></a><a class="anchor" id="chapterConvexDecomposition3"></a> </p><div id="autotoc" class="toc"></div>  <dl class="section author"><dt>Author</dt><dd>Peter Hachenberger</dd></dl>
 <h1><a class="anchor" id="Convex_decomposition_3Introduction"></a>
-Introduction</h1>
+简介</h1>
 <p>For many applications on non-convex polyhedra, there are efficient solutions that first decompose the polyhedron into convex pieces. As an example, the Minkowski sum of two polyhedra can be computed by decomposing both polyhedra into convex pieces, compute pair-wise Minkowski sums of the convex pieces, and unite the pair-wise sums.</p>
 <p>While it is desirable to have a decomposition into a minimum number of pieces, this problem is known to be NP-hard <a class="el" href="citelist.html#CITEREF_c-cpplb-84">[1]</a>. Our implementation decomposes a Nef polyhedron \( N\) into \( O(r^2)\) convex pieces, where \( r\) is the number of edges that have two adjacent facets that span an angle of more than 180 degrees with respect to the interior of the polyhedron. Those edges are also called reflex edges. The bound of \( O(r^2)\) convex pieces is worst-case optimal <a class="el" href="citelist.html#CITEREF_c-cpplb-84">[1]</a>.</p>
 <p><a class="anchor" id="fig__figverticalDecomposition"></a></p><div class="image">

@@ -160,13 +160,13 @@ $(document).ready(function(){initNavTree('classCGAL_1_1Arr__consolidated__curve_
 <p><code>#include &lt;CGAL/Arr_consolidated_curve_data_traits_2.h&gt;</code></p>
 
 <h2 class="groupheader">Inherits from</h2><p><a class="el" href="classCGAL_1_1Arr__curve__data__traits__2.html">CGAL::Arr_curve_data_traits_2&lt; Traits, _Unique_list&lt; Data &gt;, _Consolidate_unique_lists&lt; Data &gt;, Data &gt;</a>.</p>
-<a name="details" id="details"></a><h2 class="groupheader">Definition</h2>
+<a name="details" id="details"></a><h2 class="groupheader">定义</h2>
 <div class="textblock"> 
 
 <p>The class <code><a class="el" href="classCGAL_1_1Arr__consolidated__curve__data__traits__2.html" title="The class Arr_consolidated_curve_data_traits_2 is a model of the concept ArrangementTraits_2, and serves as a decorator class that enables the extension of the curve type defined by the Traits parameter. ">Arr_consolidated_curve_data_traits_2</a></code> is a model of the concept <code><a class="el" href="classArrangementTraits__2.html" title="The concept ArrangementTraits_2 allows the construction of arrangement of general planar curves...">ArrangementTraits_2</a></code>, and serves as a decorator class that enables the extension of the curve type defined by the <code>Traits</code> parameter. </p>
 <p>The traits class inherits its point type from <code>Traits::Point_2</code>, and defines the types <code>Curve_2</code> and <code>X_monotone_curve_2</code> extended with extraneous data fields of type <code>Data</code>.</p>
 <p>Each <code>Curve_2</code> object is associated with a single data field of type <code>Data</code>, and each <code>X_monotone_curve_2</code> object is associated with a set of unique data objects. When a curve is subdivided into \( x\)-monotone subcurves, all resulting subcurves are associated with a list containing a single data object, copied from the inducing curve. When an \( x\)-monotone curve is split, its data set is duplicated, and inserted into the sets of both resulting subcurves. In case two (or more) \( x\)-monotone curves overlap, their data sets are consolidated, and are inserted into the set of the \( x\)-monotone curve that represents the overlap.</p>
-<dl class="models"><dt><b><a class="el" href="models.html#_models000008">Is Model Of:</a></b></dt><dd><code><a class="el" href="classArrangementTraits__2.html" title="The concept ArrangementTraits_2 allows the construction of arrangement of general planar curves...">ArrangementTraits_2</a></code></dd></dl>
+<dl class="models"><dt><b><a class="el" href="models.html#_models000008">是下面的Concept的模型:</a></b></dt><dd><code><a class="el" href="classArrangementTraits__2.html" title="The concept ArrangementTraits_2 allows the construction of arrangement of general planar curves...">ArrangementTraits_2</a></code></dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="Arrangement_on_surface_2_2consolidated_curve_data_8cpp-example.html#_a0">Arrangement_on_surface_2/consolidated_curve_data.cpp</a>.</dd>
 </dl></div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes" id="nested-classes"></a>

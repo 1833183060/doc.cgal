@@ -157,7 +157,7 @@ $(document).ready(function(){initNavTree('classPeriodic__3TriangulationDSCellBas
 <div class="contents">
 
 <p></p>
-<a name="details" id="details"></a><h2 class="groupheader">Definition</h2>
+<a name="details" id="details"></a><h2 class="groupheader">定义</h2>
 <div class="textblock"><p>A refinement of the concept <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/TDS_3.tag:../TDS_3/" href="../TDS_3/classTriangulationDSCellBase__3.html">TriangulationDSCellBase_3</a></code> which adds an API for offsets. </p>
 <p> At the base level (see Sections <a class="el" href="index.html#P3Triangulation3secdesign">Software Design</a> and <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/TDS_3.tag:../TDS_3/" href="../TDS_3/index.html#TDS3secdesign">Software Design</a>), a cell stores handles to its four vertices and to its four neighbor cells. The vertices and neighbors are indexed 0, 1, 2 and 3. Neighbor <code>i</code> lies opposite to vertex <code>i</code>.</p>
 <p>For periodic triangulations, the cell base class needs to additionally store an offset for each vertex. Only the last three bits of each integer are required to be stored. The remaining part does not contain any information.</p>

@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta name="generator" content="Doxygen 1.8.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CGAL 5.5.2 - Polygonal Surface Reconstruction: User Manual</title>
+<title>CGAL 5.5.2 - Polygonal Surface Reconstruction: 用户指南</title>
 <!-- <link href="../Manual/tabs.css" rel="stylesheet" type="text/css"/> -->
 <script type="text/javascript" src="../Manual/jquery.js"></script>
 <script type="text/javascript" src="../Manual/dynsections.js"></script>
@@ -150,13 +150,13 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">User Manual </div>  </div>
+<div class="title">用户指南 </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="Chapter_PolygonalSurfaceReconstruction"></a>  </p><div id="autotoc" class="toc"></div> 
 <dl class="section author"><dt>Author</dt><dd>Liangliang Nan</dd></dl>
 <h1><a class="anchor" id="secIntro"></a>
-Introduction</h1>
+简介</h1>
 <p>This package implements a hypothesis-and-selection based method for piecewise planar object reconstruction from point clouds <a class="el" href="citelist.html#CITEREF_nan2017polyfit">[1]</a>. The method takes as input an unordered point set sampled from a piecewise planar object. The output is a compact and watertight surface mesh interpolating the input point set. The method assumes that all necessary major planes are provided (or can be extracted from the input point set using the shape detection method described in <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/packages.html#PkgShapeDetection">Shape Detection</a>, or any other alternative methods).</p>
 <p>The existing surface reconstruction methods available in CGAL (i.e., <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/packages.html#PkgPoissonSurfaceReconstruction3">Poisson Surface Reconstruction</a>, <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/packages.html#PkgAdvancingFrontSurfaceReconstruction">Advancing Front Surface Reconstruction</a>, and <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/packages.html#PkgScaleSpaceReconstruction3">Scale-Space Surface Reconstruction</a>) are suitable for point set representing objects described by smooth surfaces. For man-made objects such as buildings, the results are not satisfactory due to the imperfections and complexity of the reconstructed models (i.e., gigantic meshes, missing regions, noises, and undesired structures). This is mainly because these methods tend to closely follow the surface details. The algorithm introduced in this package is intended to produce simplified and watertight surface meshes. It can recover sharp features of the objects, and it can handle a large amount of noise and outliers, complementing other surface reconstruction methods.</p>
 <p>A mixed integer programming (MIP) solver is required to solve the constrained optimization problem formulated by the method (see <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/packages.html#PkgSolverInterface">CGAL and Solvers</a>).</p>

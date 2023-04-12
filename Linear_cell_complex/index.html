@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta name="generator" content="Doxygen 1.8.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CGAL 5.5.2 - Linear Cell Complex: User Manual</title>
+<title>CGAL 5.5.2 - Linear Cell Complex: 用户指南</title>
 <!-- <link href="../Manual/tabs.css" rel="stylesheet" type="text/css"/> -->
 <script type="text/javascript" src="../Manual/jquery.js"></script>
 <script type="text/javascript" src="../Manual/dynsections.js"></script>
@@ -150,12 +150,12 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">User Manual </div>  </div>
+<div class="title">用户指南 </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="Chapter_Linear_Cell_Complex"></a><a class="anchor" id="ChapterLinearCellComplex"></a> </p><dl class="section author"><dt>Author</dt><dd>Guillaume Damiand  <div id="autotoc" class="toc"></div> </dd></dl>
 <h1><a class="anchor" id="Linear_cell_complexIntroduction"></a>
-Introduction</h1>
+简介</h1>
 <p>A <em>d</em>D linear cell complex allows to represent an orientable subdivided <em>d</em>D object having linear geometry: each vertex of the subdivision is associated with a point. The geometry of each edge is a segment whose end points are associated with the two vertices of the edge, the geometry of each 2-cell is obtained from all the segments associated to the edges describing the boundary of the 2-cell and so on.</p>
 <p>The combinatorial part of a linear cell complex is described either by a <em>d</em>D <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Combinatorial_map.tag:../Combinatorial_map/" href="../Combinatorial_map/classCombinatorialMap.html">combinatorial map</a> or by a <em>d</em>D <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Generalized_map.tag:../Generalized_map/" href="../Generalized_map/classGeneralizedMap.html">generalized map</a> (it is strongly recommended to first read the <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Combinatorial_map.tag:../Combinatorial_map/" href="../Combinatorial_map/index.html#ChapterCombinatorialMap">Combinatorial maps user manual</a> or <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Generalized_map.tag:../Generalized_map/" href="../Generalized_map/index.html#ChapterGeneralizedMap">Generalized maps user manual</a> for definitions). To add the linear geometrical embedding, a point (a model of <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Kernel_23.tag:../Kernel_23/" href="../Kernel_23/classKernel_1_1Point__2.html"><code>Point_2</code></a> or <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Kernel_23.tag:../Kernel_23/" href="../Kernel_23/classKernel_1_1Point__3.html"><code>Point_3</code></a> or <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Kernel_d.tag:../Kernel_d/" href="../Kernel_d/classKernel__d.html#a0d1e83f4ca55f35b82abe627b0480f3a"><code>Point_d</code></a>) is associated to each vertex of the combinatorial data-structure.</p>
 <p><a class="anchor" id="fig__fig_lcc_example_subdivisions"></a></p><div class="image">

@@ -157,7 +157,7 @@ $(document).ready(function(){initNavTree('classCGAL_1_1Compact__container__base.
 <div class="contents">
 
 <p><code>#include &lt;CGAL/Compact_container.h&gt;</code></p>
-<a name="details" id="details"></a><h2 class="groupheader">Definition</h2>
+<a name="details" id="details"></a><h2 class="groupheader">定义</h2>
 <div class="textblock"><p>The class <code><a class="el" href="classCGAL_1_1Compact__container__base.html" title="The class Compact_container_base can be used as a base class for your own type T, so that T can be us...">Compact_container_base</a></code> can be used as a base class for your own type <code>T</code>, so that <code>T</code> can be used directly within <code><a class="el" href="classCGAL_1_1Compact__container.html" title="An object of the class Compact_container is a container of objects of type T. ">Compact_container</a>&lt;T, Allocator&gt;</code>. </p>
 <p>This class stores a <code>void *</code> pointer only for this purpose, so it may not be the most memory efficient way to achieve this goal. The other ways are to provide in <code>T</code> the necessary member functions so that the template <code><a class="el" href="structCGAL_1_1Compact__container__traits.html" title="The traits class Compact_container_traits provides the way to access the internal pointer required fo...">Compact_container_traits</a>&lt;T&gt;</code> works, or to specialize it for the particular type <code>T</code> that you want to use. </p>
 </div><table class="memberdecls">

@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta name="generator" content="Doxygen 1.8.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CGAL 5.5.2 - 2D Voronoi Diagram Adaptor: User Manual</title>
+<title>CGAL 5.5.2 - 2D Voronoi Diagram Adaptor: 用户指南</title>
 <!-- <link href="../Manual/tabs.css" rel="stylesheet" type="text/css"/> -->
 <script type="text/javascript" src="../Manual/jquery.js"></script>
 <script type="text/javascript" src="../Manual/dynsections.js"></script>
@@ -150,14 +150,14 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">User Manual </div>  </div>
+<div class="title">用户指南 </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="Chapter_2D_Voronoi_Diagram_Adaptor"></a><a class="anchor" id="chaptervda"></a> </p><div id="autotoc" class="toc"></div> 
 <dl class="section author"><dt>Author</dt><dd>Menelaos Karavelas</dd></dl>
 <p>This chapter describes an adaptor that adapts two-dimensional triangulated Delaunay graphs to the corresponding Voronoi diagrams. We start with a few definitions and a description of the issues that this adaptor addresses in Section <a class="el" href="index.html#secvda2intro">Introduction</a>. The software design of the Voronoi diagram adaptor package is described in Section <a class="el" href="index.html#secvda2design">Software Design</a>. In Section <a class="el" href="index.html#secvda2traits">The Adaptation Traits</a> we discuss the traits required for performing the adaptation, and finally in Section <a class="el" href="index.html#secvda2examples">Examples</a> we present a few examples using this adaptor.</p>
 <h1><a class="anchor" id="secvda2intro"></a>
-Introduction</h1>
+简介</h1>
 <p>A Voronoi diagram is typically defined for a set of objects, also called sites in the sequel, that lie in some space \( \Sigma\) and a distance function that measures the distance of a point \( x\) in \( \Sigma\) from an object in the object set. In this package we are interested in planar Voronoi diagrams, so in the sequel the space \( \Sigma\) will be the space \( \mathbb{R}^2\). Let \( \mathcal{S}=\{S_1,S_2,\ldots,S_n\}\) be our set of sites and let \( \delta(x,S_i)\) denote the distance of a point \( x\in\mathbb{R}^2\) from the site \( S_i\). Given two sites \( S_i\) and \( S_j\), the set \( V_{ij}\) of points that are closer to \( S_i\) than to \( S_j\) with respect to the distance function \( \delta(x,\cdot)\) is simply the set: </p><p class="formulaDsp">
 \[ V_{ij} = \{x\in\mathbb{R}^2:\, \delta(x,S_i)&lt;\delta(x,S_j)\}. \]
 </p>

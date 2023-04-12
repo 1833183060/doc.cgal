@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta name="generator" content="Doxygen 1.8.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CGAL 5.5.2 - 3D Periodic Mesh Generation: User Manual</title>
+<title>CGAL 5.5.2 - 3D Periodic Mesh Generation: 用户指南</title>
 <!-- <link href="../Manual/tabs.css" rel="stylesheet" type="text/css"/> -->
 <script type="text/javascript" src="../Manual/jquery.js"></script>
 <script type="text/javascript" src="../Manual/dynsections.js"></script>
@@ -150,16 +150,16 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">User Manual </div>  </div>
+<div class="title">用户指南 </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="Chapter_3D_Periodic_Mesh_Generation"></a><a class="anchor" id="userchapterperiodic3mesh3"></a></p><dl class="section author"><dt>Authors</dt><dd>Mikhail Bogdanov, Aymeric Pellé, Mael Rouxel-Labbé, and Monique Teillaud  <div id="autotoc" class="toc"></div> </dd></dl>
+<div class="textblock"><p><a class="anchor" id="Chapter_3D_Periodic_Mesh_Generation"></a><a class="anchor" id="userchapterperiodic3mesh3"></a></p><dl class="section author"><dt>作者</dt><dd>Mikhail Bogdanov, Aymeric Pellé, Mael Rouxel-Labbé, and Monique Teillaud  <div id="autotoc" class="toc"></div> </dd></dl>
 <p><a class="anchor" id="fig__Periodic_3_mesh_3Banner"></a></p><center> <div class="image">
 <img src="periodic_banner.png" style="max-width:60%;" />
 </div>
  </center><p>  </p><div class="cgal_figure_caption">  <a class="el" href="index.html#fig__Periodic_3_mesh_3Banner">Figure 60.1</a> A cut view of a periodic mesh.  </div> <br /> 
 <h1><a class="anchor" id="Periodic_3_mesh_3_section_intro"></a>
-Introduction</h1>
+简介</h1>
 <p>This package is devoted to the generation of isotropic simplicial meshes discretizing periodic 3D domains. The domain to be meshed is a subset of the three-dimensional flat torus (see Section <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Periodic_3_triangulation_3.tag:../Periodic_3_triangulation_3/" href="../Periodic_3_triangulation_3/index.html#P3Triangulation3secspace">The Flat Torus</a> of the package <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/packages.html#PkgPeriodic3Triangulation3">3D Periodic Triangulations</a>). The domain may be connected or composed of multiple components and/or subdivided in several subdomains. The current implementation provides classes to represent domains bounded by isosurfaces of implicit functions defined over a cube.</p>
 <p>Boundary and subdivision surfaces are either smooth or piecewise-smooth surfaces, formed with planar or curved surface patches. Surfaces may exhibit 1-dimensional features (e.g. crease edges) and 0-dimensional features (e.g. singular points as corners tips, cusps or darts), that have to be fairly approximated in the mesh.</p>
 <p>The output mesh is a periodic 3-dimensional triangulation, including subcomplexes that approximate each input domain feature: subdomain, boundary surface patch or input domain feature with dimension 0 or 1. Thus, the output mesh includes a 3D submesh covering each subdomain, a surface mesh approximating each boundary or subdividing surface patch, a polyline approximation for each 1-dimensional feature and of course a vertex on each corner.</p>

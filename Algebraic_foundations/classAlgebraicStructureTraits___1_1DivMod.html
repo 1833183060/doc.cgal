@@ -157,7 +157,7 @@ $(document).ready(function(){initNavTree('classAlgebraicStructureTraits___1_1Div
 <div class="contents">
 
 <p></p>
-<a name="details" id="details"></a><h2 class="groupheader">Definition</h2>
+<a name="details" id="details"></a><h2 class="groupheader">定义</h2>
 <div class="textblock"><p><code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/classAdaptableFunctor.html">AdaptableFunctor</a></code> computes both integral quotient and remainder of division with remainder. The quotient \( q\) and remainder \( r\) are computed such that \( x = q*y + r\) and \( |r| &lt; |y|\) with respect to the proper integer norm of the represented ring. <span class="footnote">For integers this norm is the absolute value. For univariate polynomials this norm is the degree.</span> In particular, \( r\) is chosen to be \( 0\) if possible. Moreover, we require \( q\) to be minimized with respect to the proper integer norm. </p>
 <p> Note that the last condition is needed to ensure a unique computation of the pair \( (q,r)\). However, an other option is to require minimality for \( |r|\), with the advantage that a <em>mod(x,y)</em> operation would return the unique representative of the residue class of \( x\) with respect to \( y\), e.g. \( mod(2,3)\) should return \( -1\). But this conflicts with nearly all current implementation of integer types. From there, we decided to stay conform with common implementations and require \( q\) to be computed as \( x/y\) rounded towards zero.</p>
 <p>The following table illustrates the behavior for integers:</p>

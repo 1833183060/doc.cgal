@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta name="generator" content="Doxygen 1.8.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CGAL 5.5.2 - 2D Envelopes: User Manual</title>
+<title>CGAL 5.5.2 - 2D Envelopes: 用户指南</title>
 <!-- <link href="../Manual/tabs.css" rel="stylesheet" type="text/css"/> -->
 <script type="text/javascript" src="../Manual/jquery.js"></script>
 <script type="text/javascript" src="../Manual/dynsections.js"></script>
@@ -150,7 +150,7 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">User Manual </div>  </div>
+<div class="title">用户指南 </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="Chapter_Envelopes_of_Curves_in_2D"></a> <a class="anchor" id="chapterEnvelope2"></a>  </p><div id="autotoc" class="toc"></div>  <dl class="section author"><dt>Author</dt><dd>Ron Wein</dd></dl>
@@ -159,7 +159,7 @@ $(document).ready(function(){initNavTree('index.html','');});
 </div>
    <div class="cgal_figure_caption">  <a class="el" href="index.html#fig__LowEnv2Fig">Figure 37.1</a> The lower envelope of a set of line segments and hyperbolic arc.  </div> <br /> 
 <h1><a class="anchor" id="Envelope_2Introduction"></a>
-Introduction</h1>
+简介</h1>
 <p>A continuous curve \( C\) in \( {\mathbb R}^2\) is called <em> \( x\)-monotone</em>, if every vertical line intersects it at a single point at most. For example, the circle \( x^2 + y^2 = 1\) is <em>not</em> \( xy\)-monotone as the vertical line \( x = 0\) intersects it at \( (0, -1)\) and at \( (0, 1)\); however, it is possible to split the circle into an upper part and a lower part, such that both of these parts are \( x\)-monotone. We consider vertical segments as <em>weakly</em> \( x\)-monotone, to properly handle inputs that contain such vertical curves.</p>
 <p>An \( x\)-monotone curve can be represented as a univariate function \( y = C(x)\), defined over some continuous range \( R_C \subseteq {\mathbb R}\). Given a set \( {\cal C} = \{ C_1, C_2, \ldots, C_n \}\) of \( x\)-monotone curves, their <em>lower envelope</em> is defined as the point-wise minimum of all curves. Namely, the lower envelope of the set \( {\cal C}\) can be defined as the following function:</p>
 <p class="formulaDsp">

@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta name="generator" content="Doxygen 1.8.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CGAL 5.5.2 - 2D Visibility: User Manual</title>
+<title>CGAL 5.5.2 - 2D Visibility: 用户指南</title>
 <!-- <link href="../Manual/tabs.css" rel="stylesheet" type="text/css"/> -->
 <script type="text/javascript" src="../Manual/jquery.js"></script>
 <script type="text/javascript" src="../Manual/dynsections.js"></script>
@@ -150,13 +150,13 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">User Manual </div>  </div>
+<div class="title">用户指南 </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="Chapter_2D_Visibility_Computation"></a> </p><div id="autotoc" class="toc"></div> 
-<dl class="section author"><dt>Authors</dt><dd>Michael Hemmer, Kan Huang, Francisc Bungiu, Ning Xu</dd></dl>
+<dl class="section author"><dt>作者</dt><dd>Michael Hemmer, Kan Huang, Francisc Bungiu, Ning Xu</dd></dl>
 <h1><a class="anchor" id="visibility_2_introduction"></a>
-Introduction</h1>
+简介</h1>
 <p>This package provides functionality to compute the visibility region within polygons in two dimensions. The package is based on the package <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/packages.html#PkgArrangementOnSurface2">2D Arrangements</a> and uses <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Arrangement_on_surface_2.tag:../Arrangement_on_surface_2/" href="../Arrangement_on_surface_2/classCGAL_1_1Arrangement__2.html">CGAL::Arrangement_2</a> as the fundamental class to specify the input as well as the output. Hence, a polygon \( P \) is represented by a bounded arrangement face \( f \) that does not have any isolated vertices and any edge that is adjacent to \( f \) separates \( f \) from another face. Note that \( f \) may contain holes. Similarly, a simple polygon is represented by a face without holes.</p>
 <p>Given two points \( p \) and \( q \) in \( P \), they are said to be visible to each other iff the segment \( pq \subset P \), where \( P \) is considered to be closed, that is, \(\partial P \subset P\). For a query point \( q \in P \), the set of points that are visible from \( q \) is defined as the visibility region of \( q \), denoted by \( V_q \)</p>
 <h2><a class="anchor" id="visibility_2_degeneracies"></a>

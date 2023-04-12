@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta name="generator" content="Doxygen 1.8.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CGAL 5.5.2 - Estimation of Local Differential Properties of Point-Sampled Surfaces: User Manual</title>
+<title>CGAL 5.5.2 - Estimation of Local Differential Properties of Point-Sampled Surfaces: 用户指南</title>
 <!-- <link href="../Manual/tabs.css" rel="stylesheet" type="text/css"/> -->
 <script type="text/javascript" src="../Manual/jquery.js"></script>
 <script type="text/javascript" src="../Manual/dynsections.js"></script>
@@ -150,10 +150,10 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">User Manual </div>  </div>
+<div class="title">用户指南 </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="Chapter_Estimation_of_Local_Differential_Properties_of_Point-Sampled_Surfaces"></a><a class="anchor" id="chapJetfitting3"></a> </p><div id="autotoc" class="toc"></div>  <dl class="section author"><dt>Authors</dt><dd>Marc Pouget and Frédéric Cazals</dd></dl>
+<div class="textblock"><p><a class="anchor" id="Chapter_Estimation_of_Local_Differential_Properties_of_Point-Sampled_Surfaces"></a><a class="anchor" id="chapJetfitting3"></a> </p><div id="autotoc" class="toc"></div>  <dl class="section author"><dt>作者</dt><dd>Marc Pouget and Frédéric Cazals</dd></dl>
 <p><a class="anchor" id="fig__figjet3figdavid"></a></p><div class="image">
 <img src="david-dirmaxkmin-white-back.jpg" alt="david-dirmaxkmin-white-back.jpg" />
 </div>
@@ -161,7 +161,7 @@ $(document).ready(function(){initNavTree('index.html','');});
 <p>This package allows the estimation of local differential quantities of a surface from a point sample, given either as a mesh or as point cloud.</p>
 <p>Note that this package needs the third party library <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/thirdparty.html#thirdpartyEigen">Eigen</a> to be installed to compile the example code..</p>
 <h1><a class="anchor" id="secintro"></a>
-Introduction</h1>
+简介</h1>
 <h2><a class="anchor" id="Jet_fitting_3Overview"></a>
 Overview</h2>
 <p>Consider a sampled smooth surface, and assume we are given a collection of points \( P\) about a given sample \( p\). We aim at estimating the differential properties up to any fixed order of the surface at point \( p\) from the point set \( P^+ = P\cup \{ p\}\) - we denote \( N=\mid P^+\mid\). More precisely, first order properties correspond to the normal or the tangent plane; second order properties provide the principal curvatures and directions, third order properties provide the directional derivatives of the principal curvatures along the curvature lines, etc. Most of the time, estimating first and second order differential quantities is sufficient. However, some applications involving shape analysis require estimating third and fourth order differential quantities. Many different estimators have been proposed in the vast literature of applied geometry <a class="el" href="citelist.html#CITEREF_cgal:p-smrqt-01">[4]</a> (section 3, page 7), and all of them need to define a neighborhood around the point at which the estimation is computed. Our method relies on smooth differential geometry calculations, carried out on smooth objects <em>fitted</em> from the sample points. Datasets amenable to such a processing are naturally unstructured point clouds, as well as meshes - whose topological information may be discarded.</p>

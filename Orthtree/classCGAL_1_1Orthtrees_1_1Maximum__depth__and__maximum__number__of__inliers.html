@@ -158,7 +158,7 @@ $(document).ready(function(){initNavTree('classCGAL_1_1Orthtrees_1_1Maximum__dep
 <div class="contents">
 
 <p><code>#include &lt;CGAL/Orthtree/Split_predicates.h&gt;</code></p>
-<a name="details" id="details"></a><h2 class="groupheader">Definition</h2>
+<a name="details" id="details"></a><h2 class="groupheader">定义</h2>
 <div class="textblock"><p>A class used to choose when a node should be split depending on the depth and the number of inliers. </p>
 <p>This predicate makes a note split if it contains more than a certain number of items and if its depth is lower than a certain limit.</p>
 <p>The refinement is stopped as soon as one of the conditions is violated: if a node has more inliers than <code>bucket_size</code> but is already at <code>max_depth</code>, it is not split. Similarly, a node that is at a depth smaller than <code>max_depth</code> but already has fewer inliers than <code>bucket_size</code>, it is not split. </p>

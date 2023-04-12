@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta name="generator" content="Doxygen 1.8.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CGAL 5.5.2 - 3D Alpha Wrapping: User Manual</title>
+<title>CGAL 5.5.2 - 3D Alpha Wrapping: 用户指南</title>
 <!-- <link href="../Manual/tabs.css" rel="stylesheet" type="text/css"/> -->
 <script type="text/javascript" src="../Manual/jquery.js"></script>
 <script type="text/javascript" src="../Manual/dynsections.js"></script>
@@ -150,16 +150,16 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">User Manual </div>  </div>
+<div class="title">用户指南 </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="Chapter_3D_Alpha_wrapping"></a> </p><div id="autotoc" class="toc"></div> 
-<dl class="section author"><dt>Authors</dt><dd>Pierre Alliez, David Cohen-Steiner, Michael Hemmer, Cédric Portaneri, Mael Rouxel-Labbé</dd></dl>
+<dl class="section author"><dt>作者</dt><dd>Pierre Alliez, David Cohen-Steiner, Michael Hemmer, Cédric Portaneri, Mael Rouxel-Labbé</dd></dl>
 <center> <div class="image">
 <img src="aw3_bike_lod.jpg" style="max-width:70%;" />
 </div>
  </center><h1><a class="anchor" id="aw3_introduction"></a>
-Introduction</h1>
+简介</h1>
 <p>Various tasks in geometric modeling and processing require 3D objects represented as valid surface meshes, where "valid" refers to meshes that are watertight, intersection-free, orientable, and 2-manifold. Such representations offer well-defined notions of interior/exterior and geodesic neighborhoods.</p>
 <p>3D data are usually acquired through measurements followed by reconstruction, designed by humans, or generated through imperfect automated processes. As a result, they can exhibit a wide variety of defects including gaps, missing data, self-intersections, degeneracies such as zero-volume structures, and non-manifold features.</p>
 <p>Given the large repertoire of possible defects, many methods and data structures have been proposed to repair specific defects, usually with the goal of guaranteeing specific properties in the repaired 3D model. Reliably repairing all types of defects is notoriously difficult and is often an ill-posed problem as many valid solutions exist for a given 3D model with defects. In addition, the input model can be overly complex with unnecessary geometric details, spurious topological structures, nonessential inner components, or excessively fine discretizations. For applications such as collision avoidance, path planning, or simulation, getting an approximation of the input can be more relevant than repairing it. Approximation herein refers to an approach capable of filtering out inner structures, fine details and cavities, as well as wrapping the input within a user-defined offset margin.</p>

@@ -158,7 +158,7 @@ $(document).ready(function(){initNavTree('classTriangulationDataStructure__3.htm
 <div class="contents">
 
 <p></p>
-<a name="details" id="details"></a><h2 class="groupheader">Definition</h2>
+<a name="details" id="details"></a><h2 class="groupheader">定义</h2>
 <div class="textblock"><p>3D-triangulation data structures are meant to maintain the combinatorial information for 3D-geometric triangulations. </p>
 <p> In CGAL, a triangulation data structure is a container of cells ( \( 3\)-faces) and vertices ( \( 0\)-faces). Following the standard vocabulary of simplicial complexes, an \( i\)-face \( f_i\) and a \( j\)-face \( f_j\) \( (0 \leq j &lt; i \leq 3)\) are said to be <em>incident</em> in the triangulation if \( f_j\) is a (sub)face of \( f_i\), and two \( i\)-faces \( (0 \leq i \leq 3)\) are said to be <em>adjacent</em> if they share a common incident (sub)face.</p>
 <p>Each cell gives access to its four incident vertices and to its four adjacent cells. Each vertex gives direct access to one of its incident cells, which is sufficient to retrieve all the incident cells when needed.</p>

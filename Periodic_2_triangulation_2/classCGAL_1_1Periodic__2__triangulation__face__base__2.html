@@ -155,7 +155,7 @@ $(document).ready(function(){initNavTree('classCGAL_1_1Periodic__2__triangulatio
 <div class="contents">
 
 <p><code>#include &lt;CGAL/Periodic_2_triangulation_face_base_2.h&gt;</code></p>
-<a name="details" id="details"></a><h2 class="groupheader">Definition</h2>
+<a name="details" id="details"></a><h2 class="groupheader">定义</h2>
 <div class="textblock"><h3>template&lt;typename Gt, typename Fb = Triangulation_face_base_2&lt;Gt&gt;&gt;<br />
 class CGAL::Periodic_2_triangulation_face_base_2&lt; Gt, Fb &gt;</h3>
 
@@ -163,7 +163,7 @@ class CGAL::Periodic_2_triangulation_face_base_2&lt; Gt, Fb &gt;</h3>
 <p>The first one <code>Traits</code> is the geometric traits, it is to be instantiated by a model of the concept <code><a class="el" href="classPeriodic__2TriangulationTraits__2.html" title="The concept Periodic_2TriangulationTraits_2 is the first template parameter of the classes Periodic_2...">Periodic_2TriangulationTraits_2</a></code>. The second argument is the base class to which the additional information for the periodic vertex is added and should be a model of <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/TDS_2.tag:../TDS_2/" href="../TDS_2/classTriangulationDSFaceBase__2.html">TriangulationDSFaceBase_2</a></code></p>
 <p>As faces cannot span more than one domain per direction of space in a periodic Delaunay triangulation, it is enough to store offsets in the range \( \{0,1\}^2\). For optimization purposes we encode all three offsets in one integer. Each offset needs two bits (for the offset in the \( x\)- and \( y\)-direction). If we number the bits from <em>least significant to most significant</em> then bits \( 2*i\) and \( 2*i+1\) contain the offset corresponding to vertex \( i\).</p>
 <p>The implementation of <code>has_zero_offsets()</code> results in checking whether all offsets are zero.</p>
-<dl class="models"><dt><b><a class="el" href="models.html#_models000002">Is Model Of:</a></b></dt><dd><code><a class="el" href="classPeriodic__2TriangulationFaceBase__2.html" title="At the base level (see Section Software Design), a face stores handles to its four vertices and to it...">Periodic_2TriangulationFaceBase_2</a></code></dd></dl>
+<dl class="models"><dt><b><a class="el" href="models.html#_models000002">是下面的Concept的模型:</a></b></dt><dd><code><a class="el" href="classPeriodic__2TriangulationFaceBase__2.html" title="At the base level (see Section Software Design), a face stores handles to its four vertices and to it...">Periodic_2TriangulationFaceBase_2</a></code></dd></dl>
 <dl class="section see"><dt>另见</dt><dd><code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Triangulation_2.tag:../Triangulation_2/" href="../Triangulation_2/classCGAL_1_1Triangulation__face__base__2.html">CGAL::Triangulation_face_base_2</a></code> </dd>
 <dd>
 <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Triangulation_2.tag:../Triangulation_2/" href="../Triangulation_2/classCGAL_1_1Triangulation__face__base__with__info__2.html">CGAL::Triangulation_face_base_with_info_2</a></code> </dd></dl>

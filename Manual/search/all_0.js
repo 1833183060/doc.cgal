@@ -6,7 +6,7 @@ var searchData=
   ['2d_20arrangement_20reference',['2D Arrangement Reference',['../../Arrangement_on_surface_2/group__PkgArrangementOnSurface2Ref.html',1,'']]],
   ['2d_20generalized_20barycentric_20coordinates_20reference',['2D Generalized Barycentric Coordinates Reference',['../../Barycentric_coordinates_2/group__PkgBarycentricCoordinates2Ref.html',1,'']]],
   ['2d_20regularized_20boolean_20set_2doperations_20reference',['2D Regularized Boolean Set-Operations Reference',['../../Boolean_set_operations_2/group__PkgBooleanSetOperations2Ref.html',1,'']]],
-  ['2d_20circular_20geometry_20kernel_20reference',['2D Circular Geometry Kernel Reference',['../../Circular_kernel_2/group__PkgCircularKernel2Ref.html',1,'']]],
+  ['2d_20circular_20geometry_20kernel_20reference',['2D圆形几何内核 Reference',['../../Circular_kernel_2/group__PkgCircularKernel2Ref.html',1,'']]],
   ['2d_20convex_20hulls_20and_20extreme_20points_20reference',['2D Convex Hulls and Extreme Points Reference',['../../Convex_hull_2/group__PkgConvexHull2Ref.html',1,'']]],
   ['2d_20envelopes_20reference',['2D Envelopes Reference',['../../Envelope_2/group__PkgEnvelope2Ref.html',1,'']]],
   ['2d_20hyperbolic_20delaunay_20triangulations_20reference',['2D Hyperbolic Delaunay Triangulations Reference',['../../Hyperbolic_triangulation_2/group__PkgHyperbolicTriangulation2Ref.html',1,'']]],

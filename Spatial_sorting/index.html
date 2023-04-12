@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta name="generator" content="Doxygen 1.8.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CGAL 5.5.2 - Spatial Sorting: User Manual</title>
+<title>CGAL 5.5.2 - Spatial Sorting: 用户指南</title>
 <!-- <link href="../Manual/tabs.css" rel="stylesheet" type="text/css"/> -->
 <script type="text/javascript" src="../Manual/jquery.js"></script>
 <script type="text/javascript" src="../Manual/dynsections.js"></script>
@@ -150,13 +150,13 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">User Manual </div>  </div>
+<div class="title">用户指南 </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="Chapter_Spatial_Sorting"></a><a class="anchor" id="chapspatial_sorting"></a> </p><div id="autotoc" class="toc"></div> 
-<dl class="section author"><dt>Authors</dt><dd>Christophe Delage and Olivier Devillers</dd></dl>
+<dl class="section author"><dt>作者</dt><dd>Christophe Delage and Olivier Devillers</dd></dl>
 <h1><a class="anchor" id="Spatial_sortingIntroduction"></a>
-Introduction</h1>
+简介</h1>
 <p>Many geometric algorithms implemented in CGAL are incremental, and thus their speed is dependent on the order of insertion. This package provides sorting algorithms that may considerably improve running times of such algorithms.</p>
 <p>The rationale is to sort objects along a space-filling curve so that two objects close geometrically will be close in the insertion order with high probability. That way, parts of a data structure that will be looked at during an insertion will probably have been looked at in a recent insertion, and thus probably will be in cache memory instead of main memory. As another side-effect, these sorting functions usually improve memory locality of the data structures produced by incremental algorithms, sometimes leading to speed ups in other algorithm using these data structures.</p>
 <p>Some algorithms have a good complexity under randomized hypotheses which contradicts the idea of sorting the input using any sorting criterion. In such a case, it is possible to introduce just a bit of randomness to be able to combine the good randomized complexity and the good effects of locality <a class="el" href="citelist.html#CITEREF_acr-icb-03">[1]</a>.</p>

@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta name="generator" content="Doxygen 1.8.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CGAL 5.5.2 - 2D Minkowski Sums: User Manual</title>
+<title>CGAL 5.5.2 - 2D Minkowski Sums: 用户指南</title>
 <!-- <link href="../Manual/tabs.css" rel="stylesheet" type="text/css"/> -->
 <script type="text/javascript" src="../Manual/jquery.js"></script>
 <script type="text/javascript" src="../Manual/dynsections.js"></script>
@@ -150,12 +150,12 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">User Manual </div>  </div>
+<div class="title">用户指南 </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="Chapter_2D_Minkowski_Sums"></a> <a class="anchor" id="chapterMinkowskisum2"></a>  </p><div id="autotoc" class="toc"></div>  <dl class="section author"><dt>Authors</dt><dd>Ron Wein, Alon Baram, Efi Fogel, Eyal Flato, Michael Hemmer, and Sebastian Morr</dd></dl>
+<div class="textblock"><p><a class="anchor" id="Chapter_2D_Minkowski_Sums"></a> <a class="anchor" id="chapterMinkowskisum2"></a>  </p><div id="autotoc" class="toc"></div>  <dl class="section author"><dt>作者</dt><dd>Ron Wein, Alon Baram, Efi Fogel, Eyal Flato, Michael Hemmer, and Sebastian Morr</dd></dl>
 <h1><a class="anchor" id="mink_secintro"></a>
-Introduction</h1>
+简介</h1>
 <p>Given two sets \( A,B \in \mathbb{R}^d\), their <em>Minkowski sum</em>, denoted by \( A \oplus B\), is their point-wise sum, namely the set \( \left\{ a + b ~|~ a \in A, b \in B \right\}\). Minkowski sums are used in many applications, such as motion planning and computer-aided design and manufacturing. This package contains functions that compute the planar Minkowski sums of two polygons. (Here, \( A\) and \( B\) are two closed polygons in \( \mathbb{R}^2\), which may have holes; see Chapter <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Boolean_set_operations_2.tag:../Boolean_set_operations_2/" href="../Boolean_set_operations_2/index.html#Chapter_2D_Regularized_Boolean_Set-Operations">2D Regularized Boolean Set-Operations</a> for the precise definition of valid polygons), and the planar Minkowski sum of a simple polygon and a disc—an operation also referred to as <em>offsetting</em> or <em>dilating</em> a polygon.<span class="footnote">The family of valid types of summands is slightly broader for certain operations, e.g., a degenerate polygon consisting of line segments is a valid operand for the approximate-offsetting operation.</span> This package, like the <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Boolean_set_operations_2.tag:../Boolean_set_operations_2/" href="../Boolean_set_operations_2/index.html#Chapter_2D_Regularized_Boolean_Set-Operations">2D Regularized Boolean Set-Operations</a> package, is implemented on top of the arrangement infrastructure provided by the <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Arrangement_on_surface_2.tag:../Arrangement_on_surface_2/" href="../Arrangement_on_surface_2/index.html#chapterArrangement_on_surface_2">2D Arrangements</a> package. The two packages are integrated well to allow mixed operations. For example, it is possible to apply Boolean set operations on objects that are the result of Minkowski sum computations.<span class="footnote">The operands of the Minkowski sum operations supported by this package must be (linear) polygons, as opposed to the operands of the Boolean set operations supported by the <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Boolean_set_operations_2.tag:../Boolean_set_operations_2/" href="../Boolean_set_operations_2/index.html#Chapter_2D_Regularized_Boolean_Set-Operations">2D Regularized Boolean Set-Operations</a> package. The latter belong to the broader family of general polygons.</span></p>
 <h1><a class="anchor" id="mink_secsum_poly"></a>
 Computing the Minkowski Sum of Two Polygons</h1>

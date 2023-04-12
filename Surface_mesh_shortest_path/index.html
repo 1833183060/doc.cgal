@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta name="generator" content="Doxygen 1.8.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CGAL 5.5.2 - Triangulated Surface Mesh Shortest Paths: User Manual</title>
+<title>CGAL 5.5.2 - Triangulated Surface Mesh Shortest Paths: 用户指南</title>
 <!-- <link href="../Manual/tabs.css" rel="stylesheet" type="text/css"/> -->
 <script type="text/javascript" src="../Manual/jquery.js"></script>
 <script type="text/javascript" src="../Manual/dynsections.js"></script>
@@ -150,7 +150,7 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">User Manual </div>  </div>
+<div class="title">用户指南 </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="Chapter_Surface_mesh_shortest_path"></a><a class="anchor" id="chaptersurfacemeshshortestpath"></a> </p><div id="autotoc" class="toc"></div>  <dl class="section author"><dt>Author</dt><dd>Stephen Kiazyk, Sébastien Loriot, and Éric Colin de Verdière</dd></dl>
@@ -160,7 +160,7 @@ $(document).ready(function(){initNavTree('index.html','');});
 </div>
    <div class="cgal_figure_caption">  <a class="el" href="index.html#fig__Shortest_path_main">Figure 73.1</a> Shortest paths on a terrain using one source point represented by a green square.  </div> <br /> 
 <h1><a class="anchor" id="Surface_mesh_shortest_pathIntroduction"></a>
-Introduction</h1>
+简介</h1>
 <p>The motion planning of a robot across the surface of a 3-dimensional terrain is a typical application of the shortest path computation. Using a 2-dimensional approximation would fail to capture anything interesting about the terrain we are trying to cross, and would give a poor solution. The problem is often called the <em>Discrete Geodesic Problem</em>. Although the more general version of this problem, shortest paths in 3D in the presence of obstacles, is NP-Hard, when the motion is constrained to the 2D surface of an object it can be solved efficiently.</p>
 <p>The algorithm implemented in this package builds a data structure to efficiently answer queries of the following form: Given a triangulated surface mesh \(\cal{M}\), a set of source points \(S\) on \(\cal{M}\), and a target point \(t\) also on \(\cal{M}\), find a shortest path \(\lambda\) between \(t\) and any element in \( S \), where \(\lambda\) is constrained to the surface of \(\cal{M}\).</p>
 <p>The algorithm used is based on a paper by Xin and Wang <a class="el" href="citelist.html#CITEREF_XinWang2009improvingchenandhan">[3]</a>, a fast and practical algorithm for exact computation of geodesic shortest paths. It is an extension of earlier results by Chen and Han <a class="el" href="citelist.html#CITEREF_ch-spp-96">[1]</a> and Mitchell, Mount, and Papadimitriou <a class="el" href="citelist.html#CITEREF_mmp-dgp-87">[2]</a> .</p>

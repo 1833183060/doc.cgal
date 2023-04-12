@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta name="generator" content="Doxygen 1.8.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CGAL 5.5.2 - Triangulated Surface Mesh Simplification: User Manual</title>
+<title>CGAL 5.5.2 - Triangulated Surface Mesh Simplification: 用户指南</title>
 <!-- <link href="../Manual/tabs.css" rel="stylesheet" type="text/css"/> -->
 <script type="text/javascript" src="../Manual/jquery.js"></script>
 <script type="text/javascript" src="../Manual/dynsections.js"></script>
@@ -150,16 +150,16 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">User Manual </div>  </div>
+<div class="title">用户指南 </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="Chapter_Triangulated_Surface_Mesh_Simplification"></a>  </p><div id="autotoc" class="toc"></div> 
-<dl class="section author"><dt>Authors</dt><dd>Fernando Cacciola, Mael Rouxel-Labbé, and Baskın Şenbaşlar</dd></dl>
+<dl class="section author"><dt>作者</dt><dd>Fernando Cacciola, Mael Rouxel-Labbé, and Baskın Şenbaşlar</dd></dl>
 <div class="image">
 <img src="Illustration-Simplification-ALL.jpg" alt="Illustration-Simplification-ALL.jpg" />
 </div>
  <h1><a class="anchor" id="Surface_mesh_simplificationIntroduction"></a>
-Introduction</h1>
+简介</h1>
 <p>Surface mesh simplification is the process of reducing the number of faces used in a surface mesh while keeping the overall shape, volume and boundaries preserved as much as possible. It is the opposite of subdivision.</p>
 <p>The algorithm presented here can simplify any <em>oriented 2-manifold surface</em>, with any number of connected components, with or without boundaries (border or holes) and handles (arbitrary genus), using a method known as <em>edge collapse</em>. Roughly speaking, the method consists of iteratively replacing an edge with a single vertex, removing 2 triangles per collapse.</p>
 <p>Edges are collapsed according to a priority given by a user-supplied <em>cost</em> function, and the coordinates of the replacing vertex are determined by another user-supplied <em>placement</em> function. The algorithm terminates when a user-supplied <em>stop predicate</em> is met, such as reaching the desired number of edges.</p>

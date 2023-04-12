@@ -157,7 +157,7 @@ $(document).ready(function(){initNavTree('classPolynomialTraits__d_1_1PseudoDivi
 <div class="contents">
 
 <p></p>
-<a name="details" id="details"></a><h2 class="groupheader">Definition</h2>
+<a name="details" id="details"></a><h2 class="groupheader">定义</h2>
 <div class="textblock"><p>This <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/classAdaptableFunctor.html">AdaptableFunctor</a></code> computes the <em>pseudo division</em> of two polynomials \( f\) and \( g\). </p>
 <p> Given \( f\) and \( g \neq 0\) this functor computes quotient \( q\) and remainder \( r\) such that \( D \cdot f = g \cdot q + r\) and \( degree(r) &lt; degree(g)\), where \( D = leading\_coefficient(g)^{max(0, degree(f)-degree(g)+1)}\)</p>
 <p>This functor is useful if the regular division is not available, which is the case if <code><a class="el" href="classPolynomialTraits__d.html#a216bb8cfbf2849fa9b3f6b7437b56d09" title="Type representing . ">PolynomialTraits_d::Coefficient_type</a></code> is not a <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Algebraic_foundations.tag:../Algebraic_foundations/" href="../Algebraic_foundations/classField.html">Field</a></code>. Hence in general it is not possible to invert the leading coefficient of \( g\). Instead \( f\) is extended by \( D\) allowing integral divisions in the internal computation.</p>

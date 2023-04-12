@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta name="generator" content="Doxygen 1.8.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CGAL 5.5.2 - dD Triangulations: User Manual</title>
+<title>CGAL 5.5.2 - dD Triangulations: 用户指南</title>
 <!-- <link href="../Manual/tabs.css" rel="stylesheet" type="text/css"/> -->
 <script type="text/javascript" src="../Manual/jquery.js"></script>
 <script type="text/javascript" src="../Manual/dynsections.js"></script>
@@ -150,13 +150,13 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">User Manual </div>  </div>
+<div class="title">用户指南 </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="Chapter_Triangulations"></a>  </p><div id="autotoc" class="toc"></div>  <dl class="section author"><dt>Authors</dt><dd>Olivier Devillers, Samuel Hornus, and Clément Jamin.</dd></dl>
+<div class="textblock"><p><a class="anchor" id="Chapter_Triangulations"></a>  </p><div id="autotoc" class="toc"></div>  <dl class="section author"><dt>作者</dt><dd>Olivier Devillers, Samuel Hornus, and Clément Jamin.</dd></dl>
 <p>This package proposes data structures and algorithms to compute triangulations of points in any dimensions <a class="el" href="citelist.html#CITEREF_boissonnat2009Delaunay">[1]</a>. The <code><a class="el" href="classCGAL_1_1Triangulation__data__structure.html" title="This class is a data structure used for storing a triangulation of dimension  (D is the maximal dimen...">Triangulation_data_structure</a></code> handles the combinatorial aspect of triangulations while the geometric classes <code><a class="el" href="classCGAL_1_1Triangulation.html" title="This class implements triangulations of point sets in dimension . ">Triangulation</a></code>, <code><a class="el" href="classCGAL_1_1Delaunay__triangulation.html" title="This class is used to maintain the Delaunay triangulation of a set of points in . ...">Delaunay_triangulation</a></code> and <code><a class="el" href="classCGAL_1_1Regular__triangulation.html" title="This class is used to maintain the regular triangulation – also known as weighted Delaunay triangula...">Regular_triangulation</a></code> allow to compute and maintain triangulations, Delaunay triangulations, and regular triangulations of sets of points.</p>
 <h1><a class="anchor" id="TriangulationSecIntro"></a>
-Introduction</h1>
+简介</h1>
 <h2>Some Definitions</h2>
 <p>A <em>finite abstract simplicial complex</em> is built on a finite set of vertices \( V\) and consists of a collection \( S\) of subsets of \( V\) such that, if \( s\) is a set of vertices in \( S\), then all the subsets of \( s\) are also in \( S\).</p>
 <p>The sets in \( S\) (which are subsets of \( V\)) are called <em>faces</em> or <em>simplices</em> (the singular of which is <em>simplex</em>). A simplex \( s\in S\) is <em>maximal</em> if it is not a proper subset of some other set in \( S\). A simplex having \( k+1 \) vertices is said of dimension \( k \). An \( k\)-face denotes a \( k\)-dimensional simplex, i.e., a simplex with \( k+1\) vertices. The simplicial complex is <em>pure</em> if all the maximal simplices have the same dimension.</p>

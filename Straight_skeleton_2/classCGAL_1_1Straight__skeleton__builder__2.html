@@ -157,7 +157,7 @@ $(document).ready(function(){initNavTree('classCGAL_1_1Straight__skeleton__build
 <div class="contents">
 
 <p><code>#include &lt;CGAL/Straight_skeleton_builder_2.h&gt;</code></p>
-<a name="details" id="details"></a><h2 class="groupheader">Definition</h2>
+<a name="details" id="details"></a><h2 class="groupheader">定义</h2>
 <div class="textblock"><h3>template&lt;typename Traits_, typename StraightSkeleton_, typename Visitor_ = Dummy_straight_skeleton_builder_2_visitor&lt;StraightSkeleton_&gt;&gt;<br />
 class CGAL::Straight_skeleton_builder_2&lt; Traits_, StraightSkeleton_, Visitor_ &gt;</h3>
 
@@ -286,7 +286,7 @@ template&lt;class InputPointIterator &gt; </div>
 
 <p>defines the <em>contours</em> that form the <em>non-degenerate strictly-simple polygon with holes</em> whose <em>straight skeleton</em> is to be built. </p>
 <p>Each contour must be input in turn starting with the <em>outer contour</em> and following with the holes (if any). The order of the holes is unimportant but the outer contour must be entered first. The outer contour must be oriented counter-clockwise while holes must be oriented clockwise.</p>
-<p>It is an error to enter more than one outer contour, to enter a hole which is not inside the outer contour, to enter a hole that is inside another hole, or to enter a contour which crosses or touches a hole. It is possible however to enter a contour that touches itself in such a way that its interior region is still well defined and singly-connected (see the User Manual for examples).</p>
+<p>It is an error to enter more than one outer contour, to enter a hole which is not inside the outer contour, to enter a hole that is inside another hole, or to enter a contour which crosses or touches a hole. It is possible however to enter a contour that touches itself in such a way that its interior region is still well defined and singly-connected (see the 用户指南 for examples).</p>
 <p>The sequence <code>[aBegin,aEnd)</code> must iterate over each 2D point that corresponds to a vertex of the contour being entered. Vertices cannot be coincident (except consecutively since the method simply skip consecutive coincident vertices). Consecutive collinear edges are allowed.</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">

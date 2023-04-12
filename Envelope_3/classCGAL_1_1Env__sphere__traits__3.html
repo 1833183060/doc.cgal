@@ -157,14 +157,14 @@ $(document).ready(function(){initNavTree('classCGAL_1_1Env__sphere__traits__3.ht
 <p><code>#include &lt;CGAL/Env_sphere_traits_3.h&gt;</code></p>
 
 <h2 class="groupheader">Inherits from</h2><p>ConicTraits.</p>
-<a name="details" id="details"></a><h2 class="groupheader">Definition</h2>
+<a name="details" id="details"></a><h2 class="groupheader">定义</h2>
 <div class="textblock"> 
 
 <p>The traits class <code><a class="el" href="classCGAL_1_1Env__sphere__traits__3.html" title="The traits class Env_sphere_traits_3 models the EnvelopeTraits_3 concept, and is used for the constru...">Env_sphere_traits_3</a></code> models the <code><a class="el" href="classEnvelopeTraits__3.html" title="This concept defines the minimal set of geometric predicates and operations needed to compute the env...">EnvelopeTraits_3</a></code> concept, and is used for the construction of lower and upper envelopes of spheres. </p>
 <p>Note that when projecting the intersection curve of two spheres (a circle in 3D) onto the \( xy\)-plane, the resulting curve is an ellipse. The traits class is therefore parameterized by an arrangement-traits class that is capable of handling conic curves - namely an instantiation of the <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Arrangement_on_surface_2.tag:../Arrangement_on_surface_2/" href="../Arrangement_on_surface_2/classCGAL_1_1Arr__conic__traits__2.html">Arr_conic_traits_2</a></code> class-template - and inherits from it.</p>
 <p>The conic-traits class defines a nested type named <code>Rat_kernel</code>, which is a geometric kernel parameterized by an exact rational type. <code><a class="el" href="classCGAL_1_1Env__sphere__traits__3.html" title="The traits class Env_sphere_traits_3 models the EnvelopeTraits_3 concept, and is used for the constru...">Env_sphere_traits_3</a></code> defines its <code>Surface_3</code> type to be constructible from <code>Rat_kernel::Sphere_3</code>. Namely, it can handle spheres whose center points have rational coordinates (i.e., of the type <code>Rat_kernel::FT</code>), and whose squared radius is also rational. The <code>Surface_3</code> type is also convertible to a <code>Rat_kernel::Sphere_3</code> object.</p>
 <p>The <code>Xy_monotone_surface_3</code> type is the same as the nested <code>Surface_3</code> type. The traits-class simply ignores the upper hemisphere when it computes lower envelopes, and ignores the lower hemisphere when it computes upper envelopes.</p>
-<dl class="models"><dt><b><a class="el" href="models.html#_models000002">Is Model Of:</a></b></dt><dd><code><a class="el" href="classEnvelopeTraits__3.html" title="This concept defines the minimal set of geometric predicates and operations needed to compute the env...">EnvelopeTraits_3</a></code></dd></dl>
+<dl class="models"><dt><b><a class="el" href="models.html#_models000002">是下面的Concept的模型:</a></b></dt><dd><code><a class="el" href="classEnvelopeTraits__3.html" title="This concept defines the minimal set of geometric predicates and operations needed to compute the env...">EnvelopeTraits_3</a></code></dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="Envelope_3_2envelope_spheres_8cpp-example.html#_a2">Envelope_3/envelope_spheres.cpp</a>.</dd>
 </dl></div></div><!-- contents -->
 </div><!-- doc-content -->

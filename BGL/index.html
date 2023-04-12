@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta name="generator" content="Doxygen 1.8.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CGAL 5.5.2 - CGAL and the Boost Graph Library: User Manual</title>
+<title>CGAL 5.5.2 - CGAL and the Boost Graph Library: 用户指南</title>
 <!-- <link href="../Manual/tabs.css" rel="stylesheet" type="text/css"/> -->
 <script type="text/javascript" src="../Manual/jquery.js"></script>
 <script type="text/javascript" src="../Manual/dynsections.js"></script>
@@ -150,10 +150,10 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">User Manual </div>  </div>
+<div class="title">用户指南 </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="Chapter_CGAL_and_the_Boost_Graph_Library"></a><a class="anchor" id="chapterBGL"></a> </p><div id="autotoc" class="toc"></div>  <dl class="section author"><dt>Authors</dt><dd>Andreas Fabri, Fernando Cacciola, Philipp Moeller, and Ron Wein</dd></dl>
+<div class="textblock"><p><a class="anchor" id="Chapter_CGAL_and_the_Boost_Graph_Library"></a><a class="anchor" id="chapterBGL"></a> </p><div id="autotoc" class="toc"></div>  <dl class="section author"><dt>作者</dt><dd>Andreas Fabri, Fernando Cacciola, Philipp Moeller, and Ron Wein</dd></dl>
 <p>Many geometric data structures can be interpreted as graphs as they consist of vertices and edges. This is the case for the halfedge data structure, for the polyhedral surface, for the arrangement, and for the 2D triangulation classes. With means of duality one can also interpret faces as vertices and edges between adjacent faces as edges of the dual graph.</p>
 <p>The scope of CGAL is geometry and not graph algorithms. Nevertheless, this package provides the necessary classes and functions that enable using the algorithms of the <a href="https://www.boost.org/libs/graph/doc/index.html">Boost Graph Library</a> <a class="el" href="citelist.html#CITEREF_cgal:sll-bgl-02">[4]</a> (BGL for short) with CGAL data structures.</p>
 <p>Furthermore, this package extends the BGL by introducing concepts such as <code><a class="el" href="classHalfedgeGraph.html" title="The concept HalfedgeGraph is a refinement of the BGL concept IncidenceGraph and adds the notion of a ...">HalfedgeGraph</a></code> and <code><a class="el" href="classFaceGraph.html" title="The concept FaceGraph refines the concept HalfedgeGraph. It adds the requirements for a graph to expl...">FaceGraph</a></code> allowing to handle <em>halfedges</em> and <em>faces</em>. These concepts reflect the design of the halfedge data structure described in Chapter <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/packages.html#PkgHalfedgeDS">Halfedge Data Structures</a>, with opposite halfedges and circular sequences of halfedges around vertices and around faces.</p>

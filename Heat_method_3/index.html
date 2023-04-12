@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta name="generator" content="Doxygen 1.8.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CGAL 5.5.2 - The Heat Method: User Manual</title>
+<title>CGAL 5.5.2 - The Heat Method: 用户指南</title>
 <!-- <link href="../Manual/tabs.css" rel="stylesheet" type="text/css"/> -->
 <script type="text/javascript" src="../Manual/jquery.js"></script>
 <script type="text/javascript" src="../Manual/dynsections.js"></script>
@@ -150,7 +150,7 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">User Manual </div>  </div>
+<div class="title">用户指南 </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="Chapter_HeatMethod"></a> </p><div id="autotoc" class="toc"></div>  <dl class="section author"><dt>Author</dt><dd>Christina Vaz, Keenan Crane, Andreas Fabri</dd></dl>
@@ -158,7 +158,7 @@ $(document).ready(function(){initNavTree('index.html','');});
 <img src="octopus.png" alt="octopus.png" />
 </div>
 <h1><a class="anchor" id="sec_HM_introduction"></a>
-Introduction</h1>
+简介</h1>
 <p>The <em>heat method</em> is an algorithm that solves the single- or multiple-source shortest path problem by returning an approximation of the <em>geodesic distance</em> for all vertices of a triangle mesh to the closest vertex in a given set of source vertices. The geodesic distance between two vertices of a mesh is the distance when walking on the surface, potentially through the interior of faces. Two vertices that are close in 3D space may be far away on the surface, for example on neighboring arms of the octopus. In the figures we color code the distance as a gradient red/green corresponding to close/far from the source vertices.</p>
 <p>The heat method is highly efficient, since the algorithm boils down to two standard sparse linear algebra problems. It is especially useful in situations where one wishes to perform repeated distance queries on a fixed domain, since precomputation done for the first query can be re-used.</p>
 <p>As a rule of thumb, the method works well on triangle meshes, which are Delaunay, though in practice may also work fine for meshes that are far from Delaunay. In order to ensure good behavior, we enable a preprocessing step that constructs an <em>intrinsic Delaunay triangulation (iDT)</em>; this triangulation does not change the input geometry, but generally improves the quality of the solution. The cost of this preprocessing step roughly doubles the overall preprocessing cost.</p>

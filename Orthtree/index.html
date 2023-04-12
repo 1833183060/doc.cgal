@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta name="generator" content="Doxygen 1.8.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CGAL 5.5.2 - Quadtrees, Octrees, and Orthtrees: User Manual</title>
+<title>CGAL 5.5.2 - Quadtrees, Octrees, and Orthtrees: 用户指南</title>
 <!-- <link href="../Manual/tabs.css" rel="stylesheet" type="text/css"/> -->
 <script type="text/javascript" src="../Manual/jquery.js"></script>
 <script type="text/javascript" src="../Manual/dynsections.js"></script>
@@ -150,12 +150,12 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">User Manual </div>  </div>
+<div class="title">用户指南 </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="Chapter_Orthtree"></a>  </p><div id="autotoc" class="toc"></div>  <dl class="section author"><dt>Authors</dt><dd>Jackson Campolattaro, Simon Giraudot, Cédric Portaneri, Tong Zhao, Pierre Alliez</dd></dl>
+<div class="textblock"><p><a class="anchor" id="Chapter_Orthtree"></a>  </p><div id="autotoc" class="toc"></div>  <dl class="section author"><dt>作者</dt><dd>Jackson Campolattaro, Simon Giraudot, Cédric Portaneri, Tong Zhao, Pierre Alliez</dd></dl>
 <h1><a class="anchor" id="Section_Orthtree_Introduction"></a>
-Introduction</h1>
+简介</h1>
 <p>Quadtrees are tree data structures in which each node encloses a square section of space, and each internal node has exactly 4 children. Octrees are a similar data structure in 3D in which each node encloses a cubic section of space, and each internal node has exactly 8 children.</p>
 <p>We call the generalization of such data structure "orthtrees", as orthants are generalizations of quadrants and octants. The term "hyperoctree" can also be found in literature to name such data structures in dimensions 4 and higher.</p>
 <p>This package provides a general data structure <code><a class="el" href="classCGAL_1_1Orthtree.html" title="A data structure using an axis-aligned hybercubic decomposition of dD space for efficient point acces...">Orthtree</a></code> along with aliases for <code><a class="el" href="classCGAL_1_1Quadtree.html" title="Alias that specializes the Orthtree class to a 2D quadtree. ">Quadtree</a></code> and <code><a class="el" href="classCGAL_1_1Octree.html" title="Alias that specializes the Orthtree class to a 3D octree. ">Octree</a></code>. These trees can be constructed with custom point ranges and split predicates, and iterated on with various traversal methods.</p>

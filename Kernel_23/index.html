@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta name="generator" content="Doxygen 1.8.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CGAL 5.5.2 - 2D and 3D Linear Geometry Kernel: User Manual</title>
+<title>CGAL 5.5.2 - 2D and 3D Linear Geometry Kernel: 用户指南</title>
 <!-- <link href="../Manual/tabs.css" rel="stylesheet" type="text/css"/> -->
 <script type="text/javascript" src="../Manual/jquery.js"></script>
 <script type="text/javascript" src="../Manual/dynsections.js"></script>
@@ -150,12 +150,12 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">User Manual </div>  </div>
+<div class="title">用户指南 </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="Chapter_2D_and_3D_Geometry_Kernel"></a><a class="anchor" id="chapterkernel23"></a>  </p><div id="autotoc" class="toc"></div>  <dl class="section author"><dt>Authors</dt><dd>Hervé Brönnimann, Andreas Fabri, Geert-Jan Giezeman, Susan Hert, Michael Hoffmann, Lutz Kettner, Sylvain Pion, and Stefan Schirra</dd></dl>
+<div class="textblock"><p><a class="anchor" id="Chapter_2D_and_3D_Geometry_Kernel"></a><a class="anchor" id="chapterkernel23"></a>  </p><div id="autotoc" class="toc"></div>  <dl class="section author"><dt>作者</dt><dd>Hervé Brönnimann, Andreas Fabri, Geert-Jan Giezeman, Susan Hert, Michael Hoffmann, Lutz Kettner, Sylvain Pion, and Stefan Schirra</dd></dl>
 <h1><a class="anchor" id="kernel_intro"></a>
-Introduction</h1>
+简介</h1>
 <p>CGAL, the <em>Computational Geometry Algorithms Library</em>, is written in C++ and consists of three major parts. The first part is the kernel, which consists of constant-size non-modifiable geometric primitive objects and operations on these objects. The objects are represented both as stand-alone classes that are parameterized by a representation class, which specifies the underlying number types used for calculations and as members of the kernel classes, which allows for more flexibility and adaptability of the kernel. The second part is a collection of basic geometric data structures and algorithms, which are parameterized by traits classes that define the interface between the data structure or algorithm and the primitives they use. In many cases, the kernel classes provided in CGAL can be used as traits classes for these data structures and algorithms. The third part of the library consists of non-geometric support facilities, such as circulators, random sources, I/O support for debugging and for interfacing CGAL to various visualization tools.</p>
 <p>This part of the reference manual covers the kernel. The kernel contains objects of constant size, such as point, vector, direction, line, ray, segment, triangle, iso-oriented rectangle and tetrahedron. With each type comes a set of functions which can be applied to an object of this type. You will typically find access functions (e.g. to the coordinates of a point), tests of the position of a point relative to the object, a function returning the bounding box, the length, or the area of an object, and so on. The CGAL kernel further contains basic operations such as affine transformations, detection and computation of intersections, and distance computations.</p>
 <h2><a class="anchor" id="Kernel_23Robustness"></a>

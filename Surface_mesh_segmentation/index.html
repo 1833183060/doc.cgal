@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta name="generator" content="Doxygen 1.8.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CGAL 5.5.2 - Triangulated Surface Mesh Segmentation: User Manual</title>
+<title>CGAL 5.5.2 - Triangulated Surface Mesh Segmentation: 用户指南</title>
 <!-- <link href="../Manual/tabs.css" rel="stylesheet" type="text/css"/> -->
 <script type="text/javascript" src="../Manual/jquery.js"></script>
 <script type="text/javascript" src="../Manual/dynsections.js"></script>
@@ -150,7 +150,7 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">User Manual </div>  </div>
+<div class="title">用户指南 </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="Chapter_3D_SurfaceSegmentation"></a>  </p><div id="autotoc" class="toc"></div>  <dl class="section author"><dt>Author</dt><dd>Ilker O. Yaz and Sébastien Loriot</dd></dl>
@@ -159,7 +159,7 @@ $(document).ready(function(){initNavTree('index.html','');});
 </div>
    <div class="cgal_figure_caption">  <a class="el" href="index.html#fig__Segmentation_Elephant_main">Figure 69.1</a> The shape diameter function applied to the elephant and the corresponding segmentation (using 6 clusters).  </div> <br /> 
 <h1><a class="anchor" id="Surface_mesh_segmentationIntroduction"></a>
-Introduction</h1>
+简介</h1>
 <p>Mesh segmentation is the process of decomposing a mesh into smaller and meaningful sub-meshes. This process is used in applications such as modeling, rigging, texturing, shape-retrieval, deformation ... We refer to a comprehensive survey on mesh segmentation <a class="el" href="citelist.html#CITEREF_Shamir2008SegmentationSurvey">[3]</a> for different segmentation techniques.</p>
 <p>This package provides an implementation of the algorithm relying on the <em>Shape Diameter Function</em> <a class="el" href="citelist.html#CITEREF_Shapira2008Consistent">[4]</a> (SDF). Given a triangulated surface mesh (simply <em>mesh</em> in the following) bounding a 3D solid object, the SDF provides an estimate of the local object diameter for each facet of the mesh (the SDF values). The segmentation algorithm first applies a soft clustering on the facets using the associated SDF values. The final segmentation is then obtained via a graph-cut algorithm that considers surface-based features (dihedral-angle and concavity) together with the result of the soft clustering.</p>
 <p>This package offers the computation of the SDF values and the mesh segmentation result as independent functions. This allows an alternative implementation of the SDF to be directly plugged into the segmentation algorithm, and also to reuse the SDF values several times with different parameters for the segmentation algorithm.</p>

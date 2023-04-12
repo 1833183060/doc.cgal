@@ -157,7 +157,7 @@ $(document).ready(function(){initNavTree('classArrangementDcelVertex.html','');}
 <div class="contents">
 
 <p></p>
-<a name="details" id="details"></a><h2 class="groupheader">Definition</h2>
+<a name="details" id="details"></a><h2 class="groupheader">定义</h2>
 <div class="textblock"><p>A vertex record in a DCEL data structure. A vertex is always associated with a point. However, the vertex record only stores a pointer to the associated point, and the actual <code>Point</code> object is stored elsewhere. </p>
 <p> A vertex usually has several halfedges incident to it, such that it is possible to access one of these halfedges directly and to traverse all incident halfedges around the vertex. However, the DCEL may also contain isolated vertices that have no incident halfedges. In this case, the vertex stores an isolated vertex-information record, indicating the face that contains this vertex in its interior.</p>
 <dl class="section see"><dt>另见</dt><dd><code><a class="el" href="classArrangementDcel.html" title="A doubly-connected edge-list (DCEL for short) data-structure. It consists of three containers of reco...">ArrangementDcel</a></code> </dd>

@@ -158,12 +158,12 @@ $(document).ready(function(){initNavTree('classCGAL_1_1Exponent__vector.html',''
 <div class="contents">
 
 <p><code>#include &lt;CGAL/Exponent_vector.h&gt;</code></p>
-<a name="details" id="details"></a><h2 class="groupheader">Definition</h2>
+<a name="details" id="details"></a><h2 class="groupheader">定义</h2>
 <div class="textblock"><p>For a given (multivariate) monomial the vector of its exponents is called the exponent vector. </p>
 <p>The class <code><a class="el" href="classCGAL_1_1Exponent__vector.html" title="For a given (multivariate) monomial the vector of its exponents is called the exponent vector...">Exponent_vector</a></code> is meant to represent such a vector.</p>
 <p>A vector is considered as valid, in case it represents a valid monomial. that is, it should not contain negative exponents. We decided to use int as the value type, since negative exponents may appear in intermediate results. The set of exponent vectors with elementwise addition forms an <em>Abelian Group</em>.</p>
 <p>Beside the constructors <code><a class="el" href="classCGAL_1_1Exponent__vector.html" title="For a given (multivariate) monomial the vector of its exponents is called the exponent vector...">Exponent_vector</a></code> has almost the same interface as an <code>std::vector&lt;int&gt;</code>. Moreover the comparison is changed such that the lexicographic order starts the comparison at the last entry. This reflects the fact that the last entry corresponds to the outermost variable of a multivariate polynomial.</p>
-<dl class="models"><dt><b><a class="el" href="models.html#_models000001">Is Model Of:</a></b></dt><dd><p class="startdd"><code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/classRandomAccessContainer.html">RandomAccessContainer</a></code> </p>
+<dl class="models"><dt><b><a class="el" href="models.html#_models000001">是下面的Concept的模型:</a></b></dt><dd><p class="startdd"><code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/classRandomAccessContainer.html">RandomAccessContainer</a></code> </p>
 <p><code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/classDefaultConstructible.html">DefaultConstructible</a></code> </p>
 <p><code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/classAssignable.html">Assignable</a></code> </p>
 <p><code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/classCopyConstructible.html">CopyConstructible</a></code> </p>

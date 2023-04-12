@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta name="generator" content="Doxygen 1.8.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CGAL 5.5.2 - Combinatorial Maps: User Manual</title>
+<title>CGAL 5.5.2 - Combinatorial Maps: 用户指南</title>
 <!-- <link href="../Manual/tabs.css" rel="stylesheet" type="text/css"/> -->
 <script type="text/javascript" src="../Manual/jquery.js"></script>
 <script type="text/javascript" src="../Manual/dynsections.js"></script>
@@ -150,12 +150,12 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">User Manual </div>  </div>
+<div class="title">用户指南 </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="Chapter_Combinatorial_Maps"></a><a class="anchor" id="ChapterCombinatorialMap"></a> </p><dl class="section author"><dt>Author</dt><dd>Guillaume Damiand  <div id="autotoc" class="toc"></div> </dd></dl>
 <h1><a class="anchor" id="Combinatorial_mapIntroduction"></a>
-Introduction</h1>
+简介</h1>
 <p>A <em>d</em>-dimensional combinatorial map is a data structure representing an orientable subdivided <em>d</em>-dimensional object obtained by taking <em>d</em>D cells, and allowing to glue <em>d</em>D cells along <em>(d-1)</em>D cells. It provides a description of all the cells of the subdivision (for example vertices and edges), together with incidence and adjacency relationships. This package is a generalization of the <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/HalfedgeDS.tag:../HalfedgeDS/" href="../HalfedgeDS/index.html#chapterHalfedgeDS">halfedge data structure</a> to higher dimension. Indeed, a 2D combinatorial map is equivalent to a halfedge data structure: there is a one-to-one mapping between elements of both data structures, halfedges corresponding to darts.</p>
 <p>Note that you can use the <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Generalized_map.tag:../Generalized_map/" href="../Generalized_map/index.html#ChapterGeneralizedMap">Generalized Map package</a> if you need to represent non-orientable objects.</p>
 <p>We denote <em>i</em>-cell for an <em>i</em>-dimensional cell (for example in 3D, 0-cells are <em>vertices</em>, 1-cells are <em>edges</em>, 2-cells are <em>facets</em>, and 3-cells are <em>volumes</em>). A <em>boundary relation</em> is defined on these cells, giving for each <em>i</em>-cell <em>c</em> the set of <em>(i-1)</em>-cells contained in the boundary of <em>c</em>. Two cells <em>c1</em> and <em>c2</em> are <em>incident</em> if there is a path of cells, starting from the cell of highest dimension to the other cell, such that each cell of the path (except the first one) belongs to the boundary of the previous cell in the path. Two <em>i</em>-cells <em>c3</em> and <em>c4</em> are <em>adjacent</em> if there is an <em>(i-1)</em>-cell incident to both <em>c3</em> and <em>c4</em>. You can see an example of a 2D object and a 3D object in <a class="el" href="index.html#fig__fig_cmap_example_subdivisions">Figure 28.1</a> showing some cells of the subdivision and some adjacency and incidence relations.</p>

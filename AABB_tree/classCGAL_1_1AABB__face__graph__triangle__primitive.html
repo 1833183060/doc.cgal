@@ -159,13 +159,13 @@ $(document).ready(function(){initNavTree('classCGAL_1_1AABB__face__graph__triang
 <div class="contents">
 
 <p><code>#include &lt;CGAL/AABB_face_graph_triangle_primitive.h&gt;</code></p>
-<a name="details" id="details"></a><h2 class="groupheader">Definition</h2>
+<a name="details" id="details"></a><h2 class="groupheader">定义</h2>
 <div class="textblock"><h3>template&lt;class FaceGraph, class VertexPointPMap = Default, class OneFaceGraphPerTree = Tag_true, class CacheDatum = Tag_false&gt;<br />
 class CGAL::AABB_face_graph_triangle_primitive&lt; FaceGraph, VertexPointPMap, OneFaceGraphPerTree, CacheDatum &gt;</h3>
 
 <p>Primitive type for a facet of a polyhedral surface. </p>
 <p>It wraps a handle to a facet of a polyhedron to a 3D triangle. The polyhedron from which the primitive is built should not be deleted while the AABB tree holding the primitive is in use. The triangle type of the primitive (<code>Datum</code>) is <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Kernel_23.tag:../Kernel_23/" href="../Kernel_23/structCGAL_1_1Kernel__traits.html">CGAL::Kernel_traits</a>&lt; boost::property_traits&lt; VertexPointPMap &gt;::value_type &gt;::Kernel::Triangle_3</code>.</p>
-<dl class="models"><dt><b><a class="el" href="models.html#_models000001">Is Model Of:</a></b></dt><dd><code><a class="el" href="classAABBPrimitiveWithSharedData.html" title="The concept AABBPrimitiveWithSharedData describes the requirements for the primitives stored in the A...">AABBPrimitiveWithSharedData</a></code></dd></dl>
+<dl class="models"><dt><b><a class="el" href="models.html#_models000001">是下面的Concept的模型:</a></b></dt><dd><code><a class="el" href="classAABBPrimitiveWithSharedData.html" title="The concept AABBPrimitiveWithSharedData describes the requirements for the primitives stored in the A...">AABBPrimitiveWithSharedData</a></code></dd></dl>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname"><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/BGL.tag:../BGL/" href="../BGL/classFaceGraph.html">FaceGraph</a></td><td>is a model of the face graph concept. </td></tr>

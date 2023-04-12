@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta name="generator" content="Doxygen 1.8.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CGAL 5.5.2 - Halfedge Data Structures: User Manual</title>
+<title>CGAL 5.5.2 - Halfedge Data Structures: 用户指南</title>
 <!-- <link href="../Manual/tabs.css" rel="stylesheet" type="text/css"/> -->
 <script type="text/javascript" src="../Manual/jquery.js"></script>
 <script type="text/javascript" src="../Manual/dynsections.js"></script>
@@ -150,12 +150,12 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">User Manual </div>  </div>
+<div class="title">用户指南 </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="Chapter_Halfedge_Data_Structures"></a><a class="anchor" id="chapterHalfedgeDS"></a> </p><div id="autotoc" class="toc"></div>  <dl class="section author"><dt>Author</dt><dd>Lutz Kettner</dd></dl>
 <h1><a class="anchor" id="HalfedgeDSIntroduction"></a>
-Introduction</h1>
+简介</h1>
 <p>A halfedge data structure (abbreviated as <code><a class="el" href="classHalfedgeDS.html" title="The concept of a halfedge data structure (abbreviated as HalfedgeDS, or HDS for template parameters) ...">HalfedgeDS</a></code>, or <code>HDS</code> for template parameters) is an edge-centered data structure capable of maintaining incidence information of vertices, edges and faces, for example for planar maps, polyhedra, or other orientable, two-dimensional surfaces embedded in arbitrary dimension. Each edge is decomposed into two halfedges with opposite orientations. One incident face and one incident vertex are stored in each halfedge. For each face and each vertex, one incident halfedge is stored. Reduced variants of the halfedge data structure can omit some of these information, for example the halfedge pointers in faces or the storage of faces at all.</p>
 <div class="image">
 <img src="halfedge_small.png" alt="halfedge_small.png" />

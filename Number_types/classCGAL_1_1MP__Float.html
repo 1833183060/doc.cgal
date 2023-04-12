@@ -158,12 +158,12 @@ $(document).ready(function(){initNavTree('classCGAL_1_1MP__Float.html','');});
 <div class="contents">
 
 <p><code>#include &lt;CGAL/MP_Float.h&gt;</code></p>
-<a name="details" id="details"></a><h2 class="groupheader">Definition</h2>
+<a name="details" id="details"></a><h2 class="groupheader">定义</h2>
 <div class="textblock"><p>An object of the class <code><a class="el" href="classCGAL_1_1MP__Float.html" title="An object of the class MP_Float is able to represent a floating point value with arbitrary precision...">MP_Float</a></code> is able to represent a floating point value with arbitrary precision. </p>
 <p>This number type has the property that additions, subtractions and multiplications are computed exactly, as well as the construction from <code>float</code>, <code>double</code> and <code>long double</code>.</p>
 <p>Division and square root are not enabled by default since CGAL release 3.2, since they are computed approximately. We suggest that you use rationals like <code><a class="el" href="classCGAL_1_1Quotient.html" title="An object of the class Quotient&lt;NT&gt; is an element of the field of quotients of the integral domain ty...">Quotient</a>&lt;<a class="el" href="classCGAL_1_1MP__Float.html" title="An object of the class MP_Float is able to represent a floating point value with arbitrary precision...">MP_Float</a>&gt;</code> when you need exact divisions.</p>
 <p>Note on the implementation : although the mantissa length is basically only limited by the available memory, the exponent is currently represented by a (integral valued) <code>double</code>, which can overflow in some circumstances. We plan to also have a multiprecision exponent to fix this issue.</p>
-<dl class="models"><dt><b><a class="el" href="models.html#_models000021">Is Model Of:</a></b></dt><dd><p class="startdd"><code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Algebraic_foundations.tag:../Algebraic_foundations/" href="../Algebraic_foundations/classEuclideanRing.html">EuclideanRing</a></code> </p>
+<dl class="models"><dt><b><a class="el" href="models.html#_models000021">是下面的Concept的模型:</a></b></dt><dd><p class="startdd"><code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Algebraic_foundations.tag:../Algebraic_foundations/" href="../Algebraic_foundations/classEuclideanRing.html">EuclideanRing</a></code> </p>
 <p class="enddd"><code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Algebraic_foundations.tag:../Algebraic_foundations/" href="../Algebraic_foundations/classRealEmbeddable.html">RealEmbeddable</a></code></p>
 </dd></dl>
 <p><b>Implementation</b><br />

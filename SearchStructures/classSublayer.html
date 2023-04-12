@@ -155,7 +155,7 @@ $(document).ready(function(){initNavTree('classSublayer.html','');});
 <div class="contents">
 
 <p></p>
-<a name="details" id="details"></a><h2 class="groupheader">Definition</h2>
+<a name="details" id="details"></a><h2 class="groupheader">定义</h2>
 <div class="textblock"><p>Defines the requirements that a <code>Sublayer_type</code> of class <code><a class="el" href="classCGAL_1_1Range__tree__d.html" title="A -dimensional range tree stores points and can be used to determine all points that lie inside a giv...">CGAL::Range_tree_d</a></code> or <code><a class="el" href="classCGAL_1_1Segment__tree__d.html" title="A -dimensional segment tree stores -dimensional intervals and can be used to find all intervals that ...">CGAL::Segment_tree_d</a></code> has to fulfill. </p>
 <p> First of all, the class has to be derived from the abstract base class <code>CGAL::Tree_base</code> and therefore has to provide methods <code>make_tree</code>, <code>window_query</code>, <code>enclosing_query</code> and <code>is_inside</code> with the same parameter types as the instantiated class <code>Range_tree_d</code> or <code>Segment_tree_d</code>, respectively. Furthermore a method <code>bool is_anchor()</code> has to be provided. If the <code>Sublayer_type</code> class builds a recursion anchor for class <code>Segment_tree_d</code>, this function is expected to return <code>true</code>, <code>false</code> otherwise.</p>
 <p>Such a recursion anchor class is provided by the class class. <code><a class="el" href="classCGAL_1_1Tree__anchor.html" title="Tree_anchor is also derived from Tree_base. ">CGAL::Tree_anchor</a>&lt;Data, Window&gt;</code>. </p>

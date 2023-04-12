@@ -155,12 +155,12 @@ $(document).ready(function(){initNavTree('classCGAL_1_1Small__side__angle__bisec
 <div class="contents">
 
 <p><code>#include &lt;CGAL/Small_side_angle_bisector_decomposition_2.h&gt;</code></p>
-<a name="details" id="details"></a><h2 class="groupheader">Definition</h2>
+<a name="details" id="details"></a><h2 class="groupheader">定义</h2>
 <div class="textblock"> 
 
 <p>The <code><a class="el" href="classCGAL_1_1Small__side__angle__bisector__decomposition__2.html" title="The Small_side_angle_bisector_decomposition_2 class implements a simple yet efficient heuristic for d...">Small_side_angle_bisector_decomposition_2</a></code> class implements a simple yet efficient heuristic for decomposing an input polygon into convex sub-polygons. </p>
 <p>It is based on the algorithm suggested by Flato and Halperin <a class="el" href="citelist.html#CITEREF_fh-recpm-00">[5]</a>, but without introducing Steiner points. The algorithm operates in two major steps. In the first step, it tries to subdivide the polygon by connect two reflex vertices with an edge. When this is not possible any more, it eliminates the reflex vertices one by one by connecting them to other convex vertices, such that the new edge best approximates the angle bisector of the reflex vertex. The algorithm operates in \( O(n^2)\) time and takes \( O(n)\) space at the worst case, where \( n\) is the size of the input polygon.</p>
-<dl class="models"><dt><b><a class="el" href="models.html#_models000007">Is Model Of:</a></b></dt><dd><code><a class="el" href="classPolygonConvexDecomposition__2.html" title="A model of the PolygonConvexDecomposition_2 concept is capable of decomposing an input polygon  into ...">PolygonConvexDecomposition_2</a></code></dd></dl>
+<dl class="models"><dt><b><a class="el" href="models.html#_models000007">是下面的Concept的模型:</a></b></dt><dd><code><a class="el" href="classPolygonConvexDecomposition__2.html" title="A model of the PolygonConvexDecomposition_2 concept is capable of decomposing an input polygon  into ...">PolygonConvexDecomposition_2</a></code></dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="Minkowski_sum_2_2sum_by_decomposition_8cpp-example.html#_a4">Minkowski_sum_2/sum_by_decomposition.cpp</a>.</dd>
 </dl></div></div><!-- contents -->
 </div><!-- doc-content -->

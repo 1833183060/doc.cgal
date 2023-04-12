@@ -158,13 +158,13 @@ $(document).ready(function(){initNavTree('classCGAL_1_1AABB__segment__primitive.
 <div class="contents">
 
 <p><code>#include &lt;CGAL/AABB_segment_primitive.h&gt;</code></p>
-<a name="details" id="details"></a><h2 class="groupheader">Definition</h2>
+<a name="details" id="details"></a><h2 class="groupheader">定义</h2>
 <div class="textblock"><h3>template&lt;class GeomTraits, class Iterator, class CacheDatum = Tag_false&gt;<br />
 class CGAL::AABB_segment_primitive&lt; GeomTraits, Iterator, CacheDatum &gt;</h3>
 
 <p>Primitive type that uses as identifier an iterator with a 3D segment as <code>value_type</code>. </p>
 <p>The iterator from which the primitive is built should not be invalided while the AABB tree holding the primitive is in use.</p>
-<dl class="models"><dt><b><a class="el" href="models.html#_models000006">Is Model Of:</a></b></dt><dd><code><a class="el" href="classAABBPrimitive.html" title="The concept AABBPrimitive describes the requirements for the primitives stored in the AABB tree data ...">AABBPrimitive</a></code></dd></dl>
+<dl class="models"><dt><b><a class="el" href="models.html#_models000006">是下面的Concept的模型:</a></b></dt><dd><code><a class="el" href="classAABBPrimitive.html" title="The concept AABBPrimitive describes the requirements for the primitives stored in the AABB tree data ...">AABBPrimitive</a></code></dd></dl>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">GeomTraits</td><td>is a traits class providing the nested type <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Kernel_23.tag:../Kernel_23/" href="../Kernel_23/classCGAL_1_1Point__3.html">Point_3</a></code> and <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Kernel_23.tag:../Kernel_23/" href="../Kernel_23/classCGAL_1_1Segment__3.html">Segment_3</a></code>. It also provides the functor <code>Construct_source_3</code> that has an operator taking a <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Kernel_23.tag:../Kernel_23/" href="../Kernel_23/classCGAL_1_1Segment__3.html">Segment_3</a></code> and returning its source as a type convertible to <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Kernel_23.tag:../Kernel_23/" href="../Kernel_23/classCGAL_1_1Point__3.html">Point_3</a></code>. </td></tr>

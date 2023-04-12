@@ -18,7 +18,7 @@ var NAVTREE =
       [ "Geometry Kernels", "packages.html#PartKernels", [
         [ "2D and 3D Linear Geometry Kernel", "packages.html#PkgKernel23", null ],
         [ "dD Geometry Kernel", "packages.html#PkgKernelD", null ],
-        [ "2D Circular Geometry Kernel", "packages.html#PkgCircularKernel2", null ],
+        [ "2D圆形几何内核", "packages.html#PkgCircularKernel2", null ],
         [ "3D Spherical Geometry Kernel", "packages.html#PkgCircularKernel3", null ]
       ] ],
       [ "Convex Hull Algorithms", "packages.html#PartConvexHullAlgorithms", [

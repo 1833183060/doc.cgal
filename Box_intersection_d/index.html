@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta name="generator" content="Doxygen 1.8.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CGAL 5.5.2 - Intersecting Sequences of dD Iso-oriented Boxes: User Manual</title>
+<title>CGAL 5.5.2 - Intersecting Sequences of dD Iso-oriented Boxes: 用户指南</title>
 <!-- <link href="../Manual/tabs.css" rel="stylesheet" type="text/css"/> -->
 <script type="text/javascript" src="../Manual/jquery.js"></script>
 <script type="text/javascript" src="../Manual/dynsections.js"></script>
@@ -150,12 +150,12 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">User Manual </div>  </div>
+<div class="title">用户指南 </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="Chapter_Intersecting_Sequences_of_dD_Iso-oriented_Boxes"></a><a class="anchor" id="chapterBoxIntersection"></a> </p><div id="autotoc" class="toc"></div>  <dl class="section author"><dt>Authors</dt><dd>Lutz Kettner, Andreas Meyer, and Afra Zomorodian</dd></dl>
+<div class="textblock"><p><a class="anchor" id="Chapter_Intersecting_Sequences_of_dD_Iso-oriented_Boxes"></a><a class="anchor" id="chapterBoxIntersection"></a> </p><div id="autotoc" class="toc"></div>  <dl class="section author"><dt>作者</dt><dd>Lutz Kettner, Andreas Meyer, and Afra Zomorodian</dd></dl>
 <h1><a class="anchor" id="Box_intersection_dIntroduction"></a>
-Introduction</h1>
+简介</h1>
 <p>Simple questions on geometric primitives, such as intersection and distance computations, can themselves become quite expensive if the primitives are not so simple anymore, for example, three-dimensional triangles and facets of polyhedral surfaces. Thus algorithms operating on these primitives tend to be slow in practice. A common (heuristic) optimization approximates the geometric primitives with their axis-aligned bounding boxes, runs a suitable modification of the algorithm on the boxes, and whenever a pair of boxes has an interesting interaction <span class="footnote">Boxes represent volumes or point-sets. So, <em>intersection</em> means intersection of the point-set enclosed by the box and not only intersection of the boundary, of course.</span>, only then the exact answer is computed on the complicated geometric primitives contained in the boxes.</p>
 <div class="image">
 <img src="box_inters.png" alt="box_inters.png" />
@@ -204,7 +204,7 @@ Example for Using Pointers to Boxes</h1>
 <p>Note that switching to the built-in type <code>float</code> is supported by the box intersection algorithm, but the interfacing with the CGAL bounding box <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Kernel_23.tag:../Kernel_23/" href="../Kernel_23/classCGAL_1_1Bbox__3.html">Bbox_3</a></code> would not be that easy. In particular, just converting from the <code>double</code> to the <code>float</code> representation incurs rounding that needs to be controlled properly, otherwise the box might shrink and one might miss intersections.</p>
 <h1><a class="anchor" id="secboxintersparams"></a>
 Example Using the Topology and the Cutoff Parameters</h1>
-<p>Boxes can be interpreted by the box intersection algorithm as closed or as half-open boxes, see also Section <a class="el" href="index.html#secboxintersdef">Definition</a>. Closed boxes support zero-width boxes and they can intersect at their boundaries, while half-open boxes always have a positive volume and they only intersect iff their interiors overlap. The choice between closed or half-open boxes is selected with the <code>topology</code> parameter and its two values:</p>
+<p>Boxes can be interpreted by the box intersection algorithm as closed or as half-open boxes, see also Section <a class="el" href="index.html#secboxintersdef">定义</a>. Closed boxes support zero-width boxes and they can intersect at their boundaries, while half-open boxes always have a positive volume and they only intersect iff their interiors overlap. The choice between closed or half-open boxes is selected with the <code>topology</code> parameter and its two values:</p>
 <ul>
 <li>
 <code><a class="el" href="namespaceCGAL_1_1Box__intersection__d.html#ac1b7703e33d0fe5d9d484493189c9cd8ae829505cc850e61a5190ade8ad6098b5">Box_intersection_d::HALF_OPEN</a></code> and </li>

@@ -159,7 +159,7 @@ $(document).ready(function(){initNavTree('classCGAL_1_1Surface__mesh__parameteri
 <div class="contents">
 
 <p><code>#include &lt;CGAL/Surface_mesh_parameterization/ARAP_parameterizer_3.h&gt;</code></p>
-<a name="details" id="details"></a><h2 class="groupheader">Definition</h2>
+<a name="details" id="details"></a><h2 class="groupheader">定义</h2>
 <div class="textblock"><h3>template&lt;class TriangleMesh_, class BorderParameterizer_ = Default, class SolverTraits_ = Default&gt;<br />
 class CGAL::Surface_mesh_parameterization::ARAP_parameterizer_3&lt; TriangleMesh_, BorderParameterizer_, SolverTraits_ &gt;</h3>
 
@@ -168,7 +168,7 @@ class CGAL::Surface_mesh_parameterization::ARAP_parameterizer_3&lt; TriangleMesh
 <p>This is a free border parameterization. There is no need to map the border of the surface onto a convex polygon. When \(\lambda=0\), only two pinned vertices are needed to ensure a unique solution. When \(\lambda\) is non-null, the border does not need to be parameterized and a random vertex is pinned.</p>
 <p>If flips are present in the initial parameterization, a post-processing step is applied using <code><a class="el" href="classCGAL_1_1Surface__mesh__parameterization_1_1MVC__post__processor__3.html" title="The class MVC_post_processor_3 implements the Free boundary linear Parameterization algorithm ...">CGAL::Surface_mesh_parameterization::MVC_post_processor_3</a>&lt;TriangleMesh_, SolverTraits_&gt;</code> to attempt to obtain a valid final embedding.</p>
 <p>A one-to-one mapping is <em>not</em> guaranteed.</p>
-<dl class="models"><dt><b><a class="el" href="models.html#_models000001">Is Model Of:</a></b></dt><dd><code><a class="el" href="classParameterizer__3.html" title="Parameterizer_3 is a concept of parameterization object for a given type of mesh, TriangleMesh...">Parameterizer_3</a></code></dd></dl>
+<dl class="models"><dt><b><a class="el" href="models.html#_models000001">是下面的Concept的模型:</a></b></dt><dd><code><a class="el" href="classParameterizer__3.html" title="Parameterizer_3 is a concept of parameterization object for a given type of mesh, TriangleMesh...">Parameterizer_3</a></code></dd></dl>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">TriangleMesh_</td><td>must be a model of <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/BGL.tag:../BGL/" href="../BGL/classFaceGraph.html">FaceGraph</a></code>.</td></tr>

@@ -160,7 +160,7 @@ $(document).ready(function(){initNavTree('classCGAL_1_1Surface__mesh__parameteri
 <div class="contents">
 
 <p><code>#include &lt;CGAL/Surface_mesh_parameterization/Fixed_border_parameterizer_3.h&gt;</code></p>
-<a name="details" id="details"></a><h2 class="groupheader">Definition</h2>
+<a name="details" id="details"></a><h2 class="groupheader">定义</h2>
 <div class="textblock"><h3>template&lt;typename TriangleMesh_, class BorderParameterizer_ = Default, class SolverTraits_ = Default&gt;<br />
 class CGAL::Surface_mesh_parameterization::Fixed_border_parameterizer_3&lt; TriangleMesh_, BorderParameterizer_, SolverTraits_ &gt;</h3>
 
@@ -168,7 +168,7 @@ class CGAL::Surface_mesh_parameterization::Fixed_border_parameterizer_3&lt; Tria
 <p>A one-to-one mapping is guaranteed if the border of the surface is mapped onto a convex polygon.</p>
 <p>This class is a pure virtual class and thus cannot be instantiated. Nevertheless, it implements most of the parameterization algorithm <code><a class="el" href="classCGAL_1_1Surface__mesh__parameterization_1_1Fixed__border__parameterizer__3.html#a88fa07fd2b024e87466071ef8da5fcee" title="computes a one-to-one mapping from a triangular 3D surface mesh to a piece of the 2D space...">parameterize()</a></code>. Subclasses are <em>Strategies</em> <a class="el" href="citelist.html#CITEREF_cgal:ghjv-dpero-95">[5]</a> that modify the behavior of this algorithm:</p><ul>
 <li>They provide the template parameters <code>BorderParameterizer_</code> and <code>SolverTraits_</code>.</li>
-<li>They implement <code><a class="el" href="classCGAL_1_1Surface__mesh__parameterization_1_1Fixed__border__parameterizer__3.html#aaaf968b62605620015e8d4be0c3f6471" title="computes w_ij, coefficient of matrix A for j neighbor vertex of i. ">compute_w_ij()</a></code> to compute <code>w_ij</code>, the <code>(i,j)</code>-coefficient of matrix <code>A</code> for <code>j</code> neighbor vertex of <code>i</code>. <dl class="models"><dt><b><a class="el" href="models.html#_models000008">Is Model Of:</a></b></dt><dd><code><a class="el" href="classParameterizer__3.html" title="Parameterizer_3 is a concept of parameterization object for a given type of mesh, TriangleMesh...">Parameterizer_3</a></code></dd></dl>
+<li>They implement <code><a class="el" href="classCGAL_1_1Surface__mesh__parameterization_1_1Fixed__border__parameterizer__3.html#aaaf968b62605620015e8d4be0c3f6471" title="computes w_ij, coefficient of matrix A for j neighbor vertex of i. ">compute_w_ij()</a></code> to compute <code>w_ij</code>, the <code>(i,j)</code>-coefficient of matrix <code>A</code> for <code>j</code> neighbor vertex of <code>i</code>. <dl class="models"><dt><b><a class="el" href="models.html#_models000008">是下面的Concept的模型:</a></b></dt><dd><code><a class="el" href="classParameterizer__3.html" title="Parameterizer_3 is a concept of parameterization object for a given type of mesh, TriangleMesh...">Parameterizer_3</a></code></dd></dl>
 </li>
 </ul>
 <dl class="tparams"><dt>Template Parameters</dt><dd>

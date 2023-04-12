@@ -157,13 +157,13 @@ $(document).ready(function(){initNavTree('classCGAL_1_1Arr__trapezoid__ric__poin
 <div class="contents">
 
 <p><code>#include &lt;CGAL/Arr_trapezoid_ric_point_location.h&gt;</code></p>
-<a name="details" id="details"></a><h2 class="groupheader">Definition</h2>
+<a name="details" id="details"></a><h2 class="groupheader">定义</h2>
 <div class="textblock"> 
 
 <p><a class="anchor" id="arr_reftrap_pl"></a> The <code><a class="el" href="classCGAL_1_1Arr__trapezoid__ric__point__location.html">Arr_trapezoid_ric_point_location</a></code> class implements the incremental randomized algorithm introduced by Mulmuley <a class="el" href="citelist.html#CITEREF_m-fppa-90">[11]</a> as presented by Seidel <a class="el" href="citelist.html#CITEREF_s-sfira-91">[13]</a> (see also [<a class="el" href="citelist.html#CITEREF_bkos-cgaa-00">[5]</a> Chapter 6). It subdivides each arrangement face to pseudo-trapezoidal cells, each of constant complexity, and constructs and maintains a linear-size search structure on top of these cells, such that each query can be answered in \( O(\log n)\) time, where \( n\) is the complexity of the arrangement.</p>
 <p>Constructing the search structures takes \( O(n \log n)\) expected time and may require a small number of rebuilds <a class="el" href="citelist.html#CITEREF_hkh-iiplgtds-12">[10]</a>. Therefore attaching a trapezoidal point-location object to an existing arrangement may incur some overhead in running times. In addition, the point-location object needs to keep its auxiliary data structures up-to-date as the arrangement goes through structural changes. It is therefore recommended to use this point-location strategy for static arrangements (or arrangement that do not alter frequently), and when the number of issued queries is relatively large.</p>
 <p>This strategy supports arbitrary subdivisions, including unbounded ones.</p>
-<dl class="models"><dt><b><a class="el" href="models.html#_models000045">Is Model Of:</a></b></dt><dd><p class="startdd"><code><a class="el" href="classArrangementPointLocation__2.html" title="A model of the ArrangementPointLocation_2 concept can answer point-location queries on an arrangement...">ArrangementPointLocation_2</a></code> </p>
+<dl class="models"><dt><b><a class="el" href="models.html#_models000045">是下面的Concept的模型:</a></b></dt><dd><p class="startdd"><code><a class="el" href="classArrangementPointLocation__2.html" title="A model of the ArrangementPointLocation_2 concept can answer point-location queries on an arrangement...">ArrangementPointLocation_2</a></code> </p>
 <p class="enddd"><code><a class="el" href="classArrangementVerticalRayShoot__2.html" title="A model of the ArrangementVerticalRayShoot_2 concept can answer vertical ray-shooting queries on an a...">ArrangementVerticalRayShoot_2</a></code></p>
 </dd></dl>
 <dl class="section see"><dt>另见</dt><dd><code><a class="el" href="classArrangementPointLocation__2.html" title="A model of the ArrangementPointLocation_2 concept can answer point-location queries on an arrangement...">ArrangementPointLocation_2</a></code> </dd>

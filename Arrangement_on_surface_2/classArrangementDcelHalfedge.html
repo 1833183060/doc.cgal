@@ -157,7 +157,7 @@ $(document).ready(function(){initNavTree('classArrangementDcelHalfedge.html','')
 <div class="contents">
 
 <p></p>
-<a name="details" id="details"></a><h2 class="groupheader">Definition</h2>
+<a name="details" id="details"></a><h2 class="groupheader">定义</h2>
 <div class="textblock"><p>A halfedge record in a DCEL data structure. Two halfedges with opposite directions always form an edge (a halfedge pair). The halfedges form together chains, defining the boundaries of connected components, such that all halfedges along a chain have the same incident face. Note that the chain the halfedge belongs to may form the outer boundary of a bounded face (an outer CCB) or the boundary of a hole inside a face (an inner CCB). </p>
 <p> An edge is always associated with a curve, but the halfedge records only store a pointer to the associated curve, and the actual curve objects are stored elsewhere. Two opposite halfedges are always associated with the same curve.</p>
 <dl class="section see"><dt>另见</dt><dd><code><a class="el" href="classArrangementDcel.html" title="A doubly-connected edge-list (DCEL for short) data-structure. It consists of three containers of reco...">ArrangementDcel</a></code> </dd>

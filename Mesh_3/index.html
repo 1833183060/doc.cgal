@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <meta name="generator" content="Doxygen 1.8.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CGAL 5.5.2 - 3D Mesh Generation: User Manual</title>
+<title>CGAL 5.5.2 - 3D Mesh Generation: 用户指南</title>
 <!-- <link href="../Manual/tabs.css" rel="stylesheet" type="text/css"/> -->
 <script type="text/javascript" src="../Manual/jquery.js"></script>
 <script type="text/javascript" src="../Manual/dynsections.js"></script>
@@ -150,16 +150,16 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">User Manual </div>  </div>
+<div class="title">用户指南 </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="Chapter_3D_Mesh_Generation"></a><a class="anchor" id="userchaptermesh3"></a></p><dl class="section author"><dt>Authors</dt><dd>Pierre Alliez, Clément Jamin, Laurent Rineau, Stéphane Tayeb, Jane Tournois, Mariette Yvinec  <div id="autotoc" class="toc"></div> </dd></dl>
+<div class="textblock"><p><a class="anchor" id="Chapter_3D_Mesh_Generation"></a><a class="anchor" id="userchaptermesh3"></a></p><dl class="section author"><dt>作者</dt><dd>Pierre Alliez, Clément Jamin, Laurent Rineau, Stéphane Tayeb, Jane Tournois, Mariette Yvinec  <div id="autotoc" class="toc"></div> </dd></dl>
 <p><a class="anchor" id="fig__figuremultilabel_mesher"></a></p><div class="image">
 <img src="multilabel_mesher.jpg" alt="multilabel_mesher.jpg" />
 </div>
    <div class="cgal_figure_caption">  <a class="el" href="index.html#fig__figuremultilabel_mesher">Figure 58.1</a> Cut-view of a multi-domain 3D mesh generated from a segmented image.  </div> <br /> 
 <h1><a class="anchor" id="Mesh_3_section_intro"></a>
-Introduction</h1>
+简介</h1>
 <p>This package is devoted to the generation of isotropic simplicial meshes discretizing 3D domains. The domain to be meshed is a subset of 3D space, required to be bounded. The domain may be connected or composed of multiple components and/or subdivided in several subdomains.</p>
 <p>Boundary and subdivision surfaces are either smooth or piecewise smooth surfaces, formed with planar or curved surface patches. Surfaces may exhibit 1-dimensional features (e.g. crease edges) and 0-dimensional features (e.g. singular points as corners tips, cusps or darts), that have to be fairly approximated in the mesh.</p>
 <p>The output mesh is a 3-dimensional triangulation, including subcomplexes that approximate each input domain feature: subdomain, boundary surface patch or input domain feature with dimension 0 or 1. Thus, the output mesh includes a 3D submesh covering each subdomain, a surface mesh approximating each boundary or subdividing surface patch, a polyline approximation for each 1-dimensional feature and of course a vertex on each corner.</p>
