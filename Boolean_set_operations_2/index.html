@@ -159,95 +159,95 @@ $(document).ready(function(){initNavTree('index.html','');});
 <p><a class="anchor" id="fig__figteaser"></a></p><div class="image">
 <img src="teaser.png" alt="teaser.png" />
 </div>
-   <div class="cgal_figure_caption">  <a class="el" href="index.html#fig__figteaser">Figure 16.1</a> 一般多边形上的布尔集合运算的例子。  </div> <br /> 
-<p>This package consists of the implementation of Boolean set-operations on point sets bounded by weakly \( x\)-monotone curves<span class="footnote">A continuous planar curve \( C\) is <em>weakly \( x\)-monotone</em> if every vertical line intersects it at most once, or if it is vertical. Hereafter we refer to weakly \( x\)-monotone curves as \( x\)-monotone curves.</span> in 2-dimensional Euclidean space. In particular, it contains the implementation of <em>regularized</em> Boolean set-operations, intersection predicates, and point containment predicates. <a class="el" href="index.html#fig__figteaser">Figure 16.1</a> shows simple examples of such operations.</p>
-<p>Ordinary Boolean set-operations, which distinguish between the interior and the boundary of a polygon, are not implemented within this package. The Chapter <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/packages.html#PkgNef2">2D Boolean Operations on Nef Polygons</a> supports these operations for (linear) polygons.</p>
-<p>In the rest of this chapter we use, unless otherwise stated, the traditional notation to denote regularized operations; e.g., \( P \cap Q\) means the <em>regularized</em> intersection of \( P\) and \( Q\).</p>
-<p>Our package supports the following Boolean set-operations on two point sets \( P\) and \( Q\) that each is the union of one or more general polygons: </p><dl>
-<dt><b>Intersection</b></dt>
-<dd>computes the intersection \( R = P \cap Q\). </dd>
-<dt><b>Join</b></dt>
-<dd>computes the union \( R = P \cup Q\). </dd>
-<dt><b>Difference</b></dt>
-<dd>computes the difference \( R = P \setminus Q\). </dd>
-<dt><b>Symmetric Difference</b></dt>
-<dd>computes the symmetric difference \( P = P \oplus Q = (P \setminus Q) \cup (Q \setminus P)\). </dd>
-<dt><b>Complement</b></dt>
-<dd>computes the complement \(R = \overline{P}\). </dd>
-<dt><b>Intersection predicate</b></dt>
-<dd>tests whether the two sets \( P\) and \( Q\) overlap, distinguishing three possible scenarios: (i) the two sets intersect on their interior (that is, their regularized intersection is not empty \( P \cap Q \neq \emptyset\)); (ii) the boundaries of two sets intersect but their interiors are disjoint; namely they have a finite number of common points or even share a boundary curve (still in this case \( P \cap Q = \emptyset\); and (iii) the two sets are disjoint. </dd>
+   <div class="cgal_figure_caption">  <a class="el" href="index.html#fig__figteaser">Figure 16.1</a> 常规多边形上的布尔集合运算的例子。  </div> <br /> 
+<p>此软件包包含二维欧氏空间中由 弱\( x\)-单调曲线<span class="footnote">连续平面曲线 \( C\) 被称为 <em>弱 \( x\)-单调</em>的，如果 每条竖线和它最多有一个交点, 或者它本来就是竖直的。此后我们称弱\( x\)-单调曲线为 \( x\)-单调曲线.</span> 围成的点集上的布尔集合运算的实现。 特别是，它包含<em>正则化</em>布尔集合运算，相交谓词和点包含谓词的实现。 <a class="el" href="index.html#fig__figteaser">Figure 16.1</a> 显示了此类操作的简单示例。</p>
+<p>普通的布尔集合操作（区分多边形的内部和边界），在这个包中没有实现。 <a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/packages.html#PkgNef2">Nef 多边形上的二维布尔操作</a>一章支持 (线性)多边形的这些操作。</p>
+<p>除非另有说明，本章剩余部分我们使用传统符号来表示正则化操作；例如, \( P \cap Q\) 表示  \( P\) 和 \( Q\)的<em>正则化</em> 交。</p>
+<p>我们的软件包支持对两个点集\( P\) 和 \( Q\) 的以下布尔运算，这两个点集都是一个或多个常规多边形的并：</p><dl>
+<dt><b>交</b></dt>
+<dd>计算交集 \( R = P \cap Q\). </dd>
+<dt><b>并</b></dt>
+<dd>计算并集 \( R = P \cup Q\). </dd>
+<dt><b>差</b></dt>
+<dd>计算差集 \( R = P \setminus Q\). </dd>
+<dt><b>对称差</b></dt>
+<dd>计算对称差集 \( P = P \oplus Q = (P \setminus Q) \cup (Q \setminus P)\). </dd>
+<dt><b>补</b></dt>
+<dd>计算补集 \(R = \overline{P}\). </dd>
+<dt><b>相交谓词</b></dt>
+<dd>测试两个集合 \( P\) 和 \( Q\) 是否相交,分三种不同的情况: (i) 两个集合在内部相交 (就是说他们的正则化交集为非空 \( P \cap Q \neq \emptyset\)); (ii) 两个集合的边界相加但内部不相交; 即他们有有限个公共点或共享一条边界线(在这种情况下仍有\( P \cap Q = \emptyset\);  (iii) 两个集合不相交. </dd>
 </dl>
-<p>In general, the set \( R\), resulting from a regularized Boolean set-operation, is considered as being a closed point-set; see definition of regularized boolean set operations below.</p>
-<p>In the rest of this chapter we review the Boolean set-operations package in more depth. In Section <a class="el" href="index.html#bso_secbso_lin">Boolean Set-Operations on Linear Polygons</a> we focus on Boolean set-operations on linear polygons, introducing the notion of polygons with holes and of a general polygon set. Section <a class="el" href="index.html#bso_secbso_gen">Boolean Set-Operations on General Polygons</a> introduces general polygons. We first discuss polygons whose edges are either line segments or circular arcs and then explain how to construct and use general polygons whose edges can be arbitrary weakly \( x\)-monotone curves.</p>
+<p>一般来说，由正则化布尔集合操作得到的集合 \( R\),被认为是闭的点集; 见下面正则化集合操作的定义。</p>
+<p>在本章的余下的部分，我们将更深入地回顾布尔集合运算包。 在<a class="el" href="index.html#bso_secbso_lin">线性多边形上的布尔集合操作</a>中，我们重点讨论线性多边形上的布尔集合运算, 介绍了带孔的和一般的多边形的概念。 <a class="el" href="index.html#bso_secbso_gen">常规多边形上的布尔集合运算</a> 介绍了常规多边形。我们首先讨论边缘是线段和圆弧的多边形，然后解释如何构造和使用边缘是任意弱\( x\)-单调曲线的常规多边形。</p>
 <h1><a class="anchor" id="bso_secbso_def"></a>
-Terms and Definitions</h1>
+术语和定义</h1>
 <p><a class="anchor" id="fig__simpleDefsExamples"></a></p><div class="image">
 <img src="simpleDefsExamples.png" alt="simpleDefsExamples.png" />
 </div>
-   <div class="cgal_figure_caption">  <a class="el" href="index.html#fig__simpleDefsExamples">Figure 16.2</a> Examples of polygons. (a) A simple polygon. (b) A relatively simple polygon (c) A polygon that is neither simple nor relatively simple.  </div> <br /> 
+   <div class="cgal_figure_caption">  <a class="el" href="index.html#fig__simpleDefsExamples">Figure 16.2</a> 多边形的例子. (a) 简单多边形. (b) 相对简单多边形 (c) 既不简单也不相对简单的多边形。  </div> <br /> 
 <ul>
 <li>
-<p class="startli">The counterclockwise cyclic sequence of alternating polygon edges and polygon vertices is referred to as the polygon <b>(outer) boundary</b>.</p>
+<p class="startli">多边形的边和多边形的顶点交替的逆时针循环序列被称为多边形<b>（外部）边界 </b>。</p>
 <p class="endli"></p>
 </li>
 <li>
-<p class="startli">A polygon whose curves are pairwise disjoint in their interior, and whose vertices' degree equals two is defined as a <b>Simple polygon</b>. Such a polygon has a well-defined interior and exterior and is topologically equivalent to a disk. Note that while traversing the edges of the relatively simple polygon illustrated above (B), no curve is crossed over.</p>
+<p class="startli">如果一个多边形的边内部彼此不相交（就是只在端点处相交），并且顶点的度为2，则被称为<b>简单多边形</b>.这样的多边形具有明确的内部和外部，在拓扑上等价于圆盘。注意，当遍历上面(B)所示的相对简单多边形的边是,也没有边交叉.</p>
 <p class="endli"></p>
 </li>
 <li>
-<p class="startli">A <b>Relatively simple</b> polygon allows vertices with a degree \(&gt; 2\), but all of its edges are disjoint in their interior. Furthermore, it must be an orientable polygon. Namely when it is inserted into an arrangement and its outer boundary is traversed, the same face is adjacent to all of the halfedges (no crossing over any curve during the traversal). Note that while polygon C has the same curves as polygon B, traversal of the curves leads to crossing over a previously traversed curve, and is therefore neither simple nor relatively simple.</p>
+<p class="startli"><b>相对简单</b>多边形允许顶点度数 \(&gt; 2\), 但它所有边内部不相交。此外, 它必须是个可定向的多边形。也就是说，当它被插入到一个排列中，其外部边界被遍历时，同一个面与所有的半边相邻（在遍历过程中没有跨越任何曲线）。 请注意，虽然多边形C的边与多边形B的相同，但对边的遍历会导致与先前遍历的边交叉，因此C既不简单也不相对简单。</p>
 <p class="endli"></p>
 </li>
 <li>
-<p class="startli">A polygon in our context must be relatively simple and its outer boundary vertices must be ordered in a counterclockwise direction around the interior of the polygon. We extend the notion of a polygon to a <b>point set</b> in \( \mathbb{R}^2\) that has a topology of a polygon and its boundary edges must map to \( x\)-monotone curves, and refer to it as a <b>general polygon</b>. We sometimes use the term <em>polygon</em> instead of general polygon for simplicity hereafter.</p>
+<p class="startli">在我们的上下文中，多边形必须相对简单，并且其外部边界顶点必须围绕多边形的内部以逆时针方向排序。我们将多边形的概念扩展到\( \mathbb{R}^2\)<b>点集</b>，它具有多边形拓扑并且其边必须映射到\( x\)-单调曲线, 被称为 <b>常规多边形</b>。为简单起见，此后我们用术语 <em>多边形</em>代替常规多边形。</p>
 <p class="endli"></p>
 </li>
 <li>
-<p class="startli">A <b>polygon with holes</b> represents a point set that may be bounded or unbounded. In case of a bounded set, its <em>outer boundary</em> is represented as a <em>relatively simple </em> (but not necessarily simple) polygon, whose vertices are oriented in a <em>counterclockwise </em> order around the interior of the set. In addition, the set may contain <em>holes</em>, where each hole is represented as a <em>simple</em> polygon, whose vertices are oriented in a <em>clockwise</em> order around the interior of the hole. Note that an unbounded polygon without holes spans the entire plane. Vertices of holes may coincide with vertices of the boundary.</p>
+<p class="startli"><b>带孔的多边形</b>表示有界或无界的点集。在有界点集的情况下, 它的 <em>外边界</em> 被表示为<em>相对简单</em> (不一定简单) 多边形, 它的顶点相对点集内部 <em>逆时针 </em> 排列。此外, 这个点集可能包含 <em>孔</em>, 每个孔被表示为一个<em>简单</em> 多边形, 顶点相对孔的内部按 <em>顺时针</em>排列。注意，无孔的无边界多边形跨越整个平面。 孔的顶点可以与边界的顶点重合。</p>
 <p class="endli"></p>
 </li>
 <li>
-A <b>regularized Boolean set-operation</b> \( \mbox{op}^*\) can be obtained by first taking the interior of the resultant point set of an <em>ordinary</em> Boolean set-operation \( (P\ \mbox{op}\ Q)\) and then by taking the closure <a class="el" href="citelist.html#CITEREF_cgal:h-sm-04">[1]</a>. That is, \( P\ \mbox{op}^*\ Q = \mbox{closure}(\mbox{interior} (P\ \mbox{op}\ Q))\). Regularized Boolean set-operations appear in Constructive Solid Geometry (CSG), because regular sets are closed under regularized Boolean set-operations, and because regularization eliminates lower dimensional features, namely isolated vertices and antennas, thus simplifying and restricting the representation to physically meaningful solids. Our package provides regularized operations on polygons and general polygons, where the edges of a general polygon may be general \( x\)-monotone curves, rather than being simple line segments. </li>
+<b>正则化布尔集合运算</b> \( \mbox{op}^*\)可以通过首先取得<em>普通的</em> 布尔集合运算 \( (P\ \mbox{op}\ Q)\)的内部，然后取闭包<a class="el" href="citelist.html#CITEREF_cgal:h-sm-04">[1]</a>。也就是说, \( P\ \mbox{op}^*\ Q = \mbox{closure}(\mbox{interior} (P\ \mbox{op}\ Q))\)。正则化布尔集合运算出现在构造性实体几何（CSG）中，因为正则集合在正则化布尔集合运算下是封闭的，并且正则化消除了较低维度的元素,也就是孤立的点和天线式的线, 从而简化和限制了对物理上有意义的实体的表示。我们的包提供了对多边形和一般多边形的正则化操作，其中常规多边形的边可能是常规的 \( x\)-单调曲线，而不是简单的线段。 </li>
 </ul>
 <h2><a class="anchor" id="bso_ssecpolygon_validation"></a>
-Conditions for Valid Polygons</h2>
-<p>In our context, a polygon must uphold the following conditions:</p>
+有效多边形的条件</h2>
+<p>在我们的上下文中，一个多边形必须满足以下条件:</p>
 <ol>
 <li>
-<em>Closed Boundary</em> - the polygon's outer boundary must be a connected sequence of curves, that start and end at the same vertex. </li>
+<em>闭合的边界</em> - 多边形的外边界必须是一列相连接的曲线,它其实和结束于同一顶点。 </li>
 <li>
-<em>Simplicity</em> - the polygon must be simple. </li>
+<em>简单</em> - 多边形必须是简单的。</li>
 <li>
-<em>Orientation</em> - the polygon's outer boundary must be <em>counter-clockwise oriented</em>. </li>
+<em>方向</em> -多边形的外边界必须是 <em>逆时针方向的</em>. </li>
 </ol>
 <h2><a class="anchor" id="bso_ssecpolygon_with_holes_validation"></a>
-Conditions for Valid Polygons with Holes</h2>
-<p>In our context, a polygon with holes must uphold the following conditions:</p>
+带孔多边形的有效条件</h2>
+<p>在我们的上下文中，带孔的多边形必须满足如下条件:</p>
 <ol>
 <li>
-<em>Closed Boundary</em> - both the outer boundary and the holes must be closed polygons as defined above. </li>
+<em>闭合的边界</em> - 外边界和孔都是如上所述的多边形 </li>
 <li>
-<em>Simplicity</em> - the outer boundary must be a <em></em><b><em>relatively</em></b><em> simple</em> polygon (as defined above). Every hole must be a <em>simple</em> polygon. </li>
+<em>简单性</em> - 外边界必须是一个<em></em><b><em>相对</em></b><em> 简单</em> 多边形 (如上所述)。每一个孔必须是 <em>简单</em> 多边形。 </li>
 <li>
-<em>Orientation</em> - The polygon with holes must have an outer boundary with <em>counter clockwise orientation</em>. Every hole's outer boundary should have <em>clockwise orientation</em>. </li>
+<em>方向</em> - 带孔的多边形必须有一个<em>逆时针方向</em>的外边界。 每个孔的外边界必须是 <em>顺时针方向</em>。</li>
 <li>
-<em>The holes and the outer boundary must be pairwise disjoint,except maybe on vertices</em>. <ul>
+<em>孔和外边界必须彼此不相交,除了顶点处</em>. <ul>
 <li>
-<em>All holes are contained in the outer boundary</em> - holes must be contained inside the outer boundary and must be disjoint from it (except on vertices). </li>
+<em>所有的孔包含在外边界中</em> - 孔必须包含在外边界内并且和外边界不相交(除了顶点处). </li>
 <li>
-<p class="startli"><em>Pairwise disjoint holes (on interior)</em> - the polygon's holes must be <em>pairwise disjoint</em>, except for intersection on a joint vertex/vertices.</p>
+<p class="startli"><em>彼此不相交的孔 (在内部)</em> - 多边形的孔必须 <em>彼此不相交</em>, 除非在公共顶点处。</p>
 <p class="endli"></p>
 </li>
 </ul>
 </li>
 </ol>
 <h1><a class="anchor" id="bso_secbso_lin"></a>
-Boolean Set-Operations on Linear Polygons</h1>
-<p>The basic library of CGAL includes the <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Polygon.tag:../Polygon/" href="../Polygon/classCGAL_1_1Polygon__2.html">Polygon_2</a>&lt;<a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Kernel_23.tag:../Kernel_23/" href="../Kernel_23/classKernel.html">Kernel</a>,<a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/classContainer.html">Container</a>&gt;</code> class-template that represents a linear polygon in the plane. The polygon is represented by its vertices stored in a container of objects of type <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Kernel_23.tag:../Kernel_23/" href="../Kernel_23/classKernel_1_1Point__2.html">Kernel::Point_2</a></code>. The polygon edges are line segments (<code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Kernel_23.tag:../Kernel_23/" href="../Kernel_23/classKernel_1_1Segment__2.html">Kernel::Segment_2</a></code> objects) between adjacent points in the container. By default, the <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/classContainer.html">Container</a></code> is a vector of <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Kernel_23.tag:../Kernel_23/" href="../Kernel_23/classKernel_1_1Point__2.html">Kernel::Point_2</a></code> objects.</p>
-<p>The following function demonstrates how to use the basic access functions of the <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Polygon.tag:../Polygon/" href="../Polygon/classCGAL_1_1Polygon__2.html">Polygon_2</a></code> class. It accepts a polygon \( P\) and prints it in a readable format: </p><div class="fragment"><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">class</span> Kernel, <span class="keyword">class</span> Container&gt;</div><div class="line"><span class="keywordtype">void</span> print_polygon (<span class="keyword">const</span> <a class="codeRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Polygon.tag:../Polygon/" href="../Polygon/classCGAL_1_1Polygon__2.html">CGAL::Polygon_2&lt;Kernel, Container&gt;</a>&amp; P)</div><div class="line">{</div><div class="line">  <span class="keyword">typename</span> <a class="codeRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Polygon.tag:../Polygon/" href="../Polygon/classCGAL_1_1Polygon__2.html">CGAL::Polygon_2&lt;Kernel, Container&gt;::Vertex_const_iterator</a> vit;</div><div class="line"></div><div class="line">  std::cout &lt;&lt; <span class="stringliteral">"[ "</span> &lt;&lt; P.<a class="codeRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Polygon.tag:../Polygon/" href="../Polygon/classCGAL_1_1Polygon__2.html#a52bab6b64430d70d6756f4dda5944bac">size</a>() &lt;&lt; <span class="stringliteral">" vertices:"</span>;</div><div class="line">  <span class="keywordflow">for</span> (vit = P.<a class="codeRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Polygon.tag:../Polygon/" href="../Polygon/classCGAL_1_1Polygon__2.html#a2727b04f3e3748027a1a37fdf8b997ac">vertices_begin</a>(); vit != P.<a class="codeRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Polygon.tag:../Polygon/" href="../Polygon/classCGAL_1_1Polygon__2.html#ac1871b3edc12a06f77c46e9169f3c19c">vertices_end</a>(); ++vit)</div><div class="line">    std::cout &lt;&lt; <span class="stringliteral">" ("</span> &lt;&lt; *vit &lt;&lt; <span class="charliteral">')'</span>;</div><div class="line">  std::cout &lt;&lt; <span class="stringliteral">" ]"</span> &lt;&lt; std::endl;</div><div class="line">}</div></div><!-- fragment --><p>In this section we use the term <em>polygon</em> to indicate a <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Polygon.tag:../Polygon/" href="../Polygon/classCGAL_1_1Polygon__2.html">Polygon_2</a></code> instance, namely, a polygon having linear edges. General polygons are only discussed in Section <a class="el" href="index.html#bso_secbso_gen">Boolean Set-Operations on General Polygons</a>.</p>
-<p>The basic components of our package are the free (global) functions <code><a class="el" href="group__boolean__complement.html#ga45629253bda87736f21251bfee532665" title="computes the complement of a polygon. ">complement()</a></code> that accepts a single <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Polygon.tag:../Polygon/" href="../Polygon/classCGAL_1_1Polygon__2.html">Polygon_2</a></code> object, and <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Kernel_23.tag:../Kernel_23/" href="../Kernel_23/group__intersection__linear__grp.html#gade00253914ac774cce3d2031c07d74fe">intersection()</a></code>, <code><a class="el" href="group__boolean__join.html#gafd0dc0a5ac9f4925c1221e5fd0fbe179" title="computes the union of two polygons. ">join()</a></code>,<span class="footnote">The function that computes the union of two polygons is called <code><a class="el" href="group__boolean__join.html#gafd0dc0a5ac9f4925c1221e5fd0fbe179" title="computes the union of two polygons. ">join()</a></code>, since the word <code>union</code> is reserved in C++.</span> <code><a class="el" href="group__boolean__difference.html#ga261debbed91d173658244642dffbcb30" title="computes the difference of two polygons and inserts the resulting polygons with holes into a containe...">difference()</a></code>, <code><a class="el" href="group__boolean__symmetric__difference.html#ga6e38c60b6162e8668db48143ed306dd6" title="computes the symmetric difference between two polygons and inserts the resulting polygons with holes ...">symmetric_difference()</a></code> and the predicate <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Kernel_23.tag:../Kernel_23/" href="../Kernel_23/group__do__intersect__linear__grp.html#ga9514a218a097ac392d21775368d3dd0d">do_intersect()</a></code> that accept two <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Polygon.tag:../Polygon/" href="../Polygon/classCGAL_1_1Polygon__2.html">Polygon_2</a></code> objects as their input. We explain how these functions should be used through several examples in the following sections.</p>
+线性多边形上的布尔集合操作</h1>
+<p>CGAL的基本库包括 <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Polygon.tag:../Polygon/" href="../Polygon/classCGAL_1_1Polygon__2.html">Polygon_2</a>&lt;<a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Kernel_23.tag:../Kernel_23/" href="../Kernel_23/classKernel.html">Kernel</a>,<a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/classContainer.html">Container</a>&gt;</code> 类模板，它表示一个平面上的线性多边形。这个多边形用存储在容器（<code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Kernel_23.tag:../Kernel_23/" href="../Kernel_23/classKernel_1_1Point__2.html">Kernel::Point_2</a></code>类型的容器）中的顶点表示。多边形的边是容器中两个相邻点之间的线段 (<code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Kernel_23.tag:../Kernel_23/" href="../Kernel_23/classKernel_1_1Segment__2.html">Kernel::Segment_2</a></code> objects) 。默认情况下,<code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Manual.tag:../Manual/" href="../Manual/classContainer.html">Container</a></code> 是<code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Kernel_23.tag:../Kernel_23/" href="../Kernel_23/classKernel_1_1Point__2.html">Kernel::Point_2</a></code>对象的向量。</p>
+<p>下面的函数演示了如何使用<code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Polygon.tag:../Polygon/" href="../Polygon/classCGAL_1_1Polygon__2.html">Polygon_2</a></code> 类的基本访问函数。它接收一个多边形\( P\)为参数，用可读格式打印它: </p><div class="fragment"><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">class</span> Kernel, <span class="keyword">class</span> Container&gt;</div><div class="line"><span class="keywordtype">void</span> print_polygon (<span class="keyword">const</span> <a class="codeRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Polygon.tag:../Polygon/" href="../Polygon/classCGAL_1_1Polygon__2.html">CGAL::Polygon_2&lt;Kernel, Container&gt;</a>&amp; P)</div><div class="line">{</div><div class="line">  <span class="keyword">typename</span> <a class="codeRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Polygon.tag:../Polygon/" href="../Polygon/classCGAL_1_1Polygon__2.html">CGAL::Polygon_2&lt;Kernel, Container&gt;::Vertex_const_iterator</a> vit;</div><div class="line"></div><div class="line">  std::cout &lt;&lt; <span class="stringliteral">"[ "</span> &lt;&lt; P.<a class="codeRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Polygon.tag:../Polygon/" href="../Polygon/classCGAL_1_1Polygon__2.html#a52bab6b64430d70d6756f4dda5944bac">size</a>() &lt;&lt; <span class="stringliteral">" vertices:"</span>;</div><div class="line">  <span class="keywordflow">for</span> (vit = P.<a class="codeRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Polygon.tag:../Polygon/" href="../Polygon/classCGAL_1_1Polygon__2.html#a2727b04f3e3748027a1a37fdf8b997ac">vertices_begin</a>(); vit != P.<a class="codeRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Polygon.tag:../Polygon/" href="../Polygon/classCGAL_1_1Polygon__2.html#ac1871b3edc12a06f77c46e9169f3c19c">vertices_end</a>(); ++vit)</div><div class="line">    std::cout &lt;&lt; <span class="stringliteral">" ("</span> &lt;&lt; *vit &lt;&lt; <span class="charliteral">')'</span>;</div><div class="line">  std::cout &lt;&lt; <span class="stringliteral">" ]"</span> &lt;&lt; std::endl;</div><div class="line">}</div></div><!-- fragment --><p>在本节中我们用术语 <em>多边形</em>表示一个<code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Polygon.tag:../Polygon/" href="../Polygon/classCGAL_1_1Polygon__2.html">Polygon_2</a></code> 示例,即具有线性边的多边形。一般的多边形仅在<a class="el" href="index.html#bso_secbso_gen">一般多边形上的布尔集合运算</a>一节讨论.</p>
+<p>我们的软件包基本有一下几个全局函数组成：<code><a class="el" href="group__boolean__complement.html#ga45629253bda87736f21251bfee532665" title="computes the complement of a polygon. ">complement()</a></code>，它接收单一的<code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Polygon.tag:../Polygon/" href="../Polygon/classCGAL_1_1Polygon__2.html">Polygon_2</a></code> 对象, 还有 <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Kernel_23.tag:../Kernel_23/" href="../Kernel_23/group__intersection__linear__grp.html#gade00253914ac774cce3d2031c07d74fe">intersection()</a></code>, <code><a class="el" href="group__boolean__join.html#gafd0dc0a5ac9f4925c1221e5fd0fbe179" title="computes the union of two polygons. ">join()</a></code>,<span class="footnote">计算两个多边形的并的函数被叫做 <code><a class="el" href="group__boolean__join.html#gafd0dc0a5ac9f4925c1221e5fd0fbe179" title="computes the union of two polygons. ">join()</a></code>, 是因为 <code>union</code>是 C++的保留关键字。</span> <code><a class="el" href="group__boolean__difference.html#ga261debbed91d173658244642dffbcb30" title="computes the difference of two polygons and inserts the resulting polygons with holes into a containe...">difference()</a></code>, <code><a class="el" href="group__boolean__symmetric__difference.html#ga6e38c60b6162e8668db48143ed306dd6" title="computes the symmetric difference between two polygons and inserts the resulting polygons with holes ...">symmetric_difference()</a></code> 和谓词 <code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Kernel_23.tag:../Kernel_23/" href="../Kernel_23/group__do__intersect__linear__grp.html#ga9514a218a097ac392d21775368d3dd0d">do_intersect()</a></code>，它接收两个<code><a class="elRef" doxygen="/home/cgal-testsuite/cgal_doc_build/CGAL-5.5.2-I-141/doc/scripts/doc_1_8_13/doc_tags/Polygon.tag:../Polygon/" href="../Polygon/classCGAL_1_1Polygon__2.html">Polygon_2</a></code>对象作为输入。我们通过一下几节的几个例子来解释如何使用这些函数。</p>
 <h2><a class="anchor" id="Boolean_set_operations_2ASimpleExample"></a>
-A Simple Example</h2>
+简单的例子</h2>
 <div class="image">
 <img src="triangles.png" alt="triangles.png" />
 </div>
